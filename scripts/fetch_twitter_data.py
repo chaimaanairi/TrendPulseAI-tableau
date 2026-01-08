@@ -1,87 +1,134 @@
+"""
+TrendPredict – Twitter/X Trend Data Ingestion
+Author: Chaimaa
+Description:
+Fetches recent tweets for selected hashtags using Twitter/X API v2,
+performs sentiment analysis, and stores results incrementally for Tableau.
+"""
+
 import tweepy
 import pandas as pd
 from textblob import TextBlob
 from dotenv import load_dotenv
 import os
 import time
+import requests
+from urllib3.exceptions import ProtocolError
+from http.client import RemoteDisconnected
+from datetime import datetime
 
-# -------------------------
-# 1️⃣ Load environment variables
-# -------------------------
+# Configuration
+HASHTAGS = ["#Python", "#AI", "#DataScience"]
+MAX_TWEETS_PER_HASHTAG = 20
+CSV_FILE = "../data/twitter_trends.csv"
+RATE_LIMIT_COOLDOWN = 5  # seconds between hashtag fetches
+
+# Load environment variables
 load_dotenv()
 BEARER_TOKEN = os.getenv("BEARER_TOKEN")
 
-# -------------------------
-# 2️⃣ Authenticate with Twitter/X v2
-# -------------------------
-client = tweepy.Client(bearer_token=BEARER_TOKEN, wait_on_rate_limit=True)
+if not BEARER_TOKEN:
+    raise ValueError("❌ BEARER_TOKEN not found in environment variables")
 
-# -------------------------
-# 3️⃣ Define hashtags to track
-# -------------------------
-hashtags = ["#Python", "#AI", "#DataScience"]  # choose which to fetch per demo
+# Authenticate with Twitter/X API v2
+client = tweepy.Client(
+    bearer_token=BEARER_TOKEN,
+    wait_on_rate_limit=True
+)
 
-# -------------------------
-# 4️⃣ CSV setup
-# -------------------------
-csv_file = "../data/twitter_trends.csv"
-if os.path.exists(csv_file):
-    df_existing = pd.read_csv(csv_file)
+# Load existing CSV (incremental ingestion)
+if os.path.exists(CSV_FILE):
+    df_existing = pd.read_csv(CSV_FILE)
 else:
     df_existing = pd.DataFrame(columns=[
-        "tweet_id", "created_at", "text", "likes", "retweets", "sentiment", "hashtag"
+        "tweet_id",
+        "created_at",
+        "text",
+        "likes",
+        "retweets",
+        "sentiment",
+        "hashtag"
     ])
 
-# -------------------------
-# 5️⃣ Fetch only new tweets for each hashtag
-# -------------------------
-all_new_data = []
-
-for tag in hashtags:
-    print(f"Fetching new tweets for {tag}...")
-
-    # Find the newest tweet ID already fetched for this hashtag
-    if not df_existing.empty and tag in df_existing["hashtag"].values:
-        max_id = df_existing[df_existing["hashtag"] == tag]["tweet_id"].max()
-    else:
-        max_id = None  # fetch most recent tweets if none exist
-
+# Safe tweet fetch function
+def fetch_tweets(tag: str, since_id=None, max_tweets=20):
+    """
+    Fetch recent tweets for a given hashtag with robust error handling.
+    """
+    tweets_data = []
     query = f"{tag} -is:retweet lang:en"
+    fetched = 0
 
     try:
-        for tweet in tweepy.Paginator(
+        paginator = tweepy.Paginator(
             client.search_recent_tweets,
             query=query,
             tweet_fields=["created_at", "public_metrics"],
-            since_id=max_id,
-            max_results=50
-        ).flatten(limit=50):  # fetch up to 50 new tweets
-            all_new_data.append({
-                "tweet_id": tweet.id,
-                "created_at": tweet.created_at,
-                "text": tweet.text,
-                "likes": tweet.public_metrics["like_count"],
-                "retweets": tweet.public_metrics["retweet_count"],
-                "sentiment": TextBlob(tweet.text).sentiment.polarity,
-                "hashtag": tag
-            })
+            since_id=since_id,
+            max_results=min(20, max_tweets)
+        )
 
-        print(f"Fetched {len(all_new_data)} new tweets for {tag} ✅")
-        time.sleep(5)  # small pause to avoid hitting rate limits
+        for page in paginator:
+            if not page.data:
+                break
 
-    except tweepy.TooManyRequests as e:
-        reset_time = int(e.response.headers.get("x-rate-limit-reset", time.time() + 60))
-        wait_seconds = max(reset_time - int(time.time()), 60)
-        print(f"Rate limit reached for {tag}. Sleeping for {wait_seconds} seconds...")
-        time.sleep(wait_seconds)
+            for tweet in page.data:
+                tweets_data.append({
+                    "tweet_id": tweet.id,
+                    "created_at": tweet.created_at,
+                    "text": tweet.text,
+                    "likes": tweet.public_metrics["like_count"],
+                    "retweets": tweet.public_metrics["retweet_count"],
+                    "sentiment": TextBlob(tweet.text).sentiment.polarity,
+                    "hashtag": tag
+                })
+                fetched += 1
 
-# -------------------------
-# 6️⃣ Save incremental CSV
-# -------------------------
-if all_new_data:
-    df_new = pd.DataFrame(all_new_data)
-    df_combined = pd.concat([df_existing, df_new], ignore_index=True)
-    df_combined.to_csv(csv_file, index=False)
-    print(f"{csv_file} updated with new tweets ✅")
+                if fetched >= max_tweets:
+                    break
+
+            if fetched >= max_tweets:
+                break
+
+    except tweepy.TooManyRequests:
+        print(f"⚠️ Rate limit hit for {tag}. Skipping remaining fetches.")
+
+    except (requests.exceptions.ConnectionError, ProtocolError, RemoteDisconnected) as e:
+        print(f"⚠️ Network error for {tag}: {e}")
+
+    except Exception as e:
+        print(f"⚠️ Unexpected error for {tag}: {e}")
+
+    return tweets_data
+
+# Main execution loop
+all_new_rows = []
+
+for tag in HASHTAGS:
+    timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+    print(f"[{timestamp}] Fetching tweets for {tag} (up to {MAX_TWEETS_PER_HASHTAG})")
+
+    if not df_existing.empty and tag in df_existing["hashtag"].values:
+        since_id = df_existing[df_existing["hashtag"] == tag]["tweet_id"].max()
+    else:
+        since_id = None
+
+    new_rows = fetch_tweets(
+        tag=tag,
+        since_id=since_id,
+        max_tweets=MAX_TWEETS_PER_HASHTAG
+    )
+
+    print(f"[{timestamp}] Fetched {len(new_rows)} tweets for {tag}")
+    all_new_rows.extend(new_rows)
+
+    time.sleep(RATE_LIMIT_COOLDOWN)
+
+# Save results
+if all_new_rows:
+    df_new = pd.DataFrame(all_new_rows)
+    df_final = pd.concat([df_existing, df_new], ignore_index=True)
+    df_final.to_csv(CSV_FILE, index=False)
+    print(f"✅ CSV updated successfully → {CSV_FILE}")
 else:
-    print("No new tweets fetched this run.")
+    print("❌ No new data fetched. CSV not updated.")
