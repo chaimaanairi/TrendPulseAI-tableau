@@ -7,13 +7,12 @@ def analyze_sentiment(text: str) -> float:
     if not text or not isinstance(text, str):
         return 0.0
 
-    polarity = TextBlob(text).sentiment.polarity
-    return round(polarity, 2)
+    return round(TextBlob(text).sentiment.polarity, 3)
 
 
 def sentiment_label(score: float) -> str:
     """
-    Converts sentiment score into human-readable label
+    Converts sentiment score into label
     """
     if score > 0.05:
         return "Positive"

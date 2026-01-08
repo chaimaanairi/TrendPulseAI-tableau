@@ -47,7 +47,8 @@ else:
         "likes",
         "retweets",
         "sentiment",
-        "hashtag"
+        "hashtag",
+        "user_location"
     ])
 
 # Safe tweet fetch function
@@ -64,6 +65,8 @@ def fetch_tweets(tag: str, since_id=None, max_tweets=20):
             client.search_recent_tweets,
             query=query,
             tweet_fields=["created_at", "public_metrics"],
+            user_fields=["location"],
+            expansions=["author_id"],
             since_id=since_id,
             max_results=min(20, max_tweets)
         )
@@ -72,7 +75,15 @@ def fetch_tweets(tag: str, since_id=None, max_tweets=20):
             if not page.data:
                 break
 
+            # Map users to their locations
+            users = {}
+            if page.includes and "users" in page.includes:
+                for user in page.includes["users"]:
+                    users[user.id] = user.location
+
             for tweet in page.data:
+                user_location = users.get(tweet.author_id)
+
                 tweets_data.append({
                     "tweet_id": tweet.id,
                     "created_at": tweet.created_at,
@@ -80,10 +91,11 @@ def fetch_tweets(tag: str, since_id=None, max_tweets=20):
                     "likes": tweet.public_metrics["like_count"],
                     "retweets": tweet.public_metrics["retweet_count"],
                     "sentiment": TextBlob(tweet.text).sentiment.polarity,
-                    "hashtag": tag
+                    "hashtag": tag,
+                    "user_location": user_location
                 })
-                fetched += 1
 
+                fetched += 1
                 if fetched >= max_tweets:
                     break
 
@@ -124,10 +136,21 @@ for tag in HASHTAGS:
 
     time.sleep(RATE_LIMIT_COOLDOWN)
 
-# Save results
+# Save results + light cleaning
 if all_new_rows:
     df_new = pd.DataFrame(all_new_rows)
     df_final = pd.concat([df_existing, df_new], ignore_index=True)
+
+    # Remove duplicates
+    df_final.drop_duplicates(subset="tweet_id", inplace=True)
+
+    # Remove very short tweets
+    df_final = df_final[df_final["text"].str.len() > 20]
+
+    # Normalize datetime for Tableau
+    df_final["created_at"] = pd.to_datetime(df_final["created_at"])
+    df_final["created_at"] = df_final["created_at"].dt.strftime("%Y-%m-%d %H:%M:%S")
+
     df_final.to_csv(CSV_FILE, index=False)
     print(f"✅ CSV updated successfully → {CSV_FILE}")
 else:
