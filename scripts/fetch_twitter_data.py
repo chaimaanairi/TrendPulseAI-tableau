@@ -1,6 +1,6 @@
 """
 TrendPredict – Twitter/X Trend Data Ingestion
-Author: Chaimaa
+Author: Chaimaa Nairi
 Description:
 Fetches recent tweets for selected hashtags using Twitter/X API v2,
 performs sentiment analysis, and stores results incrementally for Tableau.
