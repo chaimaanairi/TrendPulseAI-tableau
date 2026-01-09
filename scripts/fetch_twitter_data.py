@@ -1,13 +1,14 @@
 """
-TrendPredict – Twitter/X Trend Data Ingestion
+TrendPredict – Twitter/X Trend Data Ingestion (JSON)
 Author: Chaimaa Nairi
 Description:
 Fetches recent tweets for selected hashtags using Twitter/X API v2,
-performs sentiment analysis, and stores results incrementally for Tableau.
+performs sentiment analysis, calculates momentum metrics, and
+stores results incrementally as JSON for Tableau.
 """
 
 import tweepy
-import pandas as pd
+import json
 from textblob import TextBlob
 from dotenv import load_dotenv
 import os
@@ -17,46 +18,54 @@ from urllib3.exceptions import ProtocolError
 from http.client import RemoteDisconnected
 from datetime import datetime
 
+# -------------------------
 # Configuration
+# -------------------------
 HASHTAGS = ["#Python", "#AI", "#DataScience"]
-MAX_TWEETS_PER_HASHTAG = 20
-CSV_FILE = "../data/twitter_trends.csv"
+MAX_TWEETS_PER_HASHTAG = 50
+JSON_FILE = "../data/twitter_trends.json"
 RATE_LIMIT_COOLDOWN = 5  # seconds between hashtag fetches
 
+# -------------------------
 # Load environment variables
+# -------------------------
 load_dotenv()
 BEARER_TOKEN = os.getenv("BEARER_TOKEN")
-
 if not BEARER_TOKEN:
     raise ValueError("❌ BEARER_TOKEN not found in environment variables")
 
+# -------------------------
 # Authenticate with Twitter/X API v2
-client = tweepy.Client(
-    bearer_token=BEARER_TOKEN,
-    wait_on_rate_limit=True
-)
+# -------------------------
+client = tweepy.Client(bearer_token=BEARER_TOKEN, wait_on_rate_limit=True)
 
-# Load existing CSV (incremental ingestion)
-if os.path.exists(CSV_FILE):
-    df_existing = pd.read_csv(CSV_FILE)
-else:
-    df_existing = pd.DataFrame(columns=[
-        "tweet_id",
-        "created_at",
-        "text",
-        "likes",
-        "retweets",
-        "sentiment",
-        "hashtag",
-        "user_location"
-    ])
+# -------------------------
+# Helper functions
+# -------------------------
+def get_sentiment_category(sentiment):
+    if sentiment < -0.1:
+        return "Negative"
+    elif sentiment <= 0.1:
+        return "Neutral"
+    else:
+        return "Positive"
 
-# Safe tweet fetch function
-def fetch_tweets(tag: str, since_id=None, max_tweets=20):
-    """
-    Fetch recent tweets for a given hashtag with robust error handling.
-    """
-    tweets_data = []
+def get_momentum_score(likes, retweets, sentiment):
+    return round((likes + retweets) * 0.7 + sentiment * 0.3 * 100, 2)
+
+def get_momentum_status(score):
+    if score >= 400:
+        return "🔥 Exploding"
+    elif score >= 200:
+        return "🚀 Emerging"
+    else:
+        return "⏳ Stable"
+
+# -------------------------
+# Fetch tweets safely
+# -------------------------
+def fetch_tweets(tag: str, since_id=None, max_tweets=50):
+    all_data = []
     query = f"{tag} -is:retweet lang:en"
     fetched = 0
 
@@ -79,26 +88,34 @@ def fetch_tweets(tag: str, since_id=None, max_tweets=20):
             users = {}
             if page.includes and "users" in page.includes:
                 for user in page.includes["users"]:
-                    users[user.id] = user.location
+                    users[user.id] = user.location if user.location else "None"
 
             for tweet in page.data:
-                user_location = users.get(tweet.author_id)
+                likes = tweet.public_metrics["like_count"]
+                retweets = tweet.public_metrics["retweet_count"]
+                sentiment = round(TextBlob(tweet.text).sentiment.polarity, 3)
+                sentiment_category = get_sentiment_category(sentiment)
+                momentum = get_momentum_score(likes, retweets, sentiment)
+                momentum_status = get_momentum_status(momentum)
+                user_location = users.get(tweet.author_id, "None")
 
-                tweets_data.append({
+                all_data.append({
                     "tweet_id": tweet.id,
-                    "created_at": tweet.created_at,
+                    "created_at": tweet.created_at.strftime("%Y-%m-%d %H:%M:%S"),
                     "text": tweet.text,
-                    "likes": tweet.public_metrics["like_count"],
-                    "retweets": tweet.public_metrics["retweet_count"],
-                    "sentiment": TextBlob(tweet.text).sentiment.polarity,
+                    "likes": likes,
+                    "retweets": retweets,
+                    "sentiment": sentiment,
+                    "sentiment_category": sentiment_category,
                     "hashtag": tag,
+                    "momentum": momentum,
+                    "momentum_status": momentum_status,
                     "user_location": user_location
                 })
 
                 fetched += 1
                 if fetched >= max_tweets:
                     break
-
             if fetched >= max_tweets:
                 break
 
@@ -111,47 +128,57 @@ def fetch_tweets(tag: str, since_id=None, max_tweets=20):
     except Exception as e:
         print(f"⚠️ Unexpected error for {tag}: {e}")
 
-    return tweets_data
+    return all_data
 
+# -------------------------
 # Main execution loop
+# -------------------------
 all_new_rows = []
 
 for tag in HASHTAGS:
     timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
     print(f"[{timestamp}] Fetching tweets for {tag} (up to {MAX_TWEETS_PER_HASHTAG})")
 
-    if not df_existing.empty and tag in df_existing["hashtag"].values:
-        since_id = df_existing[df_existing["hashtag"] == tag]["tweet_id"].max()
-    else:
-        since_id = None
+    # Determine the latest tweet_id for incremental fetch
+    since_id = None
+    if os.path.exists(JSON_FILE):
+        try:
+            with open(JSON_FILE, "r", encoding="utf-8") as f:
+                existing_data = json.load(f)
+            tag_ids = [t["tweet_id"] for t in existing_data if t["hashtag"] == tag]
+            if tag_ids:
+                since_id = max(tag_ids)
+        except Exception:
+            since_id = None
 
-    new_rows = fetch_tweets(
-        tag=tag,
-        since_id=since_id,
-        max_tweets=MAX_TWEETS_PER_HASHTAG
-    )
-
-    print(f"[{timestamp}] Fetched {len(new_rows)} tweets for {tag}")
+    new_rows = fetch_tweets(tag=tag, since_id=since_id, max_tweets=MAX_TWEETS_PER_HASHTAG)
     all_new_rows.extend(new_rows)
 
+    print(f"[{timestamp}] Fetched {len(new_rows)} tweets for {tag}")
     time.sleep(RATE_LIMIT_COOLDOWN)
 
-# Save results + light cleaning
-if all_new_rows:
-    df_new = pd.DataFrame(all_new_rows)
-    df_final = pd.concat([df_existing, df_new], ignore_index=True)
+# -------------------------
+# Save JSON results
+# -------------------------
+final_data = []
 
-    # Remove duplicates
-    df_final.drop_duplicates(subset="tweet_id", inplace=True)
+# Load existing JSON if present
+if os.path.exists(JSON_FILE):
+    try:
+        with open(JSON_FILE, "r", encoding="utf-8") as f:
+            final_data = json.load(f)
+    except Exception:
+        final_data = []
 
-    # Remove very short tweets
-    df_final = df_final[df_final["text"].str.len() > 20]
+# Append new rows
+final_data.extend(all_new_rows)
 
-    # Normalize datetime for Tableau
-    df_final["created_at"] = pd.to_datetime(df_final["created_at"])
-    df_final["created_at"] = df_final["created_at"].dt.strftime("%Y-%m-%d %H:%M:%S")
+# Remove duplicates by tweet_id
+unique_data = {item["tweet_id"]: item for item in final_data}
+final_data = list(unique_data.values())
 
-    df_final.to_csv(CSV_FILE, index=False)
-    print(f"✅ CSV updated successfully → {CSV_FILE}")
-else:
-    print("❌ No new data fetched. CSV not updated.")
+# Save JSON
+with open(JSON_FILE, "w", encoding="utf-8") as f:
+    json.dump(final_data, f, ensure_ascii=False, indent=2)
+
+print(f"✅ JSON updated successfully → {JSON_FILE} ({len(final_data)} total tweets)")
