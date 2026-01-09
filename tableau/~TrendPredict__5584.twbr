@@ -646,6 +646,549 @@
         </objects>
       </object-graph>
     </datasource>
+    <datasource caption='twitter_trends_vader' inline='true' name='federated.1vjerzj1x4uahq14arjva1dditx1' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='twitter_trends_vader' name='textscan.0bg55780vcyxw40zzzp7d02zsb2k'>
+            <connection class='textscan' directory='C:/Users/Hp/PycharmProjects/trendpredict-tableau/data' filename='twitter_trends_vader.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <relation connection='textscan.0bg55780vcyxw40zzzp7d02zsb2k' name='twitter_trends_vader.csv' table='[twitter_trends_vader#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='fr_BE'>
+            <column datatype='integer' name='tweet_id' ordinal='0' />
+            <column datatype='datetime' name='created_at' ordinal='1' />
+            <column datatype='string' name='text' ordinal='2' />
+            <column datatype='integer' name='likes' ordinal='3' />
+            <column datatype='integer' name='retweets' ordinal='4' />
+            <column datatype='real' name='sentiment' ordinal='5' />
+            <column datatype='string' name='sentiment_category' ordinal='6' />
+            <column datatype='string' name='hashtag' ordinal='7' />
+            <column datatype='real' name='momentum' ordinal='8' />
+            <column datatype='string' name='momentum_status' ordinal='9' />
+            <column datatype='string' name='user_location' ordinal='10' />
+            <column datatype='real' name='sentiment_vader' ordinal='11' />
+            <column datatype='string' name='sentiment_vader_category' ordinal='12' />
+          </columns>
+        </relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[twitter_trends_vader.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;fr_FR&quot;</attribute>
+              <attribute datatype='string' name='currency'>&quot;€&quot;</attribute>
+              <attribute datatype='string' name='decimal-char'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;fr_BE&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+              <attribute datatype='string' name='thousands-char'>&quot; &quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>tweet_id</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[tweet_id]</local-name>
+            <parent-name>[twitter_trends_vader.csv]</parent-name>
+            <remote-alias>tweet_id</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[twitter_trends_vader.csv_1802EF2E8ACB458B9C47439BD5C325E4]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>created_at</remote-name>
+            <remote-type>135</remote-type>
+            <local-name>[created_at]</local-name>
+            <parent-name>[twitter_trends_vader.csv]</parent-name>
+            <remote-alias>created_at</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>datetime</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[twitter_trends_vader.csv_1802EF2E8ACB458B9C47439BD5C325E4]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>text</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[text]</local-name>
+            <parent-name>[twitter_trends_vader.csv]</parent-name>
+            <remote-alias>text</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LFR_RFR' />
+            <object-id>[twitter_trends_vader.csv_1802EF2E8ACB458B9C47439BD5C325E4]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>likes</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[likes]</local-name>
+            <parent-name>[twitter_trends_vader.csv]</parent-name>
+            <remote-alias>likes</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[twitter_trends_vader.csv_1802EF2E8ACB458B9C47439BD5C325E4]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>retweets</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[retweets]</local-name>
+            <parent-name>[twitter_trends_vader.csv]</parent-name>
+            <remote-alias>retweets</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[twitter_trends_vader.csv_1802EF2E8ACB458B9C47439BD5C325E4]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>sentiment</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[sentiment]</local-name>
+            <parent-name>[twitter_trends_vader.csv]</parent-name>
+            <remote-alias>sentiment</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[twitter_trends_vader.csv_1802EF2E8ACB458B9C47439BD5C325E4]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>sentiment_category</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[sentiment_category]</local-name>
+            <parent-name>[twitter_trends_vader.csv]</parent-name>
+            <remote-alias>sentiment_category</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LFR_RFR' />
+            <object-id>[twitter_trends_vader.csv_1802EF2E8ACB458B9C47439BD5C325E4]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>hashtag</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[hashtag]</local-name>
+            <parent-name>[twitter_trends_vader.csv]</parent-name>
+            <remote-alias>hashtag</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LFR_RFR' />
+            <object-id>[twitter_trends_vader.csv_1802EF2E8ACB458B9C47439BD5C325E4]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>momentum</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[momentum]</local-name>
+            <parent-name>[twitter_trends_vader.csv]</parent-name>
+            <remote-alias>momentum</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[twitter_trends_vader.csv_1802EF2E8ACB458B9C47439BD5C325E4]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>momentum_status</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[momentum_status]</local-name>
+            <parent-name>[twitter_trends_vader.csv]</parent-name>
+            <remote-alias>momentum_status</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LFR_RFR' />
+            <object-id>[twitter_trends_vader.csv_1802EF2E8ACB458B9C47439BD5C325E4]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>user_location</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[user_location]</local-name>
+            <parent-name>[twitter_trends_vader.csv]</parent-name>
+            <remote-alias>user_location</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LFR_RFR' />
+            <object-id>[twitter_trends_vader.csv_1802EF2E8ACB458B9C47439BD5C325E4]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>sentiment_vader</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[sentiment_vader]</local-name>
+            <parent-name>[twitter_trends_vader.csv]</parent-name>
+            <remote-alias>sentiment_vader</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[twitter_trends_vader.csv_1802EF2E8ACB458B9C47439BD5C325E4]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>sentiment_vader_category</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[sentiment_vader_category]</local-name>
+            <parent-name>[twitter_trends_vader.csv]</parent-name>
+            <remote-alias>sentiment_vader_category</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LFR_RFR' />
+            <object-id>[twitter_trends_vader.csv_1802EF2E8ACB458B9C47439BD5C325E4]</object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='Avg VADER Sentiment' datatype='real' name='[Calculation_0383755616165905]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='AVG([sentiment_vader])' />
+      </column>
+      <column caption='Dominant VADER Sentiment' datatype='string' name='[Calculation_0383755616288786]' role='measure' type='nominal'>
+        <calculation class='tableau' formula='MAX([sentiment_vader_category])' />
+      </column>
+      <column caption='Number of Records' datatype='integer' name='[Calculation_0383755629744148]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='1' />
+      </column>
+      <column caption='twitter_trends_vader.csv' datatype='table' name='[__tableau_internal_object_id__].[twitter_trends_vader.csv_1802EF2E8ACB458B9C47439BD5C325E4]' role='measure' type='quantitative' />
+      <column caption='Created At' datatype='datetime' name='[created_at]' role='dimension' type='ordinal' />
+      <column caption='Hashtag' datatype='string' name='[hashtag]' role='dimension' type='nominal' />
+      <column caption='Likes' datatype='integer' name='[likes]' role='measure' type='quantitative' />
+      <column caption='Momentum' datatype='real' name='[momentum]' role='measure' type='quantitative' />
+      <column caption='Momentum Status' datatype='string' name='[momentum_status]' role='dimension' type='nominal' />
+      <column caption='Retweets' datatype='integer' name='[retweets]' role='measure' type='quantitative' />
+      <column caption='Sentiment' datatype='real' name='[sentiment]' role='measure' type='quantitative' />
+      <column caption='Sentiment Category' datatype='string' name='[sentiment_category]' role='dimension' type='nominal' />
+      <column caption='Sentiment Vader' datatype='real' name='[sentiment_vader]' role='measure' type='quantitative' />
+      <column caption='Sentiment Vader Category' datatype='string' name='[sentiment_vader_category]' role='dimension' type='nominal' />
+      <column caption='Text' datatype='string' name='[text]' role='dimension' type='nominal' />
+      <column caption='Tweet Id' datatype='integer' name='[tweet_id]' role='dimension' type='ordinal' />
+      <column caption='User Location' datatype='string' name='[user_location]' role='dimension' type='nominal' />
+      <column-instance column='[sentiment_vader_category]' derivation='None' name='[none:sentiment_vader_category:nk]' pivot='key' type='nominal' />
+      <layout dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[none:sentiment_vader_category:nk]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>%many-values%</bucket>
+            </map>
+            <map to='#76b7b2'>
+              <bucket>&quot;Positive&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Neutral&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Negative&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;Belgium&quot;' />
+      </semantic-values>
+      <date-options start-of-week='monday' />
+      <object-graph>
+        <objects>
+          <object caption='twitter_trends_vader.csv' id='twitter_trends_vader.csv_1802EF2E8ACB458B9C47439BD5C325E4'>
+            <properties context=''>
+              <relation connection='textscan.0bg55780vcyxw40zzzp7d02zsb2k' name='twitter_trends_vader.csv' table='[twitter_trends_vader#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='fr_BE'>
+                  <column datatype='integer' name='tweet_id' ordinal='0' />
+                  <column datatype='datetime' name='created_at' ordinal='1' />
+                  <column datatype='string' name='text' ordinal='2' />
+                  <column datatype='integer' name='likes' ordinal='3' />
+                  <column datatype='integer' name='retweets' ordinal='4' />
+                  <column datatype='real' name='sentiment' ordinal='5' />
+                  <column datatype='string' name='sentiment_category' ordinal='6' />
+                  <column datatype='string' name='hashtag' ordinal='7' />
+                  <column datatype='real' name='momentum' ordinal='8' />
+                  <column datatype='string' name='momentum_status' ordinal='9' />
+                  <column datatype='string' name='user_location' ordinal='10' />
+                  <column datatype='real' name='sentiment_vader' ordinal='11' />
+                  <column datatype='string' name='sentiment_vader_category' ordinal='12' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </object-graph>
+    </datasource>
+    <datasource caption='twitter_trends_topics' inline='true' name='federated.0xl0lrv1pxvin81f5ap9q1w84qmb' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='twitter_trends_topics' name='textscan.159c40o0bg324q0zzihhc012ox6f'>
+            <connection class='textscan' directory='C:/Users/Hp/PycharmProjects/trendpredict-tableau/data' filename='twitter_trends_topics.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <relation connection='textscan.159c40o0bg324q0zzihhc012ox6f' name='twitter_trends_topics.csv' table='[twitter_trends_topics#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='fr_BE'>
+            <column datatype='integer' name='tweet_id' ordinal='0' />
+            <column datatype='datetime' name='created_at' ordinal='1' />
+            <column datatype='string' name='text' ordinal='2' />
+            <column datatype='integer' name='likes' ordinal='3' />
+            <column datatype='integer' name='retweets' ordinal='4' />
+            <column datatype='real' name='sentiment' ordinal='5' />
+            <column datatype='string' name='sentiment_category' ordinal='6' />
+            <column datatype='string' name='hashtag' ordinal='7' />
+            <column datatype='real' name='momentum' ordinal='8' />
+            <column datatype='string' name='momentum_status' ordinal='9' />
+            <column datatype='string' name='user_location' ordinal='10' />
+            <column datatype='string' name='topic_keywords' ordinal='11' />
+          </columns>
+        </relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[twitter_trends_topics.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;fr_FR&quot;</attribute>
+              <attribute datatype='string' name='currency'>&quot;€&quot;</attribute>
+              <attribute datatype='string' name='decimal-char'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;fr_BE&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+              <attribute datatype='string' name='thousands-char'>&quot; &quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>tweet_id</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[tweet_id]</local-name>
+            <parent-name>[twitter_trends_topics.csv]</parent-name>
+            <remote-alias>tweet_id</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[twitter_trends_topics.csv_1636973E641745D890193D6EB1818F49]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>created_at</remote-name>
+            <remote-type>135</remote-type>
+            <local-name>[created_at]</local-name>
+            <parent-name>[twitter_trends_topics.csv]</parent-name>
+            <remote-alias>created_at</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>datetime</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[twitter_trends_topics.csv_1636973E641745D890193D6EB1818F49]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>text</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[text]</local-name>
+            <parent-name>[twitter_trends_topics.csv]</parent-name>
+            <remote-alias>text</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LFR_RFR' />
+            <object-id>[twitter_trends_topics.csv_1636973E641745D890193D6EB1818F49]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>likes</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[likes]</local-name>
+            <parent-name>[twitter_trends_topics.csv]</parent-name>
+            <remote-alias>likes</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[twitter_trends_topics.csv_1636973E641745D890193D6EB1818F49]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>retweets</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[retweets]</local-name>
+            <parent-name>[twitter_trends_topics.csv]</parent-name>
+            <remote-alias>retweets</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[twitter_trends_topics.csv_1636973E641745D890193D6EB1818F49]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>sentiment</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[sentiment]</local-name>
+            <parent-name>[twitter_trends_topics.csv]</parent-name>
+            <remote-alias>sentiment</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[twitter_trends_topics.csv_1636973E641745D890193D6EB1818F49]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>sentiment_category</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[sentiment_category]</local-name>
+            <parent-name>[twitter_trends_topics.csv]</parent-name>
+            <remote-alias>sentiment_category</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LFR_RFR' />
+            <object-id>[twitter_trends_topics.csv_1636973E641745D890193D6EB1818F49]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>hashtag</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[hashtag]</local-name>
+            <parent-name>[twitter_trends_topics.csv]</parent-name>
+            <remote-alias>hashtag</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LFR_RFR' />
+            <object-id>[twitter_trends_topics.csv_1636973E641745D890193D6EB1818F49]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>momentum</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[momentum]</local-name>
+            <parent-name>[twitter_trends_topics.csv]</parent-name>
+            <remote-alias>momentum</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[twitter_trends_topics.csv_1636973E641745D890193D6EB1818F49]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>momentum_status</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[momentum_status]</local-name>
+            <parent-name>[twitter_trends_topics.csv]</parent-name>
+            <remote-alias>momentum_status</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LFR_RFR' />
+            <object-id>[twitter_trends_topics.csv_1636973E641745D890193D6EB1818F49]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>user_location</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[user_location]</local-name>
+            <parent-name>[twitter_trends_topics.csv]</parent-name>
+            <remote-alias>user_location</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LFR_RFR' />
+            <object-id>[twitter_trends_topics.csv_1636973E641745D890193D6EB1818F49]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>topic_keywords</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[topic_keywords]</local-name>
+            <parent-name>[twitter_trends_topics.csv]</parent-name>
+            <remote-alias>topic_keywords</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LFR_RFR' />
+            <object-id>[twitter_trends_topics.csv_1636973E641745D890193D6EB1818F49]</object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='twitter_trends_topics.csv' datatype='table' name='[__tableau_internal_object_id__].[twitter_trends_topics.csv_1636973E641745D890193D6EB1818F49]' role='measure' type='quantitative' />
+      <column caption='Created At' datatype='datetime' name='[created_at]' role='dimension' type='ordinal' />
+      <column caption='Hashtag' datatype='string' name='[hashtag]' role='dimension' type='nominal' />
+      <column caption='Likes' datatype='integer' name='[likes]' role='measure' type='quantitative' />
+      <column caption='Momentum' datatype='real' name='[momentum]' role='measure' type='quantitative' />
+      <column caption='Momentum Status' datatype='string' name='[momentum_status]' role='dimension' type='nominal' />
+      <column caption='Retweets' datatype='integer' name='[retweets]' role='measure' type='quantitative' />
+      <column caption='Sentiment' datatype='real' name='[sentiment]' role='measure' type='quantitative' />
+      <column caption='Sentiment Category' datatype='string' name='[sentiment_category]' role='dimension' type='nominal' />
+      <column caption='Text' datatype='string' name='[text]' role='dimension' type='nominal' />
+      <column caption='Topic Keywords' datatype='string' name='[topic_keywords]' role='dimension' type='nominal' />
+      <column caption='Tweet Id' datatype='integer' name='[tweet_id]' role='dimension' type='ordinal' />
+      <column caption='User Location' datatype='string' name='[user_location]' role='dimension' type='nominal' />
+      <layout dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;Belgium&quot;' />
+      </semantic-values>
+      <date-options start-of-week='monday' />
+      <object-graph>
+        <objects>
+          <object caption='twitter_trends_topics.csv' id='twitter_trends_topics.csv_1636973E641745D890193D6EB1818F49'>
+            <properties context=''>
+              <relation connection='textscan.159c40o0bg324q0zzihhc012ox6f' name='twitter_trends_topics.csv' table='[twitter_trends_topics#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='fr_BE'>
+                  <column datatype='integer' name='tweet_id' ordinal='0' />
+                  <column datatype='datetime' name='created_at' ordinal='1' />
+                  <column datatype='string' name='text' ordinal='2' />
+                  <column datatype='integer' name='likes' ordinal='3' />
+                  <column datatype='integer' name='retweets' ordinal='4' />
+                  <column datatype='real' name='sentiment' ordinal='5' />
+                  <column datatype='string' name='sentiment_category' ordinal='6' />
+                  <column datatype='string' name='hashtag' ordinal='7' />
+                  <column datatype='real' name='momentum' ordinal='8' />
+                  <column datatype='string' name='momentum_status' ordinal='9' />
+                  <column datatype='string' name='user_location' ordinal='10' />
+                  <column datatype='string' name='topic_keywords' ordinal='11' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </object-graph>
+    </datasource>
   </datasources>
   <shared-views>
     <shared-view name='federated.1iuomfg0kie8b61f29e0418iawgy'>
@@ -682,7 +1225,7 @@
   <actions>
     <action caption='Highlight by Sentiment' name='[Action1_4C2CEC80EA20433E8D32D7C5FF33A7DA]'>
       <activation auto-clear='true' type='on-select' />
-      <source type='sheet' worksheet='Sentiment Overview' />
+      <source type='sheet' worksheet='TextBlob Sentiment ' />
       <command command='tsc:brush'>
         <param name='field-captions' value='Sentiment Category' />
         <param name='target' value='Top Tweets by Engagement' />
@@ -825,7 +1368,7 @@
       </table>
       <simple-id uuid='{FB8C6D45-C2C6-43D0-8BCF-6FB985C0E934}' />
     </worksheet>
-    <worksheet name='Sentiment Overview'>
+    <worksheet name='TextBlob Sentiment '>
       <table>
         <view>
           <datasources>
@@ -1032,6 +1575,7 @@
         <view>
           <datasources>
             <datasource caption='twitter_trends' name='federated.1iuomfg0kie8b61f29e0418iawgy' />
+            <datasource caption='twitter_trends_vader' name='federated.1vjerzj1x4uahq14arjva1dditx1' />
           </datasources>
           <datasource-dependencies datasource='federated.1iuomfg0kie8b61f29e0418iawgy'>
             <column caption='Sentiment Category' datatype='string' name='[Calculation_0383754889863169]' role='dimension' type='nominal'>
@@ -1056,6 +1600,18 @@
             <column-instance column='[Calculation_0383754994483210]' derivation='User' name='[usr:Calculation_0383754994483210:qk]' pivot='key' type='quantitative' />
             <column-instance column='[Calculation_0383754995195915]' derivation='User' name='[usr:Calculation_0383754995195915:nk]' pivot='key' type='nominal' />
           </datasource-dependencies>
+          <datasource-dependencies datasource='federated.1vjerzj1x4uahq14arjva1dditx1'>
+            <column caption='Avg VADER Sentiment' datatype='real' name='[Calculation_0383755616165905]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='AVG([sentiment_vader])' />
+            </column>
+            <column caption='Dominant VADER Sentiment' datatype='string' name='[Calculation_0383755616288786]' role='measure' type='nominal'>
+              <calculation class='tableau' formula='MAX([sentiment_vader_category])' />
+            </column>
+            <column caption='Sentiment Vader' datatype='real' name='[sentiment_vader]' role='measure' type='quantitative' />
+            <column caption='Sentiment Vader Category' datatype='string' name='[sentiment_vader_category]' role='dimension' type='nominal' />
+            <column-instance column='[Calculation_0383755616165905]' derivation='User' name='[usr:Calculation_0383755616165905:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_0383755616288786]' derivation='User' name='[usr:Calculation_0383755616288786:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
           <slices>
             <column>[federated.1iuomfg0kie8b61f29e0418iawgy].[none:Calculation_0383754889863169:nk]</column>
             <column>[federated.1iuomfg0kie8b61f29e0418iawgy].[none:hashtag:nk]</column>
@@ -1066,8 +1622,8 @@
         </view>
         <style>
           <style-rule element='cell'>
-            <format attr='width' value='440' />
-            <format attr='height' value='44' />
+            <format attr='width' value='354' />
+            <format attr='height' value='56' />
           </style-rule>
         </style>
         <panes>
@@ -1079,22 +1635,19 @@
             <encodings>
               <color column='[federated.1iuomfg0kie8b61f29e0418iawgy].[usr:Calculation_0383754995195915:nk]' />
               <text column='[federated.1iuomfg0kie8b61f29e0418iawgy].[usr:Calculation_0383754994483210:qk]' />
+              <text column='[federated.1vjerzj1x4uahq14arjva1dditx1].[usr:Calculation_0383755616165905:qk]' />
+              <color column='[federated.1vjerzj1x4uahq14arjva1dditx1].[usr:Calculation_0383755616288786:nk]' />
             </encodings>
-            <customized-tooltip>
-              <formatted-text>
-                <run bold='true' fontcolor='#757575'>Trend Momentum Score:</run>
-                <run fontcolor='#757575'>Æ&#9;</run>
-                <run bold='true'><![CDATA[<[federated.1iuomfg0kie8b61f29e0418iawgy].[usr:Calculation_0383754994483210:qk]>]]></run>
-                <run>Æ&#10;</run>
-                <run bold='true' fontcolor='#757575'>Momentum Status:</run>
-                <run fontcolor='#757575'>Æ&#9;</run>
-                <run bold='true'><![CDATA[<[federated.1iuomfg0kie8b61f29e0418iawgy].[usr:Calculation_0383754995195915:nk]>]]></run>
-              </formatted-text>
-            </customized-tooltip>
             <customized-label>
               <formatted-text>
-                <run bold='true' fontalignment='0' fontsize='11'>Trend Momentum Score: </run>
-                <run fontalignment='0' fontsize='11'><![CDATA[<[federated.1iuomfg0kie8b61f29e0418iawgy].[usr:Calculation_0383754994483210:qk]>]]></run>
+                <run bold='true' fontalignment='0' fontcolor='#757575' fontsize='10'>Trend Momentum Score:    </run>
+                <run fontalignment='0' fontcolor='#757575' fontsize='10'>Æ    </run>
+                <run bold='true' fontalignment='0' fontcolor='#333333' fontsize='10'><![CDATA[<[federated.1iuomfg0kie8b61f29e0418iawgy].[usr:Calculation_0383754994483210:qk]>]]></run>
+                <run fontalignment='0'>Æ&#10;</run>
+                <run bold='true' fontalignment='0' fontcolor='#757575' fontsize='10'>Avg VADER Sentiment:  </run>
+                <run fontalignment='0' fontcolor='#757575' fontsize='10'>Æ      </run>
+                <run bold='true' fontalignment='0' fontcolor='#333333' fontsize='10'><![CDATA[<[federated.1vjerzj1x4uahq14arjva1dditx1].[usr:Calculation_0383755616165905:qk]>]]></run>
+                <run fontalignment='0'>Æ&#10;</run>
               </formatted-text>
             </customized-label>
             <style>
@@ -1115,6 +1668,94 @@
         <cols />
       </table>
       <simple-id uuid='{FE6303A7-E5E1-4FE8-B84C-76F86DFB5C71}' />
+    </worksheet>
+    <worksheet name='Trending Topics Behind the Trend'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='twitter_trends_topics' name='federated.0xl0lrv1pxvin81f5ap9q1w84qmb' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0xl0lrv1pxvin81f5ap9q1w84qmb'>
+            <column caption='Hashtag' datatype='string' name='[hashtag]' role='dimension' type='nominal' />
+            <column-instance column='[hashtag]' derivation='None' name='[none:hashtag:nk]' pivot='key' type='nominal' />
+            <column-instance column='[topic_keywords]' derivation='None' name='[none:topic_keywords:nk]' pivot='key' type='nominal' />
+            <column caption='Topic Keywords' datatype='string' name='[topic_keywords]' role='dimension' type='nominal' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='width' value='272' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <text column='[federated.0xl0lrv1pxvin81f5ap9q1w84qmb].[none:topic_keywords:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+              <style-rule element='pane'>
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0xl0lrv1pxvin81f5ap9q1w84qmb].[none:hashtag:nk]</rows>
+        <cols />
+      </table>
+      <simple-id uuid='{2F3DFE0A-AD01-4BF2-8B47-36DF51A2D9E3}' />
+    </worksheet>
+    <worksheet name='VADER Sentiment '>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='twitter_trends_vader' name='federated.1vjerzj1x4uahq14arjva1dditx1' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1vjerzj1x4uahq14arjva1dditx1'>
+            <column caption='Number of Records' datatype='integer' name='[Calculation_0383755629744148]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='1' />
+            </column>
+            <column-instance column='[sentiment_vader_category]' derivation='None' name='[none:sentiment_vader_category:nk]' pivot='key' type='nominal' />
+            <column caption='Sentiment Vader Category' datatype='string' name='[sentiment_vader_category]' role='dimension' type='nominal' />
+            <column-instance column='[Calculation_0383755629744148]' derivation='Sum' name='[sum:Calculation_0383755629744148:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='width' field='[federated.1vjerzj1x4uahq14arjva1dditx1].[none:sentiment_vader_category:nk]' value='67' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane id='2' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.1vjerzj1x4uahq14arjva1dditx1].[none:sentiment_vader_category:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='pane'>
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.1vjerzj1x4uahq14arjva1dditx1].[sum:Calculation_0383755629744148:qk]</rows>
+        <cols>[federated.1vjerzj1x4uahq14arjva1dditx1].[none:sentiment_vader_category:nk]</cols>
+      </table>
+      <simple-id uuid='{9614CA86-C6DB-448C-B00F-31C39A478D27}' />
     </worksheet>
     <worksheet name='map visualization'>
       <table>
@@ -1238,9 +1879,9 @@
       </datasource-dependencies>
       <zones>
         <zone h='100000' id='4' type-v2='layout-basic' w='100000' x='0' y='0'>
-          <zone h='67500' id='8' param='horz' type-v2='layout-flow' w='98666' x='667' y='31500'>
-            <zone h='67500' id='6' type-v2='layout-basic' w='75166' x='667' y='31500'>
-              <zone h='33752' id='3' name='Sentiment Overview' w='37579' x='667' y='31500'>
+          <zone h='63375' id='8' param='horz' type-v2='layout-flow' w='98666' x='667' y='35625'>
+            <zone h='63375' id='6' type-v2='layout-basic' w='75166' x='667' y='35625'>
+              <zone h='32995' id='3' name='TextBlob Sentiment ' w='18666' x='667' y='35625'>
                 <zone-style>
                   <format attr='border-color' value='#000000' />
                   <format attr='border-style' value='none' />
@@ -1248,7 +1889,7 @@
                   <format attr='margin' value='4' />
                 </zone-style>
               </zone>
-              <zone h='33752' id='5' name='Engagement Over Time' w='37587' x='38246' y='31500'>
+              <zone h='32995' id='5' name='Engagement Over Time' w='34583' x='41250' y='35625'>
                 <zone-style>
                   <format attr='border-color' value='#000000' />
                   <format attr='border-style' value='none' />
@@ -1256,7 +1897,7 @@
                   <format attr='margin' value='4' />
                 </zone-style>
               </zone>
-              <zone h='33748' id='10' name='Top Tweets by Engagement' w='37579' x='667' y='65252'>
+              <zone h='30380' id='10' name='Top Tweets by Engagement' w='37579' x='667' y='68620'>
                 <zone-style>
                   <format attr='border-color' value='#000000' />
                   <format attr='border-style' value='none' />
@@ -1264,7 +1905,15 @@
                   <format attr='margin' value='4' />
                 </zone-style>
               </zone>
-              <zone h='33748' id='13' name='Trend Forecast' w='37587' x='38246' y='65252'>
+              <zone h='30380' id='13' name='Trend Forecast' w='37587' x='38246' y='68620'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone h='32995' id='71' name='VADER Sentiment ' w='21917' x='19333' y='35625'>
                 <zone-style>
                   <format attr='border-color' value='#000000' />
                   <format attr='border-style' value='none' />
@@ -1273,8 +1922,8 @@
                 </zone-style>
               </zone>
             </zone>
-            <zone fixed-size='282' h='67500' id='7' is-fixed='true' param='vert' type-v2='layout-flow' w='23500' x='75833' y='31500'>
-              <zone h='9125' id='9' name='Engagement Over Time' pane-specification-id='0' param='[federated.1iuomfg0kie8b61f29e0418iawgy].[sum:retweets:qk]' type-v2='color' w='23500' x='75833' y='31500'>
+            <zone fixed-size='282' h='63375' id='7' is-fixed='true' param='vert' type-v2='layout-flow' w='23500' x='75833' y='35625'>
+              <zone h='8229' id='9' name='Engagement Over Time' pane-specification-id='0' param='[federated.1iuomfg0kie8b61f29e0418iawgy].[sum:retweets:qk]' type-v2='color' w='23500' x='75833' y='35625'>
                 <zone-style>
                   <format attr='border-color' value='#000000' />
                   <format attr='border-style' value='none' />
@@ -1282,7 +1931,7 @@
                   <format attr='margin' value='4' />
                 </zone-style>
               </zone>
-              <zone h='13062' id='11' name='Sentiment Overview' param='[federated.1iuomfg0kie8b61f29e0418iawgy].[none:Calculation_0383754889863169:nk]' type-v2='filter' values='database' w='23500' x='75833' y='40625'>
+              <zone h='8229' id='11' name='TextBlob Sentiment ' param='[federated.1iuomfg0kie8b61f29e0418iawgy].[none:Calculation_0383754889863169:nk]' type-v2='filter' values='database' w='23500' x='75833' y='43854'>
                 <zone-style>
                   <format attr='border-color' value='#000000' />
                   <format attr='border-style' value='none' />
@@ -1290,7 +1939,7 @@
                   <format attr='margin' value='4' />
                 </zone-style>
               </zone>
-              <zone h='9125' id='14' name='Trend Forecast' pane-specification-id='0' param='[federated.1iuomfg0kie8b61f29e0418iawgy].[fVal:sum:likes:qk]' type-v2='color' w='23500' x='75833' y='53687'>
+              <zone h='8229' id='14' name='Trend Forecast' pane-specification-id='0' param='[federated.1iuomfg0kie8b61f29e0418iawgy].[fVal:sum:likes:qk]' type-v2='color' w='23500' x='75833' y='52083'>
                 <zone-style>
                   <format attr='border-color' value='#000000' />
                   <format attr='border-style' value='none' />
@@ -1298,7 +1947,7 @@
                   <format attr='margin' value='4' />
                 </zone-style>
               </zone>
-              <zone h='6375' id='27' name='Trend Momentum' pane-specification-id='0' param='[federated.1iuomfg0kie8b61f29e0418iawgy].[usr:Calculation_0383754995195915:nk]' type-v2='color' w='23500' x='75833' y='62812'>
+              <zone h='6375' id='27' name='Trend Momentum' pane-specification-id='0' param='[federated.1iuomfg0kie8b61f29e0418iawgy].[usr:Calculation_0383754995195915:nk]&#10;[federated.1vjerzj1x4uahq14arjva1dditx1].[usr:Calculation_0383755616288786:nk]' type-v2='color' w='23500' x='75833' y='60312'>
                 <zone-style>
                   <format attr='border-color' value='#000000' />
                   <format attr='border-style' value='none' />
@@ -1306,7 +1955,7 @@
                   <format attr='margin' value='4' />
                 </zone-style>
               </zone>
-              <zone h='7625' id='33' mode='dropdown' name='Sentiment Overview' param='[federated.1iuomfg0kie8b61f29e0418iawgy].[none:hashtag:nk]' type-v2='filter' values='database' w='23500' x='75833' y='69187'>
+              <zone h='7625' id='33' mode='dropdown' name='TextBlob Sentiment ' param='[federated.1iuomfg0kie8b61f29e0418iawgy].[none:hashtag:nk]' type-v2='filter' values='database' w='23500' x='75833' y='66687'>
                 <zone-style>
                   <format attr='border-color' value='#000000' />
                   <format attr='border-style' value='none' />
@@ -1314,7 +1963,7 @@
                   <format attr='margin' value='4' />
                 </zone-style>
               </zone>
-              <zone h='9125' id='36' name='Sentiment Overview' param='[federated.1iuomfg0kie8b61f29e0418iawgy].[none:created_at:qk]' type-v2='filter' values='database' w='23500' x='75833' y='76812'>
+              <zone h='8229' id='36' name='TextBlob Sentiment ' param='[federated.1iuomfg0kie8b61f29e0418iawgy].[none:created_at:qk]' type-v2='filter' values='database' w='23500' x='75833' y='74312'>
                 <zone-style>
                   <format attr='border-color' value='#000000' />
                   <format attr='border-style' value='none' />
@@ -1322,7 +1971,15 @@
                   <format attr='margin' value='4' />
                 </zone-style>
               </zone>
-              <zone h='13063' id='48' name='Sentiment Overview' param='[federated.1iuomfg0kie8b61f29e0418iawgy].[user_location (group)]' type-v2='filter' values='database' w='23500' x='75833' y='85937'>
+              <zone h='8229' id='48' name='TextBlob Sentiment ' param='[federated.1iuomfg0kie8b61f29e0418iawgy].[user_location (group)]' type-v2='filter' values='database' w='23500' x='75833' y='82541'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone h='8230' id='72' name='VADER Sentiment ' pane-specification-id='2' param='[federated.1vjerzj1x4uahq14arjva1dditx1].[none:sentiment_vader_category:nk]' type-v2='color' w='23500' x='75833' y='90770'>
                 <zone-style>
                   <format attr='border-color' value='#000000' />
                   <format attr='border-style' value='none' />
@@ -1332,7 +1989,7 @@
               </zone>
             </zone>
           </zone>
-          <zone h='13063' id='26' name='Trend Momentum' w='98666' x='667' y='18437'>
+          <zone h='17188' id='26' name='Trend Momentum' w='49333' x='667' y='18437'>
             <zone-style>
               <format attr='border-color' value='#000000' />
               <format attr='border-style' value='none' />
@@ -1364,6 +2021,14 @@
               <format attr='margin' value='4' />
             </zone-style>
           </zone>
+          <zone h='17188' id='75' name='Trending Topics Behind the Trend' w='49333' x='50000' y='18437'>
+            <zone-style>
+              <format attr='border-color' value='#000000' />
+              <format attr='border-style' value='none' />
+              <format attr='border-width' value='0' />
+              <format attr='margin' value='4' />
+            </zone-style>
+          </zone>
           <zone-style>
             <format attr='border-color' value='#000000' />
             <format attr='border-style' value='none' />
@@ -1374,10 +2039,10 @@
       </zones>
       <devicelayouts>
         <devicelayout auto-generated='true' name='Phone'>
-          <size maxheight='1800' minheight='1800' sizing-mode='vscroll' />
+          <size maxheight='2250' minheight='2250' sizing-mode='vscroll' />
           <zones>
-            <zone h='100000' id='64' type-v2='layout-basic' w='100000' x='0' y='0'>
-              <zone h='98000' id='63' param='vert' type-v2='layout-flow' w='98666' x='667' y='1000'>
+            <zone h='100000' id='79' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98000' id='78' param='vert' type-v2='layout-flow' w='98666' x='667' y='1000'>
                 <zone forceUpdate='true' h='8375' id='37' type-v2='text' w='98666' x='667' y='1000'>
                   <formatted-text>
                     <run bold='true' fontalignment='1' fontcolor='#000000' fontsize='18'>TrendPredict — Real-Time Social Media Trend &amp; Prediction Dashboard</run>
@@ -1404,7 +2069,7 @@
                     <format attr='padding' value='0' />
                   </zone-style>
                 </zone>
-                <zone fixed-size='97' h='13063' id='26' is-fixed='true' name='Trend Momentum' w='98666' x='667' y='18437'>
+                <zone fixed-size='130' h='17188' id='26' is-fixed='true' name='Trend Momentum' w='49333' x='667' y='18437'>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
                     <format attr='border-style' value='none' />
@@ -1413,7 +2078,7 @@
                     <format attr='padding' value='0' />
                   </zone-style>
                 </zone>
-                <zone h='6375' id='27' name='Trend Momentum' pane-specification-id='0' param='[federated.1iuomfg0kie8b61f29e0418iawgy].[usr:Calculation_0383754995195915:nk]' type-v2='color' w='23500' x='75833' y='62812'>
+                <zone h='6375' id='27' name='Trend Momentum' pane-specification-id='0' param='[federated.1iuomfg0kie8b61f29e0418iawgy].[usr:Calculation_0383754995195915:nk]&#10;[federated.1vjerzj1x4uahq14arjva1dditx1].[usr:Calculation_0383755616288786:nk]' type-v2='color' w='23500' x='75833' y='60312'>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
                     <format attr='border-style' value='none' />
@@ -1422,7 +2087,7 @@
                     <format attr='padding' value='0' />
                   </zone-style>
                 </zone>
-                <zone h='13062' id='11' mode='checkdropdown' name='Sentiment Overview' param='[federated.1iuomfg0kie8b61f29e0418iawgy].[none:Calculation_0383754889863169:nk]' type-v2='filter' values='database' w='23500' x='75833' y='40625'>
+                <zone fixed-size='130' h='17188' id='75' is-fixed='true' name='Trending Topics Behind the Trend' w='49333' x='50000' y='18437'>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
                     <format attr='border-style' value='none' />
@@ -1431,7 +2096,7 @@
                     <format attr='padding' value='0' />
                   </zone-style>
                 </zone>
-                <zone h='7625' id='33' mode='dropdown' name='Sentiment Overview' param='[federated.1iuomfg0kie8b61f29e0418iawgy].[none:hashtag:nk]' type-v2='filter' values='database' w='23500' x='75833' y='69187'>
+                <zone h='8229' id='11' mode='checkdropdown' name='TextBlob Sentiment ' param='[federated.1iuomfg0kie8b61f29e0418iawgy].[none:Calculation_0383754889863169:nk]' type-v2='filter' values='database' w='23500' x='75833' y='43854'>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
                     <format attr='border-style' value='none' />
@@ -1440,7 +2105,7 @@
                     <format attr='padding' value='0' />
                   </zone-style>
                 </zone>
-                <zone h='9125' id='36' name='Sentiment Overview' param='[federated.1iuomfg0kie8b61f29e0418iawgy].[none:created_at:qk]' type-v2='filter' values='database' w='23500' x='75833' y='76812'>
+                <zone h='7625' id='33' mode='dropdown' name='TextBlob Sentiment ' param='[federated.1iuomfg0kie8b61f29e0418iawgy].[none:hashtag:nk]' type-v2='filter' values='database' w='23500' x='75833' y='66687'>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
                     <format attr='border-style' value='none' />
@@ -1449,7 +2114,7 @@
                     <format attr='padding' value='0' />
                   </zone-style>
                 </zone>
-                <zone h='13063' id='48' mode='checkdropdown' name='Sentiment Overview' param='[federated.1iuomfg0kie8b61f29e0418iawgy].[user_location (group)]' type-v2='filter' values='database' w='23500' x='75833' y='85937'>
+                <zone h='8229' id='36' name='TextBlob Sentiment ' param='[federated.1iuomfg0kie8b61f29e0418iawgy].[none:created_at:qk]' type-v2='filter' values='database' w='23500' x='75833' y='74312'>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
                     <format attr='border-style' value='none' />
@@ -1458,7 +2123,7 @@
                     <format attr='padding' value='0' />
                   </zone-style>
                 </zone>
-                <zone fixed-size='262' h='33752' id='3' is-fixed='true' name='Sentiment Overview' w='37579' x='667' y='31500'>
+                <zone h='8229' id='48' mode='checkdropdown' name='TextBlob Sentiment ' param='[federated.1iuomfg0kie8b61f29e0418iawgy].[user_location (group)]' type-v2='filter' values='database' w='23500' x='75833' y='82541'>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
                     <format attr='border-style' value='none' />
@@ -1467,7 +2132,7 @@
                     <format attr='padding' value='0' />
                   </zone-style>
                 </zone>
-                <zone fixed-size='262' h='33752' id='5' is-fixed='true' name='Engagement Over Time' w='37587' x='38246' y='31500'>
+                <zone fixed-size='256' h='32995' id='3' is-fixed='true' name='TextBlob Sentiment ' w='18666' x='667' y='35625'>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
                     <format attr='border-style' value='none' />
@@ -1476,7 +2141,7 @@
                     <format attr='padding' value='0' />
                   </zone-style>
                 </zone>
-                <zone h='9125' id='9' name='Engagement Over Time' pane-specification-id='0' param='[federated.1iuomfg0kie8b61f29e0418iawgy].[sum:retweets:qk]' type-v2='color' w='23500' x='75833' y='31500'>
+                <zone fixed-size='256' h='32995' id='71' is-fixed='true' name='VADER Sentiment ' w='21917' x='19333' y='35625'>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
                     <format attr='border-style' value='none' />
@@ -1485,7 +2150,7 @@
                     <format attr='padding' value='0' />
                   </zone-style>
                 </zone>
-                <zone fixed-size='262' h='33748' id='10' is-fixed='true' name='Top Tweets by Engagement' w='37579' x='667' y='65252'>
+                <zone h='8230' id='72' name='VADER Sentiment ' pane-specification-id='2' param='[federated.1vjerzj1x4uahq14arjva1dditx1].[none:sentiment_vader_category:nk]' type-v2='color' w='23500' x='75833' y='90770'>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
                     <format attr='border-style' value='none' />
@@ -1494,7 +2159,7 @@
                     <format attr='padding' value='0' />
                   </zone-style>
                 </zone>
-                <zone fixed-size='262' h='33748' id='13' is-fixed='true' name='Trend Forecast' w='37587' x='38246' y='65252'>
+                <zone fixed-size='256' h='32995' id='5' is-fixed='true' name='Engagement Over Time' w='34583' x='41250' y='35625'>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
                     <format attr='border-style' value='none' />
@@ -1503,7 +2168,34 @@
                     <format attr='padding' value='0' />
                   </zone-style>
                 </zone>
-                <zone h='9125' id='14' name='Trend Forecast' pane-specification-id='0' param='[federated.1iuomfg0kie8b61f29e0418iawgy].[fVal:sum:likes:qk]' type-v2='color' w='23500' x='75833' y='53687'>
+                <zone h='8229' id='9' name='Engagement Over Time' pane-specification-id='0' param='[federated.1iuomfg0kie8b61f29e0418iawgy].[sum:retweets:qk]' type-v2='color' w='23500' x='75833' y='35625'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='235' h='30380' id='10' is-fixed='true' name='Top Tweets by Engagement' w='37579' x='667' y='68620'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='235' h='30380' id='13' is-fixed='true' name='Trend Forecast' w='37587' x='38246' y='68620'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='8229' id='14' name='Trend Forecast' pane-specification-id='0' param='[federated.1iuomfg0kie8b61f29e0418iawgy].[fVal:sum:likes:qk]' type-v2='color' w='23500' x='75833' y='52083'>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
                     <format attr='border-style' value='none' />
@@ -1526,7 +2218,51 @@
       <simple-id uuid='{F685298F-5F0D-4000-AA79-465FBE5D61D3}' />
     </dashboard>
   </dashboards>
-  <windows saved-dpi-scale-factor='1.25' source-height='63'>
+  <windows saved-dpi-scale-factor='1.25' source-height='115'>
+    <window class='dashboard' name='Dashboard'>
+      <viewpoints>
+        <viewpoint name='Engagement Over Time'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='TextBlob Sentiment '>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Top Tweets by Engagement' />
+        <viewpoint name='Trend Forecast'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Trend Momentum' />
+        <viewpoint name='Trending Topics Behind the Trend' />
+        <viewpoint name='VADER Sentiment '>
+          <zoom type='entire-view' />
+        </viewpoint>
+      </viewpoints>
+      <active id='-1' />
+      <simple-id uuid='{F103C2CE-20EB-4964-BFE2-4045DC8A4F99}' />
+    </window>
+    <window class='worksheet' maximized='true' name='Trending Topics Behind the Trend'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{E1DED0A9-F74D-4323-B866-115F6BCBCE84}' />
+    </window>
     <window class='worksheet' name='Trend Momentum'>
       <cards>
         <edge name='left'>
@@ -1549,13 +2285,13 @@
         </edge>
         <edge name='right'>
           <strip size='160'>
-            <card pane-specification-id='0' param='[federated.1iuomfg0kie8b61f29e0418iawgy].[usr:Calculation_0383754995195915:nk]' type='color' />
+            <card pane-specification-id='0' param='[federated.1iuomfg0kie8b61f29e0418iawgy].[usr:Calculation_0383754995195915:nk]&#10;[federated.1vjerzj1x4uahq14arjva1dditx1].[usr:Calculation_0383755616288786:nk]' type='color' />
           </strip>
         </edge>
       </cards>
       <simple-id uuid='{111740CF-A790-4C82-BEB1-21649B4D13E3}' />
     </window>
-    <window class='worksheet' name='Sentiment Overview'>
+    <window class='worksheet' name='TextBlob Sentiment '>
       <cards>
         <edge name='left'>
           <strip size='160'>
@@ -1586,6 +2322,34 @@
         </edge>
       </cards>
       <simple-id uuid='{553809BA-699E-4C08-863C-2EE4882CC2EA}' />
+    </window>
+    <window class='worksheet' name='VADER Sentiment '>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='2' param='[federated.1vjerzj1x4uahq14arjva1dditx1].[none:sentiment_vader_category:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{987345B9-3107-44E9-B932-17CCFDBC9194}' />
     </window>
     <window class='worksheet' name='Engagement Over Time'>
       <cards>
@@ -1678,23 +2442,6 @@
         <default-map-tool-selection tool='2' />
       </viewpoint>
       <simple-id uuid='{E8A8BE57-4727-4D5F-A459-2F2E8C51144E}' />
-    </window>
-    <window class='dashboard' maximized='true' name='Dashboard'>
-      <viewpoints>
-        <viewpoint name='Engagement Over Time'>
-          <zoom type='entire-view' />
-        </viewpoint>
-        <viewpoint name='Sentiment Overview'>
-          <zoom type='entire-view' />
-        </viewpoint>
-        <viewpoint name='Top Tweets by Engagement' />
-        <viewpoint name='Trend Forecast'>
-          <zoom type='entire-view' />
-        </viewpoint>
-        <viewpoint name='Trend Momentum' />
-      </viewpoints>
-      <active id='-1' />
-      <simple-id uuid='{F103C2CE-20EB-4964-BFE2-4045DC8A4F99}' />
     </window>
     <window class='worksheet' name='Actionable Insights'>
       <cards>
