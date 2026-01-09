@@ -1,9 +1,10 @@
 """
-TrendPredict – AI-Powered Recommendations
+TrendPredict – AI-Powered Recommendations (Dynamic)
 Author: Chaimaa Nairi
 Description:
-Reads existing Twitter/X data CSV (with momentum and sentiment_vader) and generates
-AI-powered recommendations based on trend momentum and sentiment.
+Reads existing Twitter/X data CSV (with momentum and sentiment_vader)
+and generates AI-powered recommendations based on trend momentum and sentiment.
+Uses percentiles to scale momentum and ensure diverse recommendations.
 Adds a new column: ai_recommendation for Tableau dashboards.
 """
 
@@ -12,7 +13,7 @@ import pandas as pd
 # -------------------------
 # Configuration
 # -------------------------
-CSV_INPUT = "../data/twitter_trends_vader.csv"  # your CSV with sentiment_vader
+CSV_INPUT = "../data/twitter_trends_vader.csv"  # CSV with sentiment_vader
 CSV_OUTPUT = "../data/twitter_trends_ai.csv"
 
 # -------------------------
@@ -21,30 +22,30 @@ CSV_OUTPUT = "../data/twitter_trends_ai.csv"
 df = pd.read_csv(CSV_INPUT)
 
 # -------------------------
-# Check columns (for debugging)
+# Compute momentum percentile
 # -------------------------
-print("Columns in CSV:", df.columns)
+df["momentum_pct"] = df["momentum"].rank(pct=True)
 
 # -------------------------
 # Recommendation function
 # -------------------------
-def recommendation(momentum, sentiment):
-    if momentum > 400 and sentiment > 0.3:
-        return "🔥 Launch marketing campaign now"
-    elif momentum > 250:
-        return "🚀 Monitor closely – trend emerging"
-    elif sentiment < -0.3:
-        return "⚠️ Reputation risk – investigate"
+def recommendation(row):
+    momentum_pct = row["momentum_pct"]
+    sentiment = row["sentiment_vader"]
+
+    if momentum_pct > 0.75 and sentiment > 0.3:
+        return "Launch marketing campaign now"
+    elif momentum_pct > 0.5:
+        return "Monitor closely – trend emerging"
+    elif sentiment < -0.1:
+        return "Reputation risk – investigate"
     else:
-        return "⏳ No action needed"
+        return "No action needed"
 
 # -------------------------
 # Apply recommendations
 # -------------------------
-df["ai_recommendation"] = df.apply(
-    lambda row: recommendation(row["momentum"], row["sentiment_vader"]),
-    axis=1
-)
+df["ai_recommendation"] = df.apply(recommendation, axis=1)
 
 # -------------------------
 # Save output CSV
