@@ -23,7 +23,7 @@ df = pd.read_csv(CSV_INPUT)
 df["created_at"] = pd.to_datetime(df["created_at"])
 
 # -------------------------
-# 1️⃣ Sentiment Category
+# Sentiment Category
 # -------------------------
 def categorize_sentiment(score):
     if score < -0.1:
@@ -36,7 +36,7 @@ def categorize_sentiment(score):
 df["sentiment_category"] = df["sentiment"].apply(categorize_sentiment)
 
 # -------------------------
-# 2️⃣ Momentum Score
+# Momentum Score
 # -------------------------
 df["momentum_score"] = round((df["likes"] + df["retweets"]) * 0.7 + df["sentiment"] * 0.3 * 100, 2)
 
@@ -51,7 +51,7 @@ def momentum_status(score):
 df["momentum_status"] = df["momentum_score"].apply(momentum_status)
 
 # -------------------------
-# 3️⃣ Engagement Velocity (per hour)
+# Engagement Velocity (per hour)
 # -------------------------
 # Group by hashtag + hour
 df["hour"] = df["created_at"].dt.floor("h")  # lowercase 'h'
@@ -63,7 +63,7 @@ engagement_hourly["engagement"] = engagement_hourly["likes"] + engagement_hourly
 df = df.merge(engagement_hourly[["hashtag", "hour", "engagement"]], on=["hashtag", "hour"], how="left")
 
 # -------------------------
-# 4️⃣ Risk / Opportunity
+# Risk / Opportunity
 # -------------------------
 # Compute rolling mean per hashtag
 rolling = engagement_hourly.groupby("hashtag").rolling(3, on="hour", min_periods=1)["engagement"].mean().reset_index()
@@ -74,7 +74,7 @@ df = df.merge(rolling[["hashtag", "hour", "rolling_mean_engagement"]], on=["hash
 df["opportunity_flag"] = np.where(df["engagement"] > 2 * df["rolling_mean_engagement"], "⚡ Spike", "")
 
 # -------------------------
-# 5️⃣ Optional: User Location Cleanup
+# Optional: User Location Cleanup
 # -------------------------
 df["user_location"] = df["user_location"].fillna("None")
 
