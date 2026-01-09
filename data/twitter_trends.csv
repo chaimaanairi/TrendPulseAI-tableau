@@ -1,361 +1,361 @@
 tweet_id,created_at,text,likes,retweets,sentiment,sentiment_category,hashtag,momentum,momentum_status,user_location
-1000000000000000000,2026-01-08 12:17:16,Demo tweet 1000000000000000000 about #Python (sentiment -0.115),178,84,-0.115,Negative,#Python,179.95,🔥 Exploding,Berlin
-1000000000000000001,2026-01-08 12:15:16,Demo tweet 1000000000000000001 about #Python (sentiment -0.575),81,47,-0.575,Negative,#Python,72.35,⏳ Stable,Tokyo
-1000000000000000002,2026-01-08 12:44:16,Demo tweet 1000000000000000002 about #Python (sentiment 0.97),93,68,0.97,Positive,#Python,141.8,⏳ Stable,London
-1000000000000000003,2026-01-08 12:05:16,Demo tweet 1000000000000000003 about #Python (sentiment -0.589),173,54,-0.589,Negative,#Python,141.23,⏳ Stable,None
-1000000000000000004,2026-01-08 12:47:16,Demo tweet 1000000000000000004 about #Python (sentiment -0.775),106,15,-0.775,Negative,#Python,61.45,⏳ Stable,London
-1000000000000000005,2026-01-08 12:07:16,Demo tweet 1000000000000000005 about #AI (sentiment -0.038),106,50,-0.038,Neutral,#AI,108.06,⏳ Stable,None
-1000000000000000006,2026-01-08 12:06:16,Demo tweet 1000000000000000006 about #AI (sentiment -0.053),94,80,-0.053,Neutral,#AI,120.21,⏳ Stable,New York
-1000000000000000007,2026-01-08 13:00:16,Demo tweet 1000000000000000007 about #AI (sentiment 0.769),131,84,0.769,Positive,#AI,173.57,🔥 Exploding,Paris
-1000000000000000008,2026-01-08 12:39:16,Demo tweet 1000000000000000008 about #AI (sentiment 0.295),177,12,0.295,Positive,#AI,141.15,⏳ Stable,None
-1000000000000000009,2026-01-08 12:23:16,Demo tweet 1000000000000000009 about #AI (sentiment 0.782),80,37,0.782,Positive,#AI,105.36,⏳ Stable,Tokyo
-1000000000000000010,2026-01-08 12:40:16,Demo tweet 1000000000000000010 about #DataScience (sentiment -0.034),63,84,-0.034,Neutral,#DataScience,101.88,⏳ Stable,New York
-1000000000000000011,2026-01-08 12:21:16,Demo tweet 1000000000000000011 about #DataScience (sentiment -0.393),132,85,-0.393,Negative,#DataScience,140.11,⏳ Stable,New York
-1000000000000000012,2026-01-08 13:01:16,Demo tweet 1000000000000000012 about #DataScience (sentiment 0.469),10,33,0.469,Positive,#DataScience,44.17,⏳ Stable,London
-1000000000000000013,2026-01-08 12:36:16,Demo tweet 1000000000000000013 about #DataScience (sentiment 0.502),113,37,0.502,Positive,#DataScience,120.06,⏳ Stable,Paris
-1000000000000000014,2026-01-08 12:59:16,Demo tweet 1000000000000000014 about #DataScience (sentiment 0.039),161,28,0.039,Neutral,#DataScience,133.47,⏳ Stable,San Francisco
-1000000000000000015,2026-01-08 13:16:16,Demo tweet 1000000000000000015 about #Python (sentiment 0.893),155,66,0.893,Positive,#Python,181.49,🔥 Exploding,Berlin
-1000000000000000016,2026-01-08 13:39:16,Demo tweet 1000000000000000016 about #Python (sentiment 0.423),43,99,0.423,Positive,#Python,112.09,⏳ Stable,San Francisco
-1000000000000000017,2026-01-08 13:12:16,Demo tweet 1000000000000000017 about #Python (sentiment 0.627),20,37,0.627,Positive,#Python,58.71,⏳ Stable,None
-1000000000000000018,2026-01-08 13:47:16,Demo tweet 1000000000000000018 about #Python (sentiment -0.083),111,72,-0.083,Neutral,#Python,125.61,⏳ Stable,Tokyo
-1000000000000000019,2026-01-08 13:38:16,Demo tweet 1000000000000000019 about #Python (sentiment 0.165),62,62,0.165,Positive,#Python,91.75,⏳ Stable,None
-1000000000000000020,2026-01-08 13:15:16,Demo tweet 1000000000000000020 about #AI (sentiment 0.703),152,54,0.703,Positive,#AI,165.29,🔥 Exploding,None
-1000000000000000021,2026-01-08 13:17:16,Demo tweet 1000000000000000021 about #AI (sentiment 0.749),129,17,0.749,Positive,#AI,124.67,⏳ Stable,London
-1000000000000000022,2026-01-08 14:04:16,Demo tweet 1000000000000000022 about #AI (sentiment 0.558),40,84,0.558,Positive,#AI,103.54,⏳ Stable,Berlin
-1000000000000000023,2026-01-08 13:41:16,Demo tweet 1000000000000000023 about #AI (sentiment 0.652),44,94,0.652,Positive,#AI,116.16,⏳ Stable,Paris
-1000000000000000024,2026-01-08 13:12:16,Demo tweet 1000000000000000024 about #AI (sentiment 0.198),177,14,0.198,Positive,#AI,139.64,⏳ Stable,New York
-1000000000000000025,2026-01-08 13:06:16,Demo tweet 1000000000000000025 about #DataScience (sentiment -0.079),171,6,-0.079,Neutral,#DataScience,121.53,⏳ Stable,None
-1000000000000000026,2026-01-08 13:26:16,Demo tweet 1000000000000000026 about #DataScience (sentiment 0.475),71,94,0.475,Positive,#DataScience,129.75,⏳ Stable,Paris
-1000000000000000027,2026-01-08 13:30:16,Demo tweet 1000000000000000027 about #DataScience (sentiment 0.995),101,12,0.995,Positive,#DataScience,108.95,⏳ Stable,New York
-1000000000000000028,2026-01-08 13:44:16,Demo tweet 1000000000000000028 about #DataScience (sentiment -0.073),187,66,-0.073,Neutral,#DataScience,174.91,🔥 Exploding,Berlin
-1000000000000000029,2026-01-08 13:20:16,Demo tweet 1000000000000000029 about #DataScience (sentiment -0.608),193,19,-0.608,Negative,#DataScience,130.16,⏳ Stable,Berlin
-1000000000000000030,2026-01-08 14:45:16,Demo tweet 1000000000000000030 about #Python (sentiment -0.159),132,93,-0.159,Negative,#Python,152.73,🔥 Exploding,None
-1000000000000000031,2026-01-08 14:40:16,Demo tweet 1000000000000000031 about #Python (sentiment 0.054),179,33,0.054,Neutral,#Python,150.02,🔥 Exploding,London
-1000000000000000032,2026-01-08 14:07:16,Demo tweet 1000000000000000032 about #Python (sentiment -0.032),200,17,-0.032,Neutral,#Python,150.94,🔥 Exploding,San Francisco
-1000000000000000033,2026-01-08 14:38:16,Demo tweet 1000000000000000033 about #Python (sentiment -0.761),53,7,-0.761,Negative,#Python,19.17,⏳ Stable,Paris
-1000000000000000034,2026-01-08 14:58:16,Demo tweet 1000000000000000034 about #Python (sentiment 0.657),111,46,0.657,Positive,#Python,129.61,⏳ Stable,London
-1000000000000000035,2026-01-08 15:02:16,Demo tweet 1000000000000000035 about #AI (sentiment -0.091),122,71,-0.091,Neutral,#AI,132.37,⏳ Stable,Tokyo
-1000000000000000036,2026-01-08 14:24:16,Demo tweet 1000000000000000036 about #AI (sentiment 0.833),88,42,0.833,Positive,#AI,115.99,⏳ Stable,New York
-1000000000000000037,2026-01-08 14:30:16,Demo tweet 1000000000000000037 about #AI (sentiment 0.064),157,26,0.064,Neutral,#AI,130.02,⏳ Stable,None
-1000000000000000038,2026-01-08 14:40:16,Demo tweet 1000000000000000038 about #AI (sentiment 0.7),44,13,0.7,Positive,#AI,60.9,⏳ Stable,Berlin
-1000000000000000039,2026-01-08 14:27:16,Demo tweet 1000000000000000039 about #AI (sentiment 0.583),179,15,0.583,Positive,#AI,153.29,🔥 Exploding,Paris
-1000000000000000040,2026-01-08 14:33:16,Demo tweet 1000000000000000040 about #DataScience (sentiment -0.333),41,72,-0.333,Negative,#DataScience,69.11,⏳ Stable,None
-1000000000000000041,2026-01-08 14:44:16,Demo tweet 1000000000000000041 about #DataScience (sentiment 0.082),119,54,0.082,Neutral,#DataScience,123.56,⏳ Stable,London
-1000000000000000042,2026-01-08 14:26:16,Demo tweet 1000000000000000042 about #DataScience (sentiment 0.718),145,73,0.718,Positive,#DataScience,174.14,🔥 Exploding,New York
-1000000000000000043,2026-01-08 14:16:16,Demo tweet 1000000000000000043 about #DataScience (sentiment 0.916),76,75,0.916,Positive,#DataScience,133.18,⏳ Stable,Tokyo
-1000000000000000044,2026-01-08 14:56:16,Demo tweet 1000000000000000044 about #DataScience (sentiment -0.052),68,12,-0.052,Neutral,#DataScience,54.44,⏳ Stable,Paris
-1000000000000000045,2026-01-08 15:35:16,Demo tweet 1000000000000000045 about #Python (sentiment -0.89),27,32,-0.89,Negative,#Python,14.6,⏳ Stable,San Francisco
-1000000000000000046,2026-01-08 15:27:16,Demo tweet 1000000000000000046 about #Python (sentiment -0.811),152,74,-0.811,Negative,#Python,133.87,⏳ Stable,None
-1000000000000000047,2026-01-08 15:57:16,Demo tweet 1000000000000000047 about #Python (sentiment 0.333),44,32,0.333,Positive,#Python,63.19,⏳ Stable,London
-1000000000000000048,2026-01-08 15:42:16,Demo tweet 1000000000000000048 about #Python (sentiment 0.952),181,45,0.952,Positive,#Python,186.76,🔥 Exploding,Tokyo
-1000000000000000049,2026-01-08 15:54:16,Demo tweet 1000000000000000049 about #Python (sentiment -0.035),12,17,-0.035,Neutral,#Python,19.25,⏳ Stable,New York
-1000000000000000050,2026-01-08 15:14:16,Demo tweet 1000000000000000050 about #AI (sentiment -0.924),149,17,-0.924,Negative,#AI,88.48,⏳ Stable,San Francisco
-1000000000000000051,2026-01-08 15:58:16,Demo tweet 1000000000000000051 about #AI (sentiment -0.79),47,39,-0.79,Negative,#AI,36.5,⏳ Stable,Paris
-1000000000000000052,2026-01-08 15:42:16,Demo tweet 1000000000000000052 about #AI (sentiment -0.949),133,88,-0.949,Negative,#AI,126.23,⏳ Stable,None
-1000000000000000053,2026-01-08 15:51:16,Demo tweet 1000000000000000053 about #AI (sentiment -0.58),48,58,-0.58,Negative,#AI,56.8,⏳ Stable,San Francisco
-1000000000000000054,2026-01-08 15:28:16,Demo tweet 1000000000000000054 about #AI (sentiment 0.294),90,55,0.294,Positive,#AI,110.32,⏳ Stable,None
-1000000000000000055,2026-01-08 16:04:16,Demo tweet 1000000000000000055 about #DataScience (sentiment -0.086),162,26,-0.086,Neutral,#DataScience,129.02,⏳ Stable,Paris
-1000000000000000056,2026-01-08 15:39:16,Demo tweet 1000000000000000056 about #DataScience (sentiment 0.725),128,59,0.725,Positive,#DataScience,152.65,🔥 Exploding,Paris
-1000000000000000057,2026-01-08 15:55:16,Demo tweet 1000000000000000057 about #DataScience (sentiment 0.361),69,83,0.361,Positive,#DataScience,117.23,⏳ Stable,New York
-1000000000000000058,2026-01-08 15:06:16,Demo tweet 1000000000000000058 about #DataScience (sentiment 0.816),74,23,0.816,Positive,#DataScience,92.38,⏳ Stable,Paris
-1000000000000000059,2026-01-08 15:51:16,Demo tweet 1000000000000000059 about #DataScience (sentiment -0.664),100,25,-0.664,Negative,#DataScience,67.58,⏳ Stable,San Francisco
-1000000000000000060,2026-01-08 16:17:16,Demo tweet 1000000000000000060 about #Python (sentiment -0.046),173,8,-0.046,Neutral,#Python,125.32,⏳ Stable,London
-1000000000000000061,2026-01-08 16:12:16,Demo tweet 1000000000000000061 about #Python (sentiment -0.758),78,89,-0.758,Negative,#Python,94.16,⏳ Stable,London
-1000000000000000062,2026-01-08 16:23:16,Demo tweet 1000000000000000062 about #Python (sentiment 0.418),102,42,0.418,Positive,#Python,113.34,⏳ Stable,Berlin
-1000000000000000063,2026-01-08 16:52:16,Demo tweet 1000000000000000063 about #Python (sentiment 0.779),145,43,0.779,Positive,#Python,154.97,🔥 Exploding,New York
-1000000000000000064,2026-01-08 16:25:16,Demo tweet 1000000000000000064 about #Python (sentiment -0.387),190,28,-0.387,Negative,#Python,140.99,⏳ Stable,San Francisco
-1000000000000000065,2026-01-08 16:39:16,Demo tweet 1000000000000000065 about #AI (sentiment 0.446),18,37,0.446,Positive,#AI,51.88,⏳ Stable,San Francisco
-1000000000000000066,2026-01-08 16:23:16,Demo tweet 1000000000000000066 about #AI (sentiment -0.772),90,68,-0.772,Negative,#AI,87.44,⏳ Stable,London
-1000000000000000067,2026-01-08 16:26:16,Demo tweet 1000000000000000067 about #AI (sentiment 0.488),140,99,0.488,Positive,#AI,181.94,🔥 Exploding,London
-1000000000000000068,2026-01-08 16:53:16,Demo tweet 1000000000000000068 about #AI (sentiment 0.823),125,98,0.823,Positive,#AI,180.79,🔥 Exploding,None
-1000000000000000069,2026-01-08 16:54:16,Demo tweet 1000000000000000069 about #AI (sentiment 0.598),38,92,0.598,Positive,#AI,108.94,⏳ Stable,San Francisco
-1000000000000000070,2026-01-08 16:09:16,Demo tweet 1000000000000000070 about #DataScience (sentiment 0.547),78,83,0.547,Positive,#DataScience,129.11,⏳ Stable,Paris
-1000000000000000071,2026-01-08 16:24:16,Demo tweet 1000000000000000071 about #DataScience (sentiment -0.699),180,55,-0.699,Negative,#DataScience,143.53,⏳ Stable,Berlin
-1000000000000000072,2026-01-08 17:04:16,Demo tweet 1000000000000000072 about #DataScience (sentiment -0.752),85,73,-0.752,Negative,#DataScience,88.04,⏳ Stable,New York
-1000000000000000073,2026-01-08 16:07:16,Demo tweet 1000000000000000073 about #DataScience (sentiment -0.301),148,7,-0.301,Negative,#DataScience,99.47,⏳ Stable,New York
-1000000000000000074,2026-01-08 16:35:16,Demo tweet 1000000000000000074 about #DataScience (sentiment 0.043),99,83,0.043,Neutral,#DataScience,128.69,⏳ Stable,New York
-1000000000000000075,2026-01-08 17:05:16,Demo tweet 1000000000000000075 about #Python (sentiment -0.736),140,40,-0.736,Negative,#Python,103.92,⏳ Stable,Berlin
-1000000000000000076,2026-01-08 17:25:16,Demo tweet 1000000000000000076 about #Python (sentiment 0.118),185,27,0.118,Positive,#Python,151.94,🔥 Exploding,San Francisco
-1000000000000000077,2026-01-08 18:03:16,Demo tweet 1000000000000000077 about #Python (sentiment 0.392),157,94,0.392,Positive,#Python,187.46,🔥 Exploding,Tokyo
-1000000000000000078,2026-01-08 17:59:16,Demo tweet 1000000000000000078 about #Python (sentiment -0.825),198,74,-0.825,Negative,#Python,165.65,🔥 Exploding,San Francisco
-1000000000000000079,2026-01-08 18:02:16,Demo tweet 1000000000000000079 about #Python (sentiment -0.029),16,63,-0.029,Neutral,#Python,54.43,⏳ Stable,Berlin
-1000000000000000080,2026-01-08 17:18:16,Demo tweet 1000000000000000080 about #AI (sentiment -0.1),157,11,-0.1,Neutral,#AI,114.6,⏳ Stable,London
-1000000000000000081,2026-01-08 17:41:16,Demo tweet 1000000000000000081 about #AI (sentiment 0.365),194,38,0.365,Positive,#AI,173.35,🔥 Exploding,Paris
-1000000000000000082,2026-01-08 17:53:16,Demo tweet 1000000000000000082 about #AI (sentiment 0.125),59,55,0.125,Positive,#AI,83.55,⏳ Stable,New York
-1000000000000000083,2026-01-08 18:01:16,Demo tweet 1000000000000000083 about #AI (sentiment -0.38),126,37,-0.38,Negative,#AI,102.7,⏳ Stable,London
-1000000000000000084,2026-01-08 17:54:16,Demo tweet 1000000000000000084 about #AI (sentiment 0.04),102,97,0.04,Neutral,#AI,140.5,⏳ Stable,London
-1000000000000000085,2026-01-08 17:16:16,Demo tweet 1000000000000000085 about #DataScience (sentiment 0.783),180,66,0.783,Positive,#DataScience,195.69,🔥 Exploding,Paris
-1000000000000000086,2026-01-08 17:39:16,Demo tweet 1000000000000000086 about #DataScience (sentiment 0.411),109,28,0.411,Positive,#DataScience,108.23,⏳ Stable,London
-1000000000000000087,2026-01-08 17:05:16,Demo tweet 1000000000000000087 about #DataScience (sentiment -0.163),51,19,-0.163,Negative,#DataScience,44.11,⏳ Stable,None
-1000000000000000088,2026-01-08 17:06:16,Demo tweet 1000000000000000088 about #DataScience (sentiment 0.947),114,63,0.947,Positive,#DataScience,152.31,🔥 Exploding,Tokyo
-1000000000000000089,2026-01-08 17:39:16,Demo tweet 1000000000000000089 about #DataScience (sentiment 0.556),50,66,0.556,Positive,#DataScience,97.88,⏳ Stable,San Francisco
-1000000000000000090,2026-01-08 18:44:16,Demo tweet 1000000000000000090 about #Python (sentiment -0.039),117,45,-0.039,Neutral,#Python,112.23,⏳ Stable,San Francisco
-1000000000000000091,2026-01-08 19:01:16,Demo tweet 1000000000000000091 about #Python (sentiment -0.087),60,46,-0.087,Neutral,#Python,71.59,⏳ Stable,Paris
-1000000000000000092,2026-01-08 18:48:16,Demo tweet 1000000000000000092 about #Python (sentiment 0.883),94,20,0.883,Positive,#Python,106.29,⏳ Stable,Paris
-1000000000000000093,2026-01-08 18:05:16,Demo tweet 1000000000000000093 about #Python (sentiment -0.686),164,52,-0.686,Negative,#Python,130.62,⏳ Stable,Paris
-1000000000000000094,2026-01-08 18:11:16,Demo tweet 1000000000000000094 about #Python (sentiment -0.06),197,57,-0.06,Neutral,#Python,176.0,🔥 Exploding,Tokyo
-1000000000000000095,2026-01-08 18:41:16,Demo tweet 1000000000000000095 about #AI (sentiment 0.197),168,90,0.197,Positive,#AI,186.51,🔥 Exploding,London
-1000000000000000096,2026-01-08 18:30:16,Demo tweet 1000000000000000096 about #AI (sentiment 0.395),21,74,0.395,Positive,#AI,78.35,⏳ Stable,London
-1000000000000000097,2026-01-08 18:35:16,Demo tweet 1000000000000000097 about #AI (sentiment -0.723),185,28,-0.723,Negative,#AI,127.41,⏳ Stable,Tokyo
-1000000000000000098,2026-01-08 18:47:16,Demo tweet 1000000000000000098 about #AI (sentiment 0.069),167,44,0.069,Neutral,#AI,149.77,⏳ Stable,San Francisco
-1000000000000000099,2026-01-08 18:47:16,Demo tweet 1000000000000000099 about #AI (sentiment -0.131),189,30,-0.131,Negative,#AI,149.37,⏳ Stable,London
-1000000000000000100,2026-01-08 18:35:16,Demo tweet 1000000000000000100 about #DataScience (sentiment 0.581),121,69,0.581,Positive,#DataScience,150.43,🔥 Exploding,Paris
-1000000000000000101,2026-01-08 18:08:16,Demo tweet 1000000000000000101 about #DataScience (sentiment 0.404),173,41,0.404,Positive,#DataScience,161.92,🔥 Exploding,London
-1000000000000000102,2026-01-08 18:51:16,Demo tweet 1000000000000000102 about #DataScience (sentiment 0.358),183,53,0.358,Positive,#DataScience,175.94,🔥 Exploding,None
-1000000000000000103,2026-01-08 18:38:16,Demo tweet 1000000000000000103 about #DataScience (sentiment 0.663),149,55,0.663,Positive,#DataScience,162.69,🔥 Exploding,None
-1000000000000000104,2026-01-08 18:51:16,Demo tweet 1000000000000000104 about #DataScience (sentiment 0.008),104,12,0.008,Neutral,#DataScience,81.44,⏳ Stable,London
-1000000000000000105,2026-01-08 19:21:16,Demo tweet 1000000000000000105 about #Python (sentiment 0.028),186,83,0.028,Neutral,#Python,189.14,🔥 Exploding,Paris
-1000000000000000106,2026-01-08 19:36:16,Demo tweet 1000000000000000106 about #Python (sentiment 0.005),142,34,0.005,Neutral,#Python,123.35,⏳ Stable,San Francisco
-1000000000000000107,2026-01-08 19:56:16,Demo tweet 1000000000000000107 about #Python (sentiment -0.591),45,34,-0.591,Negative,#Python,37.57,⏳ Stable,None
-1000000000000000108,2026-01-08 19:59:16,Demo tweet 1000000000000000108 about #Python (sentiment 0.558),93,16,0.558,Positive,#Python,93.04,⏳ Stable,Paris
-1000000000000000109,2026-01-08 19:27:16,Demo tweet 1000000000000000109 about #Python (sentiment -0.583),132,9,-0.583,Negative,#Python,81.21,⏳ Stable,Berlin
-1000000000000000110,2026-01-08 19:55:16,Demo tweet 1000000000000000110 about #AI (sentiment 0.103),108,33,0.103,Positive,#AI,101.79,⏳ Stable,Paris
-1000000000000000111,2026-01-08 19:35:16,Demo tweet 1000000000000000111 about #AI (sentiment 0.288),165,78,0.288,Positive,#AI,178.74,🔥 Exploding,London
-1000000000000000112,2026-01-08 19:42:16,Demo tweet 1000000000000000112 about #AI (sentiment 0.049),49,46,0.049,Neutral,#AI,67.97,⏳ Stable,Paris
-1000000000000000113,2026-01-08 19:24:16,Demo tweet 1000000000000000113 about #AI (sentiment -0.71),154,27,-0.71,Negative,#AI,105.4,⏳ Stable,Berlin
-1000000000000000114,2026-01-08 19:56:16,Demo tweet 1000000000000000114 about #AI (sentiment 0.105),52,57,0.105,Positive,#AI,79.45,⏳ Stable,Berlin
-1000000000000000115,2026-01-08 19:31:16,Demo tweet 1000000000000000115 about #DataScience (sentiment 0.996),18,67,0.996,Positive,#DataScience,89.38,⏳ Stable,Paris
-1000000000000000116,2026-01-08 19:39:16,Demo tweet 1000000000000000116 about #DataScience (sentiment 0.279),70,69,0.279,Positive,#DataScience,105.67,⏳ Stable,None
-1000000000000000117,2026-01-08 19:34:16,Demo tweet 1000000000000000117 about #DataScience (sentiment 0.274),196,18,0.274,Positive,#DataScience,158.02,🔥 Exploding,None
-1000000000000000118,2026-01-08 19:54:16,Demo tweet 1000000000000000118 about #DataScience (sentiment 0.097),180,87,0.097,Neutral,#DataScience,189.81,🔥 Exploding,Tokyo
-1000000000000000119,2026-01-08 19:23:16,Demo tweet 1000000000000000119 about #DataScience (sentiment 0.699),150,30,0.699,Positive,#DataScience,146.97,⏳ Stable,Paris
-1000000000000000120,2026-01-08 20:21:16,Demo tweet 1000000000000000120 about #Python (sentiment 0.607),623,196,0.607,Positive,#Python,591.51,🚀 Emerging,San Francisco
-1000000000000000121,2026-01-08 20:48:16,Demo tweet 1000000000000000121 about #Python (sentiment -0.59),303,111,-0.59,Negative,#Python,272.1,🔥 Exploding,None
-1000000000000000122,2026-01-08 20:58:16,Demo tweet 1000000000000000122 about #Python (sentiment 0.985),449,272,0.985,Positive,#Python,534.25,🚀 Emerging,Berlin
-1000000000000000123,2026-01-08 20:59:16,Demo tweet 1000000000000000123 about #Python (sentiment 0.117),436,347,0.117,Positive,#Python,551.61,🚀 Emerging,New York
-1000000000000000124,2026-01-08 20:50:16,Demo tweet 1000000000000000124 about #Python (sentiment 0.002),466,139,0.002,Neutral,#Python,423.56,🚀 Emerging,New York
-1000000000000000125,2026-01-08 20:44:16,Demo tweet 1000000000000000125 about #AI (sentiment 0.304),91,61,0.304,Positive,#AI,115.52,⏳ Stable,Berlin
-1000000000000000126,2026-01-08 20:44:16,Demo tweet 1000000000000000126 about #AI (sentiment 0.528),131,98,0.528,Positive,#AI,176.14,🔥 Exploding,New York
-1000000000000000127,2026-01-08 20:18:16,Demo tweet 1000000000000000127 about #AI (sentiment -0.165),169,95,-0.165,Negative,#AI,179.85,🔥 Exploding,Berlin
-1000000000000000128,2026-01-08 21:02:16,Demo tweet 1000000000000000128 about #AI (sentiment 0.206),190,28,0.206,Positive,#AI,158.78,🔥 Exploding,London
-1000000000000000129,2026-01-08 20:47:16,Demo tweet 1000000000000000129 about #AI (sentiment 0.025),50,47,0.025,Neutral,#AI,68.65,⏳ Stable,None
-1000000000000000130,2026-01-08 20:22:16,Demo tweet 1000000000000000130 about #DataScience (sentiment 0.072),107,8,0.072,Neutral,#DataScience,82.66,⏳ Stable,London
-1000000000000000131,2026-01-08 20:51:16,Demo tweet 1000000000000000131 about #DataScience (sentiment 0.579),183,39,0.579,Positive,#DataScience,172.77,🔥 Exploding,London
-1000000000000000132,2026-01-08 20:47:16,Demo tweet 1000000000000000132 about #DataScience (sentiment 0.508),41,39,0.508,Positive,#DataScience,71.24,⏳ Stable,New York
-1000000000000000133,2026-01-08 20:26:16,Demo tweet 1000000000000000133 about #DataScience (sentiment 0.829),77,9,0.829,Positive,#DataScience,85.07,⏳ Stable,New York
-1000000000000000134,2026-01-08 20:20:16,Demo tweet 1000000000000000134 about #DataScience (sentiment 0.211),122,100,0.211,Positive,#DataScience,161.73,🔥 Exploding,Berlin
-1000000000000000135,2026-01-08 21:21:16,Demo tweet 1000000000000000135 about #Python (sentiment -0.168),147,55,-0.168,Negative,#Python,136.36,⏳ Stable,London
-1000000000000000136,2026-01-08 21:38:16,Demo tweet 1000000000000000136 about #Python (sentiment 0.046),40,28,0.046,Neutral,#Python,48.98,⏳ Stable,Paris
-1000000000000000137,2026-01-08 21:11:16,Demo tweet 1000000000000000137 about #Python (sentiment 0.125),150,63,0.125,Positive,#Python,152.85,🔥 Exploding,London
-1000000000000000138,2026-01-08 21:41:16,Demo tweet 1000000000000000138 about #Python (sentiment -0.032),26,51,-0.032,Neutral,#Python,52.94,⏳ Stable,Berlin
-1000000000000000139,2026-01-08 21:43:16,Demo tweet 1000000000000000139 about #Python (sentiment 0.86),64,85,0.86,Positive,#Python,130.1,⏳ Stable,New York
-1000000000000000140,2026-01-08 21:42:16,Demo tweet 1000000000000000140 about #AI (sentiment 0.513),133,98,0.513,Positive,#AI,177.09,🔥 Exploding,New York
-1000000000000000141,2026-01-08 21:42:16,Demo tweet 1000000000000000141 about #AI (sentiment 0.03),107,47,0.03,Neutral,#AI,108.7,⏳ Stable,London
-1000000000000000142,2026-01-08 21:34:16,Demo tweet 1000000000000000142 about #AI (sentiment -0.411),160,34,-0.411,Negative,#AI,123.47,⏳ Stable,Paris
-1000000000000000143,2026-01-08 22:02:16,Demo tweet 1000000000000000143 about #AI (sentiment 0.348),95,50,0.348,Positive,#AI,111.94,⏳ Stable,Paris
-1000000000000000144,2026-01-08 21:47:16,Demo tweet 1000000000000000144 about #AI (sentiment 0.984),111,68,0.984,Positive,#AI,154.82,🔥 Exploding,Berlin
-1000000000000000145,2026-01-08 21:36:16,Demo tweet 1000000000000000145 about #DataScience (sentiment 0.544),20,11,0.544,Positive,#DataScience,38.02,⏳ Stable,New York
-1000000000000000146,2026-01-08 21:33:16,Demo tweet 1000000000000000146 about #DataScience (sentiment 0.674),194,67,0.674,Positive,#DataScience,202.92,🔥 Exploding,London
-1000000000000000147,2026-01-08 21:49:16,Demo tweet 1000000000000000147 about #DataScience (sentiment 0.288),169,77,0.288,Positive,#DataScience,180.84,🔥 Exploding,London
-1000000000000000148,2026-01-08 21:52:16,Demo tweet 1000000000000000148 about #DataScience (sentiment 0.804),23,42,0.804,Positive,#DataScience,69.62,⏳ Stable,New York
-1000000000000000149,2026-01-08 22:03:16,Demo tweet 1000000000000000149 about #DataScience (sentiment -0.602),20,75,-0.602,Negative,#DataScience,48.44,⏳ Stable,New York
-1000000000000000150,2026-01-08 22:55:16,Demo tweet 1000000000000000150 about #Python (sentiment 0.394),36,6,0.394,Positive,#Python,41.22,⏳ Stable,Tokyo
-1000000000000000151,2026-01-08 22:52:16,Demo tweet 1000000000000000151 about #Python (sentiment -0.574),50,44,-0.574,Negative,#Python,48.58,⏳ Stable,London
-1000000000000000152,2026-01-08 23:00:16,Demo tweet 1000000000000000152 about #Python (sentiment 0.421),98,56,0.421,Positive,#Python,120.43,⏳ Stable,Paris
-1000000000000000153,2026-01-08 22:06:16,Demo tweet 1000000000000000153 about #Python (sentiment 0.093),165,63,0.093,Neutral,#Python,162.39,🔥 Exploding,Paris
-1000000000000000154,2026-01-08 22:36:16,Demo tweet 1000000000000000154 about #Python (sentiment 0.989),184,31,0.989,Positive,#Python,180.17,🔥 Exploding,None
-1000000000000000155,2026-01-08 22:10:16,Demo tweet 1000000000000000155 about #AI (sentiment 0.052),167,24,0.052,Neutral,#AI,135.26,⏳ Stable,None
-1000000000000000156,2026-01-08 22:47:16,Demo tweet 1000000000000000156 about #AI (sentiment -0.566),23,26,-0.566,Negative,#AI,17.32,⏳ Stable,San Francisco
-1000000000000000157,2026-01-08 22:42:16,Demo tweet 1000000000000000157 about #AI (sentiment 0.338),45,34,0.338,Positive,#AI,65.44,⏳ Stable,None
-1000000000000000158,2026-01-08 22:52:16,Demo tweet 1000000000000000158 about #AI (sentiment 0.216),48,33,0.216,Positive,#AI,63.18,⏳ Stable,Tokyo
-1000000000000000159,2026-01-08 22:49:16,Demo tweet 1000000000000000159 about #AI (sentiment 0.323),116,33,0.323,Positive,#AI,113.99,⏳ Stable,None
-1000000000000000160,2026-01-08 22:39:16,Demo tweet 1000000000000000160 about #DataScience (sentiment -0.016),83,90,-0.016,Neutral,#DataScience,120.62,⏳ Stable,San Francisco
-1000000000000000161,2026-01-08 22:43:16,Demo tweet 1000000000000000161 about #DataScience (sentiment -0.0),194,90,-0.0,Neutral,#DataScience,198.8,🔥 Exploding,None
-1000000000000000162,2026-01-08 22:18:16,Demo tweet 1000000000000000162 about #DataScience (sentiment 0.517),42,78,0.517,Positive,#DataScience,99.51,⏳ Stable,San Francisco
-1000000000000000163,2026-01-08 22:29:16,Demo tweet 1000000000000000163 about #DataScience (sentiment -0.026),98,13,-0.026,Neutral,#DataScience,76.92,⏳ Stable,San Francisco
-1000000000000000164,2026-01-08 22:40:16,Demo tweet 1000000000000000164 about #DataScience (sentiment -0.109),182,28,-0.109,Negative,#DataScience,143.73,⏳ Stable,Paris
-1000000000000000165,2026-01-08 23:08:16,Demo tweet 1000000000000000165 about #Python (sentiment 0.331),40,26,0.331,Positive,#Python,56.13,⏳ Stable,New York
-1000000000000000166,2026-01-08 23:25:16,Demo tweet 1000000000000000166 about #Python (sentiment -0.817),195,41,-0.817,Negative,#Python,140.69,⏳ Stable,San Francisco
-1000000000000000167,2026-01-08 23:38:16,Demo tweet 1000000000000000167 about #Python (sentiment -0.542),164,19,-0.542,Negative,#Python,111.84,⏳ Stable,New York
-1000000000000000168,2026-01-08 23:35:16,Demo tweet 1000000000000000168 about #Python (sentiment 0.973),172,62,0.973,Positive,#Python,192.99,🔥 Exploding,Paris
-1000000000000000169,2026-01-08 23:50:16,Demo tweet 1000000000000000169 about #Python (sentiment 0.513),156,87,0.513,Positive,#Python,185.49,🔥 Exploding,London
-1000000000000000170,2026-01-08 23:51:16,Demo tweet 1000000000000000170 about #AI (sentiment 0.393),95,61,0.393,Positive,#AI,120.99,⏳ Stable,London
-1000000000000000171,2026-01-08 23:40:16,Demo tweet 1000000000000000171 about #AI (sentiment 0.837),154,16,0.837,Positive,#AI,144.11,⏳ Stable,None
-1000000000000000172,2026-01-08 23:20:16,Demo tweet 1000000000000000172 about #AI (sentiment -0.032),194,46,-0.032,Neutral,#AI,167.04,🔥 Exploding,Berlin
-1000000000000000173,2026-01-08 23:49:16,Demo tweet 1000000000000000173 about #AI (sentiment -0.107),42,43,-0.107,Negative,#AI,56.29,⏳ Stable,None
-1000000000000000174,2026-01-08 23:45:16,Demo tweet 1000000000000000174 about #AI (sentiment 0.391),27,12,0.391,Positive,#AI,39.03,⏳ Stable,Paris
-1000000000000000175,2026-01-08 23:33:16,Demo tweet 1000000000000000175 about #DataScience (sentiment -0.248),109,6,-0.248,Negative,#DataScience,73.06,⏳ Stable,San Francisco
-1000000000000000176,2026-01-08 23:15:16,Demo tweet 1000000000000000176 about #DataScience (sentiment 0.856),94,16,0.856,Positive,#DataScience,102.68,⏳ Stable,Paris
-1000000000000000177,2026-01-08 23:30:16,Demo tweet 1000000000000000177 about #DataScience (sentiment 0.581),37,42,0.581,Positive,#DataScience,72.73,⏳ Stable,London
-1000000000000000178,2026-01-09 00:03:16,Demo tweet 1000000000000000178 about #DataScience (sentiment -0.345),20,75,-0.345,Negative,#DataScience,56.15,⏳ Stable,Berlin
-1000000000000000179,2026-01-08 23:16:16,Demo tweet 1000000000000000179 about #DataScience (sentiment -0.083),192,34,-0.083,Neutral,#DataScience,155.71,🔥 Exploding,Berlin
-1000000000000000180,2026-01-09 00:43:16,Demo tweet 1000000000000000180 about #Python (sentiment 0.239),755,143,0.239,Positive,#Python,635.77,🚀 Emerging,New York
-1000000000000000181,2026-01-09 00:44:16,Demo tweet 1000000000000000181 about #Python (sentiment -0.123),459,181,-0.123,Negative,#Python,444.31,🚀 Emerging,Paris
-1000000000000000182,2026-01-09 00:36:16,Demo tweet 1000000000000000182 about #Python (sentiment -0.925),768,242,-0.925,Negative,#Python,679.25,🚀 Emerging,Paris
-1000000000000000183,2026-01-09 00:43:16,Demo tweet 1000000000000000183 about #Python (sentiment 0.153),688,317,0.153,Positive,#Python,708.09,🚀 Emerging,London
-1000000000000000184,2026-01-09 00:08:16,Demo tweet 1000000000000000184 about #Python (sentiment 0.943),585,255,0.943,Positive,#Python,616.29,🚀 Emerging,Tokyo
-1000000000000000185,2026-01-09 00:33:16,Demo tweet 1000000000000000185 about #AI (sentiment 0.107),97,49,0.107,Positive,#AI,105.41,⏳ Stable,San Francisco
-1000000000000000186,2026-01-09 00:36:16,Demo tweet 1000000000000000186 about #AI (sentiment -0.375),104,13,-0.375,Negative,#AI,70.65,⏳ Stable,Paris
-1000000000000000187,2026-01-09 00:20:16,Demo tweet 1000000000000000187 about #AI (sentiment 0.712),83,77,0.712,Positive,#AI,133.36,⏳ Stable,Paris
-1000000000000000188,2026-01-09 00:25:16,Demo tweet 1000000000000000188 about #AI (sentiment -0.074),111,29,-0.074,Neutral,#AI,95.78,⏳ Stable,Tokyo
-1000000000000000189,2026-01-09 01:02:16,Demo tweet 1000000000000000189 about #AI (sentiment -0.047),163,87,-0.047,Neutral,#AI,173.59,🔥 Exploding,San Francisco
-1000000000000000190,2026-01-09 00:21:16,Demo tweet 1000000000000000190 about #DataScience (sentiment -0.033),77,15,-0.033,Neutral,#DataScience,63.41,⏳ Stable,None
-1000000000000000191,2026-01-09 00:19:16,Demo tweet 1000000000000000191 about #DataScience (sentiment 0.035),53,32,0.035,Neutral,#DataScience,60.55,⏳ Stable,Tokyo
-1000000000000000192,2026-01-09 00:22:16,Demo tweet 1000000000000000192 about #DataScience (sentiment 0.466),45,30,0.466,Positive,#DataScience,66.48,⏳ Stable,Tokyo
-1000000000000000193,2026-01-09 00:57:16,Demo tweet 1000000000000000193 about #DataScience (sentiment -0.944),47,33,-0.944,Negative,#DataScience,27.68,⏳ Stable,Berlin
-1000000000000000194,2026-01-09 00:35:16,Demo tweet 1000000000000000194 about #DataScience (sentiment 0.914),87,74,0.914,Positive,#DataScience,140.12,⏳ Stable,San Francisco
-1000000000000000195,2026-01-09 01:14:16,Demo tweet 1000000000000000195 about #Python (sentiment 0.187),25,37,0.187,Positive,#Python,49.01,⏳ Stable,San Francisco
-1000000000000000196,2026-01-09 01:53:16,Demo tweet 1000000000000000196 about #Python (sentiment -0.512),145,71,-0.512,Negative,#Python,135.84,⏳ Stable,None
-1000000000000000197,2026-01-09 01:05:16,Demo tweet 1000000000000000197 about #Python (sentiment -0.873),115,97,-0.873,Negative,#Python,122.21,⏳ Stable,London
-1000000000000000198,2026-01-09 01:46:16,Demo tweet 1000000000000000198 about #Python (sentiment -0.338),160,39,-0.338,Negative,#Python,129.16,⏳ Stable,None
-1000000000000000199,2026-01-09 01:45:16,Demo tweet 1000000000000000199 about #Python (sentiment 0.5),114,33,0.5,Positive,#Python,117.9,⏳ Stable,None
-1000000000000000200,2026-01-09 01:12:16,Demo tweet 1000000000000000200 about #AI (sentiment 0.064),71,67,0.064,Neutral,#AI,98.52,⏳ Stable,Tokyo
-1000000000000000201,2026-01-09 01:20:16,Demo tweet 1000000000000000201 about #AI (sentiment 0.579),93,67,0.579,Positive,#AI,129.37,⏳ Stable,London
-1000000000000000202,2026-01-09 01:09:16,Demo tweet 1000000000000000202 about #AI (sentiment 0.088),159,45,0.088,Neutral,#AI,145.44,⏳ Stable,San Francisco
-1000000000000000203,2026-01-09 01:54:16,Demo tweet 1000000000000000203 about #AI (sentiment 0.321),11,97,0.321,Positive,#AI,85.23,⏳ Stable,San Francisco
-1000000000000000204,2026-01-09 01:53:16,Demo tweet 1000000000000000204 about #AI (sentiment 0.748),98,63,0.748,Positive,#AI,135.14,⏳ Stable,New York
-1000000000000000205,2026-01-09 01:53:16,Demo tweet 1000000000000000205 about #DataScience (sentiment -0.066),144,34,-0.066,Neutral,#DataScience,122.62,⏳ Stable,Berlin
-1000000000000000206,2026-01-09 01:42:16,Demo tweet 1000000000000000206 about #DataScience (sentiment -0.137),147,16,-0.137,Negative,#DataScience,109.99,⏳ Stable,Paris
-1000000000000000207,2026-01-09 01:06:16,Demo tweet 1000000000000000207 about #DataScience (sentiment 0.825),45,18,0.825,Positive,#DataScience,68.85,⏳ Stable,Berlin
-1000000000000000208,2026-01-09 01:56:16,Demo tweet 1000000000000000208 about #DataScience (sentiment 0.002),47,73,0.002,Neutral,#DataScience,84.06,⏳ Stable,None
-1000000000000000209,2026-01-09 01:32:16,Demo tweet 1000000000000000209 about #DataScience (sentiment 0.318),116,80,0.318,Positive,#DataScience,146.74,⏳ Stable,London
-1000000000000000210,2026-01-09 02:13:16,Demo tweet 1000000000000000210 about #Python (sentiment 0.543),75,52,0.543,Positive,#Python,105.19,⏳ Stable,None
-1000000000000000211,2026-01-09 02:24:16,Demo tweet 1000000000000000211 about #Python (sentiment -0.04),14,32,-0.04,Neutral,#Python,31.0,⏳ Stable,Paris
-1000000000000000212,2026-01-09 02:25:16,Demo tweet 1000000000000000212 about #Python (sentiment 0.489),15,70,0.489,Positive,#Python,74.17,⏳ Stable,Tokyo
-1000000000000000213,2026-01-09 02:08:16,Demo tweet 1000000000000000213 about #Python (sentiment 0.415),164,11,0.415,Positive,#Python,134.95,⏳ Stable,London
-1000000000000000214,2026-01-09 02:15:16,Demo tweet 1000000000000000214 about #Python (sentiment 0.875),130,28,0.875,Positive,#Python,136.85,⏳ Stable,San Francisco
-1000000000000000215,2026-01-09 02:55:16,Demo tweet 1000000000000000215 about #AI (sentiment 0.638),164,95,0.638,Positive,#AI,200.44,🔥 Exploding,None
-1000000000000000216,2026-01-09 02:22:16,Demo tweet 1000000000000000216 about #AI (sentiment 0.25),12,67,0.25,Positive,#AI,62.8,⏳ Stable,London
-1000000000000000217,2026-01-09 02:58:16,Demo tweet 1000000000000000217 about #AI (sentiment 0.512),62,82,0.512,Positive,#AI,116.16,⏳ Stable,Paris
-1000000000000000218,2026-01-09 02:09:16,Demo tweet 1000000000000000218 about #AI (sentiment -0.022),93,77,-0.022,Neutral,#AI,118.34,⏳ Stable,Berlin
-1000000000000000219,2026-01-09 02:48:16,Demo tweet 1000000000000000219 about #AI (sentiment 0.4),60,50,0.4,Positive,#AI,89.0,⏳ Stable,Berlin
-1000000000000000220,2026-01-09 03:03:16,Demo tweet 1000000000000000220 about #DataScience (sentiment -0.02),120,12,-0.02,Neutral,#DataScience,91.8,⏳ Stable,None
-1000000000000000221,2026-01-09 02:58:16,Demo tweet 1000000000000000221 about #DataScience (sentiment 0.797),65,46,0.797,Positive,#DataScience,101.61,⏳ Stable,Tokyo
-1000000000000000222,2026-01-09 02:30:16,Demo tweet 1000000000000000222 about #DataScience (sentiment -0.87),164,46,-0.87,Negative,#DataScience,120.9,⏳ Stable,Berlin
-1000000000000000223,2026-01-09 03:01:16,Demo tweet 1000000000000000223 about #DataScience (sentiment 0.153),30,68,0.153,Positive,#DataScience,73.19,⏳ Stable,San Francisco
-1000000000000000224,2026-01-09 02:50:16,Demo tweet 1000000000000000224 about #DataScience (sentiment 0.811),130,67,0.811,Positive,#DataScience,162.23,🔥 Exploding,London
-1000000000000000225,2026-01-09 03:11:16,Demo tweet 1000000000000000225 about #Python (sentiment 0.077),22,57,0.077,Neutral,#Python,57.61,⏳ Stable,Paris
-1000000000000000226,2026-01-09 03:50:16,Demo tweet 1000000000000000226 about #Python (sentiment -0.098),70,7,-0.098,Neutral,#Python,50.96,⏳ Stable,Paris
-1000000000000000227,2026-01-09 03:44:16,Demo tweet 1000000000000000227 about #Python (sentiment -0.722),175,51,-0.722,Negative,#Python,136.54,⏳ Stable,None
-1000000000000000228,2026-01-09 03:54:16,Demo tweet 1000000000000000228 about #Python (sentiment -0.54),134,6,-0.54,Negative,#Python,81.8,⏳ Stable,None
-1000000000000000229,2026-01-09 03:25:16,Demo tweet 1000000000000000229 about #Python (sentiment -0.649),58,89,-0.649,Negative,#Python,83.43,⏳ Stable,None
-1000000000000000230,2026-01-09 03:15:16,Demo tweet 1000000000000000230 about #AI (sentiment 0.049),152,60,0.049,Neutral,#AI,149.87,⏳ Stable,Tokyo
-1000000000000000231,2026-01-09 03:43:16,Demo tweet 1000000000000000231 about #AI (sentiment -0.075),196,86,-0.075,Neutral,#AI,195.15,🔥 Exploding,Paris
-1000000000000000232,2026-01-09 03:12:16,Demo tweet 1000000000000000232 about #AI (sentiment 0.71),11,27,0.71,Positive,#AI,47.9,⏳ Stable,Tokyo
-1000000000000000233,2026-01-09 03:50:16,Demo tweet 1000000000000000233 about #AI (sentiment -0.856),148,8,-0.856,Negative,#AI,83.52,⏳ Stable,New York
-1000000000000000234,2026-01-09 03:36:16,Demo tweet 1000000000000000234 about #AI (sentiment -0.863),23,60,-0.863,Negative,#AI,32.21,⏳ Stable,None
-1000000000000000235,2026-01-09 03:05:16,Demo tweet 1000000000000000235 about #DataScience (sentiment 0.473),84,53,0.473,Positive,#DataScience,110.09,⏳ Stable,Paris
-1000000000000000236,2026-01-09 03:26:16,Demo tweet 1000000000000000236 about #DataScience (sentiment 0.143),54,61,0.143,Positive,#DataScience,84.79,⏳ Stable,Berlin
-1000000000000000237,2026-01-09 03:54:16,Demo tweet 1000000000000000237 about #DataScience (sentiment -0.099),118,37,-0.099,Neutral,#DataScience,105.53,⏳ Stable,None
-1000000000000000238,2026-01-09 03:52:16,Demo tweet 1000000000000000238 about #DataScience (sentiment 0.709),124,65,0.709,Positive,#DataScience,153.57,🔥 Exploding,Paris
-1000000000000000239,2026-01-09 03:22:16,Demo tweet 1000000000000000239 about #DataScience (sentiment 0.435),126,6,0.435,Positive,#DataScience,105.45,⏳ Stable,New York
-1000000000000000240,2026-01-09 04:37:16,Demo tweet 1000000000000000240 about #Python (sentiment 0.471),124,7,0.471,Positive,#Python,105.83,⏳ Stable,Berlin
-1000000000000000241,2026-01-09 04:55:16,Demo tweet 1000000000000000241 about #Python (sentiment 0.935),45,78,0.935,Positive,#Python,114.15,⏳ Stable,Berlin
-1000000000000000242,2026-01-09 04:40:16,Demo tweet 1000000000000000242 about #Python (sentiment -0.644),56,78,-0.644,Negative,#Python,74.48,⏳ Stable,Tokyo
-1000000000000000243,2026-01-09 04:49:16,Demo tweet 1000000000000000243 about #Python (sentiment 0.503),103,51,0.503,Positive,#Python,122.89,⏳ Stable,None
-1000000000000000244,2026-01-09 04:41:16,Demo tweet 1000000000000000244 about #Python (sentiment -0.547),135,66,-0.547,Negative,#Python,124.29,⏳ Stable,Tokyo
-1000000000000000245,2026-01-09 04:36:16,Demo tweet 1000000000000000245 about #AI (sentiment -0.296),74,61,-0.296,Negative,#AI,85.62,⏳ Stable,Paris
-1000000000000000246,2026-01-09 04:16:16,Demo tweet 1000000000000000246 about #AI (sentiment -0.913),100,31,-0.913,Negative,#AI,64.31,⏳ Stable,None
-1000000000000000247,2026-01-09 04:45:16,Demo tweet 1000000000000000247 about #AI (sentiment 0.691),117,46,0.691,Positive,#AI,134.83,⏳ Stable,London
-1000000000000000248,2026-01-09 04:59:16,Demo tweet 1000000000000000248 about #AI (sentiment 0.809),27,14,0.809,Positive,#AI,52.97,⏳ Stable,New York
-1000000000000000249,2026-01-09 04:59:16,Demo tweet 1000000000000000249 about #AI (sentiment -0.513),166,43,-0.513,Negative,#AI,130.91,⏳ Stable,Tokyo
-1000000000000000250,2026-01-09 04:49:16,Demo tweet 1000000000000000250 about #DataScience (sentiment -0.079),55,56,-0.079,Neutral,#DataScience,75.33,⏳ Stable,None
-1000000000000000251,2026-01-09 04:40:16,Demo tweet 1000000000000000251 about #DataScience (sentiment 0.901),69,33,0.901,Positive,#DataScience,98.43,⏳ Stable,Tokyo
-1000000000000000252,2026-01-09 04:26:16,Demo tweet 1000000000000000252 about #DataScience (sentiment -0.494),23,15,-0.494,Negative,#DataScience,11.78,⏳ Stable,London
-1000000000000000253,2026-01-09 04:51:16,Demo tweet 1000000000000000253 about #DataScience (sentiment -0.091),194,79,-0.091,Neutral,#DataScience,188.37,🔥 Exploding,Berlin
-1000000000000000254,2026-01-09 04:59:16,Demo tweet 1000000000000000254 about #DataScience (sentiment 0.005),183,73,0.005,Neutral,#DataScience,179.35,🔥 Exploding,London
-1000000000000000255,2026-01-09 05:11:16,Demo tweet 1000000000000000255 about #Python (sentiment 0.322),83,76,0.322,Positive,#Python,120.96,⏳ Stable,Paris
-1000000000000000256,2026-01-09 05:52:16,Demo tweet 1000000000000000256 about #Python (sentiment 0.288),101,59,0.288,Positive,#Python,120.64,⏳ Stable,None
-1000000000000000257,2026-01-09 05:10:16,Demo tweet 1000000000000000257 about #Python (sentiment 0.643),47,10,0.643,Positive,#Python,59.19,⏳ Stable,Berlin
-1000000000000000258,2026-01-09 05:05:16,Demo tweet 1000000000000000258 about #Python (sentiment 0.023),92,38,0.023,Neutral,#Python,91.69,⏳ Stable,Paris
-1000000000000000259,2026-01-09 06:01:16,Demo tweet 1000000000000000259 about #Python (sentiment 0.181),105,53,0.181,Positive,#Python,116.03,⏳ Stable,London
-1000000000000000260,2026-01-09 05:13:16,Demo tweet 1000000000000000260 about #AI (sentiment 0.828),133,47,0.828,Positive,#AI,150.84,🔥 Exploding,London
-1000000000000000261,2026-01-09 05:47:16,Demo tweet 1000000000000000261 about #AI (sentiment 0.882),168,76,0.882,Positive,#AI,197.26,🔥 Exploding,New York
-1000000000000000262,2026-01-09 06:03:16,Demo tweet 1000000000000000262 about #AI (sentiment -0.023),127,12,-0.023,Neutral,#AI,96.61,⏳ Stable,New York
-1000000000000000263,2026-01-09 05:35:16,Demo tweet 1000000000000000263 about #AI (sentiment 0.264),21,36,0.264,Positive,#AI,47.82,⏳ Stable,Berlin
-1000000000000000264,2026-01-09 05:31:16,Demo tweet 1000000000000000264 about #AI (sentiment 0.216),22,64,0.216,Positive,#AI,66.68,⏳ Stable,London
-1000000000000000265,2026-01-09 05:45:16,Demo tweet 1000000000000000265 about #DataScience (sentiment 0.358),85,67,0.358,Positive,#DataScience,117.14,⏳ Stable,Berlin
-1000000000000000266,2026-01-09 05:18:16,Demo tweet 1000000000000000266 about #DataScience (sentiment 0.293),184,34,0.293,Positive,#DataScience,161.39,🔥 Exploding,Tokyo
-1000000000000000267,2026-01-09 06:04:16,Demo tweet 1000000000000000267 about #DataScience (sentiment -0.831),200,13,-0.831,Negative,#DataScience,124.17,⏳ Stable,Paris
-1000000000000000268,2026-01-09 05:24:16,Demo tweet 1000000000000000268 about #DataScience (sentiment -0.774),38,31,-0.774,Negative,#DataScience,25.08,⏳ Stable,Paris
-1000000000000000269,2026-01-09 05:25:16,Demo tweet 1000000000000000269 about #DataScience (sentiment 0.38),76,36,0.38,Positive,#DataScience,89.8,⏳ Stable,Paris
-1000000000000000270,2026-01-09 06:54:16,Demo tweet 1000000000000000270 about #Python (sentiment 0.442),477,159,0.442,Positive,#Python,458.46,🚀 Emerging,New York
-1000000000000000271,2026-01-09 06:39:16,Demo tweet 1000000000000000271 about #Python (sentiment 0.73),651,320,0.73,Positive,#Python,701.6,🚀 Emerging,New York
-1000000000000000272,2026-01-09 06:28:16,Demo tweet 1000000000000000272 about #Python (sentiment -0.468),305,194,-0.468,Negative,#Python,335.26,🔥 Exploding,San Francisco
-1000000000000000273,2026-01-09 06:48:16,Demo tweet 1000000000000000273 about #Python (sentiment 0.096),538,227,0.096,Neutral,#Python,538.38,🚀 Emerging,London
-1000000000000000274,2026-01-09 06:42:16,Demo tweet 1000000000000000274 about #Python (sentiment 0.311),735,350,0.311,Positive,#Python,768.83,🚀 Emerging,San Francisco
-1000000000000000275,2026-01-09 06:16:16,Demo tweet 1000000000000000275 about #AI (sentiment 0.836),146,54,0.836,Positive,#AI,165.08,🔥 Exploding,London
-1000000000000000276,2026-01-09 06:22:16,Demo tweet 1000000000000000276 about #AI (sentiment 0.959),33,12,0.959,Positive,#AI,60.27,⏳ Stable,None
-1000000000000000277,2026-01-09 07:01:16,Demo tweet 1000000000000000277 about #AI (sentiment 0.913),51,44,0.913,Positive,#AI,93.89,⏳ Stable,New York
-1000000000000000278,2026-01-09 06:28:16,Demo tweet 1000000000000000278 about #AI (sentiment 0.033),148,26,0.033,Neutral,#AI,122.79,⏳ Stable,None
-1000000000000000279,2026-01-09 06:33:16,Demo tweet 1000000000000000279 about #AI (sentiment -0.883),99,29,-0.883,Negative,#AI,63.11,⏳ Stable,San Francisco
-1000000000000000280,2026-01-09 06:30:16,Demo tweet 1000000000000000280 about #DataScience (sentiment -0.032),99,26,-0.032,Neutral,#DataScience,86.54,⏳ Stable,Tokyo
-1000000000000000281,2026-01-09 06:33:16,Demo tweet 1000000000000000281 about #DataScience (sentiment 0.012),34,95,0.012,Neutral,#DataScience,90.66,⏳ Stable,Paris
-1000000000000000282,2026-01-09 06:50:16,Demo tweet 1000000000000000282 about #DataScience (sentiment 0.041),57,58,0.041,Neutral,#DataScience,81.73,⏳ Stable,Berlin
-1000000000000000283,2026-01-09 06:44:16,Demo tweet 1000000000000000283 about #DataScience (sentiment -0.492),173,24,-0.492,Negative,#DataScience,123.14,⏳ Stable,Paris
-1000000000000000284,2026-01-09 06:09:16,Demo tweet 1000000000000000284 about #DataScience (sentiment 0.822),26,55,0.822,Positive,#DataScience,81.36,⏳ Stable,Tokyo
-1000000000000000285,2026-01-09 07:35:16,Demo tweet 1000000000000000285 about #Python (sentiment 0.548),99,70,0.548,Positive,#Python,134.74,⏳ Stable,Paris
-1000000000000000286,2026-01-09 07:05:16,Demo tweet 1000000000000000286 about #Python (sentiment -0.721),13,46,-0.721,Negative,#Python,19.67,⏳ Stable,Tokyo
-1000000000000000287,2026-01-09 07:14:16,Demo tweet 1000000000000000287 about #Python (sentiment 0.192),153,43,0.192,Positive,#Python,142.96,⏳ Stable,San Francisco
-1000000000000000288,2026-01-09 08:03:16,Demo tweet 1000000000000000288 about #Python (sentiment -0.529),69,22,-0.529,Negative,#Python,47.83,⏳ Stable,Berlin
-1000000000000000289,2026-01-09 07:42:16,Demo tweet 1000000000000000289 about #Python (sentiment -0.029),108,19,-0.029,Neutral,#Python,88.03,⏳ Stable,Berlin
-1000000000000000290,2026-01-09 07:27:16,Demo tweet 1000000000000000290 about #AI (sentiment 0.027),97,29,0.027,Neutral,#AI,89.01,⏳ Stable,Tokyo
-1000000000000000291,2026-01-09 07:57:16,Demo tweet 1000000000000000291 about #AI (sentiment 0.843),110,47,0.843,Positive,#AI,135.19,⏳ Stable,Tokyo
-1000000000000000292,2026-01-09 07:56:16,Demo tweet 1000000000000000292 about #AI (sentiment 0.801),19,28,0.801,Positive,#AI,56.93,⏳ Stable,Paris
-1000000000000000293,2026-01-09 07:55:16,Demo tweet 1000000000000000293 about #AI (sentiment 0.45),138,38,0.45,Positive,#AI,136.7,⏳ Stable,Paris
-1000000000000000294,2026-01-09 07:56:16,Demo tweet 1000000000000000294 about #AI (sentiment -0.114),24,26,-0.114,Negative,#AI,31.58,⏳ Stable,Paris
-1000000000000000295,2026-01-09 07:16:16,Demo tweet 1000000000000000295 about #DataScience (sentiment 0.79),93,51,0.79,Positive,#DataScience,124.5,⏳ Stable,None
-1000000000000000296,2026-01-09 07:35:16,Demo tweet 1000000000000000296 about #DataScience (sentiment 0.221),96,14,0.221,Positive,#DataScience,83.63,⏳ Stable,San Francisco
-1000000000000000297,2026-01-09 07:39:16,Demo tweet 1000000000000000297 about #DataScience (sentiment 0.007),63,63,0.007,Neutral,#DataScience,88.41,⏳ Stable,Tokyo
-1000000000000000298,2026-01-09 07:48:16,Demo tweet 1000000000000000298 about #DataScience (sentiment 0.163),94,39,0.163,Positive,#DataScience,97.99,⏳ Stable,None
-1000000000000000299,2026-01-09 07:48:16,Demo tweet 1000000000000000299 about #DataScience (sentiment 0.599),128,40,0.599,Positive,#DataScience,135.57,⏳ Stable,Tokyo
-1000000000000000300,2026-01-09 08:05:16,Demo tweet 1000000000000000300 about #Python (sentiment 0.108),122,100,0.108,Positive,#Python,158.64,🔥 Exploding,None
-1000000000000000301,2026-01-09 08:16:16,Demo tweet 1000000000000000301 about #Python (sentiment -0.017),79,21,-0.017,Neutral,#Python,69.49,⏳ Stable,London
-1000000000000000302,2026-01-09 09:03:16,Demo tweet 1000000000000000302 about #Python (sentiment 0.527),40,49,0.527,Positive,#Python,78.11,⏳ Stable,London
-1000000000000000303,2026-01-09 08:31:16,Demo tweet 1000000000000000303 about #Python (sentiment 0.08),84,98,0.08,Neutral,#Python,129.8,⏳ Stable,New York
-1000000000000000304,2026-01-09 08:59:16,Demo tweet 1000000000000000304 about #Python (sentiment -0.046),195,66,-0.046,Neutral,#Python,181.32,🔥 Exploding,San Francisco
-1000000000000000305,2026-01-09 08:52:16,Demo tweet 1000000000000000305 about #AI (sentiment 0.331),56,9,0.331,Positive,#AI,55.43,⏳ Stable,San Francisco
-1000000000000000306,2026-01-09 08:24:16,Demo tweet 1000000000000000306 about #AI (sentiment 0.372),26,49,0.372,Positive,#AI,63.66,⏳ Stable,Paris
-1000000000000000307,2026-01-09 08:30:16,Demo tweet 1000000000000000307 about #AI (sentiment 0.037),115,63,0.037,Neutral,#AI,125.71,⏳ Stable,San Francisco
-1000000000000000308,2026-01-09 08:39:16,Demo tweet 1000000000000000308 about #AI (sentiment 0.033),166,39,0.033,Neutral,#AI,144.49,⏳ Stable,New York
-1000000000000000309,2026-01-09 08:30:16,Demo tweet 1000000000000000309 about #AI (sentiment 0.116),179,77,0.116,Positive,#AI,182.68,🔥 Exploding,Tokyo
-1000000000000000310,2026-01-09 08:34:16,Demo tweet 1000000000000000310 about #DataScience (sentiment 0.407),41,33,0.407,Positive,#DataScience,64.01,⏳ Stable,None
-1000000000000000311,2026-01-09 08:52:16,Demo tweet 1000000000000000311 about #DataScience (sentiment -0.719),16,38,-0.719,Negative,#DataScience,16.23,⏳ Stable,None
-1000000000000000312,2026-01-09 08:25:16,Demo tweet 1000000000000000312 about #DataScience (sentiment 0.258),175,94,0.258,Positive,#DataScience,196.04,🔥 Exploding,London
-1000000000000000313,2026-01-09 08:59:16,Demo tweet 1000000000000000313 about #DataScience (sentiment 0.403),35,22,0.403,Positive,#DataScience,51.99,⏳ Stable,Tokyo
-1000000000000000314,2026-01-09 08:47:16,Demo tweet 1000000000000000314 about #DataScience (sentiment 0.386),66,11,0.386,Positive,#DataScience,65.48,⏳ Stable,Tokyo
-1000000000000000315,2026-01-09 09:56:16,Demo tweet 1000000000000000315 about #Python (sentiment 0.253),193,50,0.253,Positive,#Python,177.69,🔥 Exploding,None
-1000000000000000316,2026-01-09 09:41:16,Demo tweet 1000000000000000316 about #Python (sentiment -0.489),155,78,-0.489,Negative,#Python,148.43,⏳ Stable,Berlin
-1000000000000000317,2026-01-09 09:20:16,Demo tweet 1000000000000000317 about #Python (sentiment 0.016),25,9,0.016,Neutral,#Python,24.28,⏳ Stable,New York
-1000000000000000318,2026-01-09 09:54:16,Demo tweet 1000000000000000318 about #Python (sentiment 0.405),45,41,0.405,Positive,#Python,72.35,⏳ Stable,Berlin
-1000000000000000319,2026-01-09 09:26:16,Demo tweet 1000000000000000319 about #Python (sentiment -0.053),90,6,-0.053,Neutral,#Python,65.61,⏳ Stable,Paris
-1000000000000000320,2026-01-09 09:47:16,Demo tweet 1000000000000000320 about #AI (sentiment 0.642),200,42,0.642,Positive,#AI,188.66,🔥 Exploding,Berlin
-1000000000000000321,2026-01-09 09:17:16,Demo tweet 1000000000000000321 about #AI (sentiment 0.726),77,56,0.726,Positive,#AI,114.88,⏳ Stable,London
-1000000000000000322,2026-01-09 09:08:16,Demo tweet 1000000000000000322 about #AI (sentiment 0.652),187,63,0.652,Positive,#AI,194.56,🔥 Exploding,Berlin
-1000000000000000323,2026-01-09 09:10:16,Demo tweet 1000000000000000323 about #AI (sentiment -0.005),91,47,-0.005,Neutral,#AI,96.45,⏳ Stable,Berlin
-1000000000000000324,2026-01-09 09:33:16,Demo tweet 1000000000000000324 about #AI (sentiment 0.771),189,90,0.771,Positive,#AI,218.43,🔥 Exploding,Paris
-1000000000000000325,2026-01-09 10:03:16,Demo tweet 1000000000000000325 about #DataScience (sentiment 0.877),67,21,0.877,Positive,#DataScience,87.91,⏳ Stable,None
-1000000000000000326,2026-01-09 10:04:16,Demo tweet 1000000000000000326 about #DataScience (sentiment 0.021),97,40,0.021,Neutral,#DataScience,96.53,⏳ Stable,San Francisco
-1000000000000000327,2026-01-09 09:31:16,Demo tweet 1000000000000000327 about #DataScience (sentiment 0.045),56,38,0.045,Neutral,#DataScience,67.15,⏳ Stable,None
-1000000000000000328,2026-01-09 09:56:16,Demo tweet 1000000000000000328 about #DataScience (sentiment -0.833),190,58,-0.833,Negative,#DataScience,148.61,⏳ Stable,None
-1000000000000000329,2026-01-09 09:10:16,Demo tweet 1000000000000000329 about #DataScience (sentiment -0.529),24,45,-0.529,Negative,#DataScience,32.43,⏳ Stable,Tokyo
-1000000000000000330,2026-01-09 10:33:16,Demo tweet 1000000000000000330 about #Python (sentiment -0.122),166,20,-0.122,Negative,#Python,126.54,⏳ Stable,Berlin
-1000000000000000331,2026-01-09 10:16:16,Demo tweet 1000000000000000331 about #Python (sentiment 0.632),151,61,0.632,Positive,#Python,167.36,🔥 Exploding,Tokyo
-1000000000000000332,2026-01-09 10:10:16,Demo tweet 1000000000000000332 about #Python (sentiment 0.037),120,24,0.037,Neutral,#Python,101.91,⏳ Stable,Tokyo
-1000000000000000333,2026-01-09 10:27:16,Demo tweet 1000000000000000333 about #Python (sentiment 0.088),195,97,0.088,Neutral,#Python,207.04,🔥 Exploding,London
-1000000000000000334,2026-01-09 10:24:16,Demo tweet 1000000000000000334 about #Python (sentiment 0.078),173,56,0.078,Neutral,#Python,162.64,🔥 Exploding,Tokyo
-1000000000000000335,2026-01-09 10:28:16,Demo tweet 1000000000000000335 about #AI (sentiment 0.212),109,27,0.212,Positive,#AI,101.56,⏳ Stable,Berlin
-1000000000000000336,2026-01-09 10:31:16,Demo tweet 1000000000000000336 about #AI (sentiment -0.039),125,18,-0.039,Neutral,#AI,98.93,⏳ Stable,San Francisco
-1000000000000000337,2026-01-09 11:03:16,Demo tweet 1000000000000000337 about #AI (sentiment -0.114),153,18,-0.114,Negative,#AI,116.28,⏳ Stable,San Francisco
-1000000000000000338,2026-01-09 10:16:16,Demo tweet 1000000000000000338 about #AI (sentiment 0.97),109,93,0.97,Positive,#AI,170.5,🔥 Exploding,San Francisco
-1000000000000000339,2026-01-09 10:11:16,Demo tweet 1000000000000000339 about #AI (sentiment -0.782),125,92,-0.782,Negative,#AI,128.44,⏳ Stable,London
-1000000000000000340,2026-01-09 10:19:16,Demo tweet 1000000000000000340 about #DataScience (sentiment 0.934),45,19,0.934,Positive,#DataScience,72.82,⏳ Stable,Paris
-1000000000000000341,2026-01-09 10:31:16,Demo tweet 1000000000000000341 about #DataScience (sentiment -0.136),51,72,-0.136,Negative,#DataScience,82.02,⏳ Stable,London
-1000000000000000342,2026-01-09 10:06:16,Demo tweet 1000000000000000342 about #DataScience (sentiment 0.683),174,30,0.683,Positive,#DataScience,163.29,🔥 Exploding,San Francisco
-1000000000000000343,2026-01-09 10:43:16,Demo tweet 1000000000000000343 about #DataScience (sentiment -0.07),189,31,-0.07,Neutral,#DataScience,151.9,🔥 Exploding,None
-1000000000000000344,2026-01-09 11:00:16,Demo tweet 1000000000000000344 about #DataScience (sentiment 0.047),78,53,0.047,Neutral,#DataScience,93.11,⏳ Stable,Paris
-1000000000000000345,2026-01-09 11:26:16,Demo tweet 1000000000000000345 about #Python (sentiment 0.674),106,32,0.674,Positive,#Python,116.82,⏳ Stable,New York
-1000000000000000346,2026-01-09 11:49:16,Demo tweet 1000000000000000346 about #Python (sentiment -0.532),197,7,-0.532,Negative,#Python,126.84,⏳ Stable,None
-1000000000000000347,2026-01-09 11:33:16,Demo tweet 1000000000000000347 about #Python (sentiment 0.558),59,45,0.558,Positive,#Python,89.54,⏳ Stable,San Francisco
-1000000000000000348,2026-01-09 11:26:16,Demo tweet 1000000000000000348 about #Python (sentiment -0.018),75,11,-0.018,Neutral,#Python,59.66,⏳ Stable,London
-1000000000000000349,2026-01-09 11:57:16,Demo tweet 1000000000000000349 about #Python (sentiment 0.597),174,75,0.597,Positive,#Python,192.21,🔥 Exploding,None
-1000000000000000350,2026-01-09 11:05:16,Demo tweet 1000000000000000350 about #AI (sentiment 0.339),149,31,0.339,Positive,#AI,136.17,⏳ Stable,Tokyo
-1000000000000000351,2026-01-09 11:08:16,Demo tweet 1000000000000000351 about #AI (sentiment -0.948),174,21,-0.948,Negative,#AI,108.06,⏳ Stable,New York
-1000000000000000352,2026-01-09 11:28:16,Demo tweet 1000000000000000352 about #AI (sentiment -0.919),29,84,-0.919,Negative,#AI,51.53,⏳ Stable,None
-1000000000000000353,2026-01-09 11:07:16,Demo tweet 1000000000000000353 about #AI (sentiment -0.01),113,95,-0.01,Neutral,#AI,145.3,⏳ Stable,New York
-1000000000000000354,2026-01-09 11:47:16,Demo tweet 1000000000000000354 about #AI (sentiment 0.444),122,15,0.444,Positive,#AI,109.22,⏳ Stable,Tokyo
-1000000000000000355,2026-01-09 11:51:16,Demo tweet 1000000000000000355 about #DataScience (sentiment 0.089),174,98,0.089,Neutral,#DataScience,193.07,🔥 Exploding,New York
-1000000000000000356,2026-01-09 11:36:16,Demo tweet 1000000000000000356 about #DataScience (sentiment 0.044),178,34,0.044,Neutral,#DataScience,149.72,⏳ Stable,Paris
-1000000000000000357,2026-01-09 11:27:16,Demo tweet 1000000000000000357 about #DataScience (sentiment 0.034),134,17,0.034,Neutral,#DataScience,106.72,⏳ Stable,San Francisco
-1000000000000000358,2026-01-09 11:08:16,Demo tweet 1000000000000000358 about #DataScience (sentiment -0.342),84,59,-0.342,Negative,#DataScience,89.84,⏳ Stable,London
-1000000000000000359,2026-01-09 11:44:16,Demo tweet 1000000000000000359 about #DataScience (sentiment 0.412),22,89,0.412,Positive,#DataScience,90.06,⏳ Stable,Tokyo
+1000000000000000000,2026-01-08 13:10:47,Demo tweet 1000000000000000000 about #Python (sentiment 0.766),98,90,0.766,Positive,#Python,154.58,Exploding,London
+1000000000000000001,2026-01-08 12:24:47,Demo tweet 1000000000000000001 about #Python (sentiment 0.026),186,23,0.026,Neutral,#Python,147.08,Stable,Berlin
+1000000000000000002,2026-01-08 12:20:47,Demo tweet 1000000000000000002 about #Python (sentiment -0.348),41,87,-0.348,Negative,#Python,79.16,Stable,London
+1000000000000000003,2026-01-08 12:20:47,Demo tweet 1000000000000000003 about #Python (sentiment -0.001),100,10,-0.001,Neutral,#Python,76.97,Stable,Berlin
+1000000000000000004,2026-01-08 12:55:47,Demo tweet 1000000000000000004 about #Python (sentiment 0.54),69,30,0.54,Positive,#Python,85.5,Stable,Berlin
+1000000000000000005,2026-01-08 12:47:47,Demo tweet 1000000000000000005 about #AI (sentiment 0.013),37,86,0.013,Neutral,#AI,86.49,Stable,None
+1000000000000000006,2026-01-08 13:02:47,Demo tweet 1000000000000000006 about #AI (sentiment -0.029),137,96,-0.029,Neutral,#AI,162.23,Exploding,Tokyo
+1000000000000000007,2026-01-08 12:25:47,Demo tweet 1000000000000000007 about #AI (sentiment 0.39),15,18,0.39,Positive,#AI,34.8,Stable,New York
+1000000000000000008,2026-01-08 12:17:47,Demo tweet 1000000000000000008 about #AI (sentiment 0.639),133,38,0.639,Positive,#AI,138.87,Stable,New York
+1000000000000000009,2026-01-08 12:32:47,Demo tweet 1000000000000000009 about #AI (sentiment -0.076),191,72,-0.076,Neutral,#AI,181.82,Exploding,Paris
+1000000000000000010,2026-01-08 12:50:47,Demo tweet 1000000000000000010 about #DataScience (sentiment 0.076),16,84,0.076,Neutral,#DataScience,72.28,Stable,None
+1000000000000000011,2026-01-08 12:37:47,Demo tweet 1000000000000000011 about #DataScience (sentiment 0.327),189,24,0.327,Positive,#DataScience,158.91,Exploding,London
+1000000000000000012,2026-01-08 12:58:47,Demo tweet 1000000000000000012 about #DataScience (sentiment 0.022),68,86,0.022,Neutral,#DataScience,108.46,Stable,London
+1000000000000000013,2026-01-08 12:16:47,Demo tweet 1000000000000000013 about #DataScience (sentiment 0.823),124,17,0.823,Positive,#DataScience,123.39,Stable,Paris
+1000000000000000014,2026-01-08 12:36:47,Demo tweet 1000000000000000014 about #DataScience (sentiment 0.674),46,94,0.674,Positive,#DataScience,118.22,Stable,Tokyo
+1000000000000000015,2026-01-08 13:39:47,Demo tweet 1000000000000000015 about #Python (sentiment 0.146),115,8,0.146,Positive,#Python,90.48,Stable,Tokyo
+1000000000000000016,2026-01-08 13:37:47,Demo tweet 1000000000000000016 about #Python (sentiment 0.077),102,7,0.077,Neutral,#Python,78.61,Stable,None
+1000000000000000017,2026-01-08 13:19:47,Demo tweet 1000000000000000017 about #Python (sentiment 0.451),44,23,0.451,Positive,#Python,60.43,Stable,Tokyo
+1000000000000000018,2026-01-08 14:05:47,Demo tweet 1000000000000000018 about #Python (sentiment 0.923),158,44,0.923,Positive,#Python,169.09,Exploding,Tokyo
+1000000000000000019,2026-01-08 13:34:47,Demo tweet 1000000000000000019 about #Python (sentiment -0.72),75,35,-0.72,Negative,#Python,55.4,Stable,London
+1000000000000000020,2026-01-08 14:05:47,Demo tweet 1000000000000000020 about #AI (sentiment 0.304),131,64,0.304,Positive,#AI,145.62,Stable,London
+1000000000000000021,2026-01-08 13:38:47,Demo tweet 1000000000000000021 about #AI (sentiment -0.538),45,99,-0.538,Negative,#AI,84.66,Stable,None
+1000000000000000022,2026-01-08 13:32:47,Demo tweet 1000000000000000022 about #AI (sentiment -0.65),103,68,-0.65,Negative,#AI,100.2,Stable,Tokyo
+1000000000000000023,2026-01-08 13:55:47,Demo tweet 1000000000000000023 about #AI (sentiment 0.058),34,75,0.058,Neutral,#AI,78.04,Stable,Paris
+1000000000000000024,2026-01-08 13:37:47,Demo tweet 1000000000000000024 about #AI (sentiment 0.015),133,93,0.015,Neutral,#AI,158.65,Exploding,Tokyo
+1000000000000000025,2026-01-08 13:24:47,Demo tweet 1000000000000000025 about #DataScience (sentiment 0.254),15,82,0.254,Positive,#DataScience,75.52,Stable,None
+1000000000000000026,2026-01-08 13:29:47,Demo tweet 1000000000000000026 about #DataScience (sentiment 0.365),63,68,0.365,Positive,#DataScience,102.65,Stable,Tokyo
+1000000000000000027,2026-01-08 13:17:47,Demo tweet 1000000000000000027 about #DataScience (sentiment -0.029),47,93,-0.029,Neutral,#DataScience,97.13,Stable,Paris
+1000000000000000028,2026-01-08 14:01:47,Demo tweet 1000000000000000028 about #DataScience (sentiment 0.074),37,13,0.074,Neutral,#DataScience,37.22,Stable,San Francisco
+1000000000000000029,2026-01-08 14:06:47,Demo tweet 1000000000000000029 about #DataScience (sentiment 0.567),38,61,0.567,Positive,#DataScience,86.31,Stable,New York
+1000000000000000030,2026-01-08 14:11:47,Demo tweet 1000000000000000030 about #Python (sentiment 0.9),46,52,0.9,Positive,#Python,95.6,Stable,Paris
+1000000000000000031,2026-01-08 14:43:47,Demo tweet 1000000000000000031 about #Python (sentiment 0.51),67,84,0.51,Positive,#Python,121.0,Stable,Berlin
+1000000000000000032,2026-01-08 14:52:47,Demo tweet 1000000000000000032 about #Python (sentiment 0.929),166,97,0.929,Positive,#Python,211.97,Exploding,London
+1000000000000000033,2026-01-08 15:01:47,Demo tweet 1000000000000000033 about #Python (sentiment 0.719),189,14,0.719,Positive,#Python,163.67,Exploding,Berlin
+1000000000000000034,2026-01-08 14:17:47,Demo tweet 1000000000000000034 about #Python (sentiment 0.712),85,22,0.712,Positive,#Python,96.26,Stable,London
+1000000000000000035,2026-01-08 14:54:47,Demo tweet 1000000000000000035 about #AI (sentiment -0.268),126,42,-0.268,Negative,#AI,109.56,Stable,Tokyo
+1000000000000000036,2026-01-08 15:00:47,Demo tweet 1000000000000000036 about #AI (sentiment -0.642),57,21,-0.642,Negative,#AI,35.34,Stable,New York
+1000000000000000037,2026-01-08 15:10:47,Demo tweet 1000000000000000037 about #AI (sentiment 0.66),151,22,0.66,Positive,#AI,140.9,Stable,New York
+1000000000000000038,2026-01-08 14:42:47,Demo tweet 1000000000000000038 about #AI (sentiment 0.804),176,50,0.804,Positive,#AI,182.32,Exploding,New York
+1000000000000000039,2026-01-08 14:39:47,Demo tweet 1000000000000000039 about #AI (sentiment 0.322),137,78,0.322,Positive,#AI,160.16,Exploding,Tokyo
+1000000000000000040,2026-01-08 15:06:47,Demo tweet 1000000000000000040 about #DataScience (sentiment 0.194),153,15,0.194,Positive,#DataScience,123.42,Stable,New York
+1000000000000000041,2026-01-08 14:58:47,Demo tweet 1000000000000000041 about #DataScience (sentiment -0.055),66,29,-0.055,Neutral,#DataScience,64.85,Stable,Tokyo
+1000000000000000042,2026-01-08 14:16:47,Demo tweet 1000000000000000042 about #DataScience (sentiment 0.713),141,58,0.713,Positive,#DataScience,160.69,Exploding,Paris
+1000000000000000043,2026-01-08 14:54:47,Demo tweet 1000000000000000043 about #DataScience (sentiment 0.57),195,49,0.57,Positive,#DataScience,187.9,Exploding,London
+1000000000000000044,2026-01-08 14:15:47,Demo tweet 1000000000000000044 about #DataScience (sentiment 0.921),88,51,0.921,Positive,#DataScience,124.93,Stable,Paris
+1000000000000000045,2026-01-08 16:03:47,Demo tweet 1000000000000000045 about #Python (sentiment 0.557),170,35,0.557,Positive,#Python,160.21,Exploding,Berlin
+1000000000000000046,2026-01-08 15:35:47,Demo tweet 1000000000000000046 about #Python (sentiment 0.383),78,15,0.383,Positive,#Python,76.59,Stable,Tokyo
+1000000000000000047,2026-01-08 15:39:47,Demo tweet 1000000000000000047 about #Python (sentiment 0.404),153,11,0.404,Positive,#Python,126.92,Stable,Tokyo
+1000000000000000048,2026-01-08 15:57:47,Demo tweet 1000000000000000048 about #Python (sentiment 0.019),168,73,0.019,Neutral,#Python,169.27,Exploding,New York
+1000000000000000049,2026-01-08 15:11:47,Demo tweet 1000000000000000049 about #Python (sentiment 0.366),144,11,0.366,Positive,#Python,119.48,Stable,London
+1000000000000000050,2026-01-08 15:31:47,Demo tweet 1000000000000000050 about #AI (sentiment 0.963),64,28,0.963,Positive,#AI,93.29,Stable,Berlin
+1000000000000000051,2026-01-08 15:18:47,Demo tweet 1000000000000000051 about #AI (sentiment 0.552),113,50,0.552,Positive,#AI,130.66,Stable,None
+1000000000000000052,2026-01-08 15:42:47,Demo tweet 1000000000000000052 about #AI (sentiment 0.28),121,43,0.28,Positive,#AI,123.2,Stable,New York
+1000000000000000053,2026-01-08 15:52:47,Demo tweet 1000000000000000053 about #AI (sentiment 0.506),100,80,0.506,Positive,#AI,141.18,Stable,Paris
+1000000000000000054,2026-01-08 15:16:47,Demo tweet 1000000000000000054 about #AI (sentiment -0.078),43,28,-0.078,Neutral,#AI,47.36,Stable,None
+1000000000000000055,2026-01-08 15:24:47,Demo tweet 1000000000000000055 about #DataScience (sentiment 0.634),48,98,0.634,Positive,#DataScience,121.22,Stable,London
+1000000000000000056,2026-01-08 15:18:47,Demo tweet 1000000000000000056 about #DataScience (sentiment 0.068),48,26,0.068,Neutral,#DataScience,53.84,Stable,Tokyo
+1000000000000000057,2026-01-08 15:36:47,Demo tweet 1000000000000000057 about #DataScience (sentiment -0.085),161,98,-0.085,Neutral,#DataScience,178.75,Exploding,None
+1000000000000000058,2026-01-08 15:29:47,Demo tweet 1000000000000000058 about #DataScience (sentiment 0.731),159,59,0.731,Positive,#DataScience,174.53,Exploding,San Francisco
+1000000000000000059,2026-01-08 15:34:47,Demo tweet 1000000000000000059 about #DataScience (sentiment 0.14),146,18,0.14,Positive,#DataScience,119.0,Stable,None
+1000000000000000060,2026-01-08 16:53:47,Demo tweet 1000000000000000060 about #Python (sentiment 0.707),21,78,0.707,Positive,#Python,90.51,Stable,None
+1000000000000000061,2026-01-08 17:02:47,Demo tweet 1000000000000000061 about #Python (sentiment 0.086),35,92,0.086,Neutral,#Python,91.48,Stable,Tokyo
+1000000000000000062,2026-01-08 16:13:47,Demo tweet 1000000000000000062 about #Python (sentiment 0.995),88,44,0.995,Positive,#Python,122.25,Stable,San Francisco
+1000000000000000063,2026-01-08 17:01:47,Demo tweet 1000000000000000063 about #Python (sentiment 0.022),40,92,0.022,Neutral,#Python,93.06,Stable,Tokyo
+1000000000000000064,2026-01-08 16:50:47,Demo tweet 1000000000000000064 about #Python (sentiment 0.684),151,88,0.684,Positive,#Python,187.82,Exploding,Berlin
+1000000000000000065,2026-01-08 17:07:47,Demo tweet 1000000000000000065 about #AI (sentiment 0.905),116,89,0.905,Positive,#AI,170.65,Exploding,Paris
+1000000000000000066,2026-01-08 16:34:47,Demo tweet 1000000000000000066 about #AI (sentiment 0.078),183,56,0.078,Neutral,#AI,169.64,Exploding,London
+1000000000000000067,2026-01-08 16:29:47,Demo tweet 1000000000000000067 about #AI (sentiment -0.768),16,26,-0.768,Negative,#AI,6.36,Stable,Tokyo
+1000000000000000068,2026-01-08 16:26:47,Demo tweet 1000000000000000068 about #AI (sentiment -0.898),158,41,-0.898,Negative,#AI,112.36,Stable,None
+1000000000000000069,2026-01-08 16:16:47,Demo tweet 1000000000000000069 about #AI (sentiment 0.878),151,33,0.878,Positive,#AI,155.14,Exploding,Berlin
+1000000000000000070,2026-01-08 16:51:47,Demo tweet 1000000000000000070 about #DataScience (sentiment 0.096),95,23,0.096,Neutral,#DataScience,85.48,Stable,London
+1000000000000000071,2026-01-08 16:37:47,Demo tweet 1000000000000000071 about #DataScience (sentiment 0.583),14,70,0.583,Positive,#DataScience,76.29,Stable,New York
+1000000000000000072,2026-01-08 16:40:47,Demo tweet 1000000000000000072 about #DataScience (sentiment 0.568),186,8,0.568,Positive,#DataScience,152.84,Exploding,New York
+1000000000000000073,2026-01-08 16:18:47,Demo tweet 1000000000000000073 about #DataScience (sentiment -0.062),110,9,-0.062,Neutral,#DataScience,81.44,Stable,Tokyo
+1000000000000000074,2026-01-08 16:58:47,Demo tweet 1000000000000000074 about #DataScience (sentiment 0.653),52,52,0.653,Positive,#DataScience,92.39,Stable,London
+1000000000000000075,2026-01-08 17:29:47,Demo tweet 1000000000000000075 about #Python (sentiment 0.957),78,15,0.957,Positive,#Python,93.81,Stable,New York
+1000000000000000076,2026-01-08 17:57:47,Demo tweet 1000000000000000076 about #Python (sentiment -0.652),97,13,-0.652,Negative,#Python,57.44,Stable,None
+1000000000000000077,2026-01-08 17:25:47,Demo tweet 1000000000000000077 about #Python (sentiment -0.495),164,39,-0.495,Negative,#Python,127.25,Stable,None
+1000000000000000078,2026-01-08 17:34:47,Demo tweet 1000000000000000078 about #Python (sentiment 0.256),103,78,0.256,Positive,#Python,134.38,Stable,New York
+1000000000000000079,2026-01-08 17:37:47,Demo tweet 1000000000000000079 about #Python (sentiment -0.019),113,34,-0.019,Neutral,#Python,102.33,Stable,None
+1000000000000000080,2026-01-08 18:09:47,Demo tweet 1000000000000000080 about #AI (sentiment -0.963),41,8,-0.963,Negative,#AI,5.41,Stable,Berlin
+1000000000000000081,2026-01-08 18:07:47,Demo tweet 1000000000000000081 about #AI (sentiment 0.968),72,50,0.968,Positive,#AI,114.44,Stable,Berlin
+1000000000000000082,2026-01-08 17:24:47,Demo tweet 1000000000000000082 about #AI (sentiment -0.055),88,45,-0.055,Neutral,#AI,91.45,Stable,Tokyo
+1000000000000000083,2026-01-08 17:42:47,Demo tweet 1000000000000000083 about #AI (sentiment 0.073),51,88,0.073,Neutral,#AI,99.49,Stable,None
+1000000000000000084,2026-01-08 17:24:47,Demo tweet 1000000000000000084 about #AI (sentiment 0.702),121,93,0.702,Positive,#AI,170.86,Exploding,None
+1000000000000000085,2026-01-08 17:46:47,Demo tweet 1000000000000000085 about #DataScience (sentiment 0.947),56,22,0.947,Positive,#DataScience,83.01,Stable,New York
+1000000000000000086,2026-01-08 17:45:47,Demo tweet 1000000000000000086 about #DataScience (sentiment -0.461),67,53,-0.461,Negative,#DataScience,70.17,Stable,Berlin
+1000000000000000087,2026-01-08 17:49:47,Demo tweet 1000000000000000087 about #DataScience (sentiment 0.093),191,25,0.093,Neutral,#DataScience,153.99,Exploding,Berlin
+1000000000000000088,2026-01-08 17:16:47,Demo tweet 1000000000000000088 about #DataScience (sentiment 0.33),18,34,0.33,Positive,#DataScience,46.3,Stable,Tokyo
+1000000000000000089,2026-01-08 17:22:47,Demo tweet 1000000000000000089 about #DataScience (sentiment 0.986),32,62,0.986,Positive,#DataScience,95.38,Stable,Tokyo
+1000000000000000090,2026-01-08 19:08:47,Demo tweet 1000000000000000090 about #Python (sentiment -0.993),61,32,-0.993,Negative,#Python,35.31,Stable,New York
+1000000000000000091,2026-01-08 18:44:47,Demo tweet 1000000000000000091 about #Python (sentiment 0.263),180,32,0.263,Positive,#Python,156.29,Exploding,Berlin
+1000000000000000092,2026-01-08 18:57:47,Demo tweet 1000000000000000092 about #Python (sentiment -0.035),51,67,-0.035,Neutral,#Python,81.55,Stable,San Francisco
+1000000000000000093,2026-01-08 18:28:47,Demo tweet 1000000000000000093 about #Python (sentiment -0.88),68,39,-0.88,Negative,#Python,48.5,Stable,Paris
+1000000000000000094,2026-01-08 18:38:47,Demo tweet 1000000000000000094 about #Python (sentiment -0.105),58,95,-0.105,Negative,#Python,103.95,Stable,Tokyo
+1000000000000000095,2026-01-08 19:10:47,Demo tweet 1000000000000000095 about #AI (sentiment -0.949),196,35,-0.949,Negative,#AI,133.23,Stable,London
+1000000000000000096,2026-01-08 18:35:47,Demo tweet 1000000000000000096 about #AI (sentiment 0.041),52,22,0.041,Neutral,#AI,53.03,Stable,San Francisco
+1000000000000000097,2026-01-08 18:16:47,Demo tweet 1000000000000000097 about #AI (sentiment 0.669),90,41,0.669,Positive,#AI,111.77,Stable,London
+1000000000000000098,2026-01-08 18:41:47,Demo tweet 1000000000000000098 about #AI (sentiment 0.786),15,17,0.786,Positive,#AI,45.98,Stable,London
+1000000000000000099,2026-01-08 18:19:47,Demo tweet 1000000000000000099 about #AI (sentiment -0.608),104,11,-0.608,Negative,#AI,62.26,Stable,Paris
+1000000000000000100,2026-01-08 18:36:47,Demo tweet 1000000000000000100 about #DataScience (sentiment 0.565),88,47,0.565,Positive,#DataScience,111.45,Stable,Paris
+1000000000000000101,2026-01-08 18:38:47,Demo tweet 1000000000000000101 about #DataScience (sentiment 0.178),131,10,0.178,Positive,#DataScience,104.04,Stable,Tokyo
+1000000000000000102,2026-01-08 18:23:47,Demo tweet 1000000000000000102 about #DataScience (sentiment -0.099),17,39,-0.099,Neutral,#DataScience,36.23,Stable,Paris
+1000000000000000103,2026-01-08 18:12:47,Demo tweet 1000000000000000103 about #DataScience (sentiment 0.327),134,67,0.327,Positive,#DataScience,150.51,Exploding,New York
+1000000000000000104,2026-01-08 18:37:47,Demo tweet 1000000000000000104 about #DataScience (sentiment -0.099),153,22,-0.099,Neutral,#DataScience,119.53,Stable,San Francisco
+1000000000000000105,2026-01-08 20:00:47,Demo tweet 1000000000000000105 about #Python (sentiment 0.051),149,65,0.051,Neutral,#Python,151.33,Exploding,San Francisco
+1000000000000000106,2026-01-08 19:52:47,Demo tweet 1000000000000000106 about #Python (sentiment 0.822),108,84,0.822,Positive,#Python,159.06,Exploding,London
+1000000000000000107,2026-01-08 19:59:47,Demo tweet 1000000000000000107 about #Python (sentiment 0.262),21,39,0.262,Positive,#Python,49.86,Stable,None
+1000000000000000108,2026-01-08 20:05:47,Demo tweet 1000000000000000108 about #Python (sentiment 0.273),18,24,0.273,Positive,#Python,37.59,Stable,San Francisco
+1000000000000000109,2026-01-08 19:26:47,Demo tweet 1000000000000000109 about #Python (sentiment 0.09),85,17,0.09,Neutral,#Python,74.1,Stable,None
+1000000000000000110,2026-01-08 19:28:47,Demo tweet 1000000000000000110 about #AI (sentiment 0.851),19,97,0.851,Positive,#AI,106.73,Stable,None
+1000000000000000111,2026-01-08 19:31:47,Demo tweet 1000000000000000111 about #AI (sentiment 0.061),193,29,0.061,Neutral,#AI,157.23,Exploding,Berlin
+1000000000000000112,2026-01-08 19:25:47,Demo tweet 1000000000000000112 about #AI (sentiment -0.34),159,8,-0.34,Negative,#AI,106.7,Stable,New York
+1000000000000000113,2026-01-08 19:25:47,Demo tweet 1000000000000000113 about #AI (sentiment 0.514),62,39,0.514,Positive,#AI,86.12,Stable,Berlin
+1000000000000000114,2026-01-08 19:33:47,Demo tweet 1000000000000000114 about #AI (sentiment 0.929),25,24,0.929,Positive,#AI,62.17,Stable,New York
+1000000000000000115,2026-01-08 19:54:47,Demo tweet 1000000000000000115 about #DataScience (sentiment 0.924),61,19,0.924,Positive,#DataScience,83.72,Stable,None
+1000000000000000116,2026-01-08 20:10:47,Demo tweet 1000000000000000116 about #DataScience (sentiment 0.978),107,27,0.978,Positive,#DataScience,123.14,Stable,San Francisco
+1000000000000000117,2026-01-08 19:15:47,Demo tweet 1000000000000000117 about #DataScience (sentiment -0.94),146,7,-0.94,Negative,#DataScience,78.9,Stable,San Francisco
+1000000000000000118,2026-01-08 19:16:47,Demo tweet 1000000000000000118 about #DataScience (sentiment -0.069),84,24,-0.069,Neutral,#DataScience,73.53,Stable,None
+1000000000000000119,2026-01-08 19:46:47,Demo tweet 1000000000000000119 about #DataScience (sentiment -0.435),62,60,-0.435,Negative,#DataScience,72.35,Stable,Berlin
+1000000000000000120,2026-01-08 20:29:47,Demo tweet 1000000000000000120 about #Python (sentiment 0.821),355,373,0.821,Positive,#Python,534.23,Emerging,London
+1000000000000000121,2026-01-08 20:53:47,Demo tweet 1000000000000000121 about #Python (sentiment -0.146),719,139,-0.146,Negative,#Python,596.22,Emerging,Paris
+1000000000000000122,2026-01-08 20:30:47,Demo tweet 1000000000000000122 about #Python (sentiment 0.079),678,218,0.079,Neutral,#Python,629.57,Emerging,San Francisco
+1000000000000000123,2026-01-08 21:04:47,Demo tweet 1000000000000000123 about #Python (sentiment -0.797),445,125,-0.797,Negative,#Python,375.09,Exploding,Berlin
+1000000000000000124,2026-01-08 20:57:47,Demo tweet 1000000000000000124 about #Python (sentiment 0.148),519,326,0.148,Positive,#Python,595.94,Emerging,San Francisco
+1000000000000000125,2026-01-08 20:19:47,Demo tweet 1000000000000000125 about #AI (sentiment -0.272),55,96,-0.272,Negative,#AI,97.54,Stable,New York
+1000000000000000126,2026-01-08 21:10:47,Demo tweet 1000000000000000126 about #AI (sentiment 0.799),141,70,0.799,Positive,#AI,171.67,Exploding,San Francisco
+1000000000000000127,2026-01-08 21:00:47,Demo tweet 1000000000000000127 about #AI (sentiment 0.355),160,17,0.355,Positive,#AI,134.55,Stable,London
+1000000000000000128,2026-01-08 20:24:47,Demo tweet 1000000000000000128 about #AI (sentiment -0.0),19,45,-0.0,Neutral,#AI,44.8,Stable,None
+1000000000000000129,2026-01-08 20:22:47,Demo tweet 1000000000000000129 about #AI (sentiment -0.273),173,73,-0.273,Negative,#AI,164.01,Exploding,None
+1000000000000000130,2026-01-08 20:46:47,Demo tweet 1000000000000000130 about #DataScience (sentiment -0.484),38,57,-0.484,Negative,#DataScience,51.98,Stable,Tokyo
+1000000000000000131,2026-01-08 20:36:47,Demo tweet 1000000000000000131 about #DataScience (sentiment 0.258),101,100,0.258,Positive,#DataScience,148.44,Stable,Tokyo
+1000000000000000132,2026-01-08 20:44:47,Demo tweet 1000000000000000132 about #DataScience (sentiment 0.075),52,97,0.075,Neutral,#DataScience,106.55,Stable,Berlin
+1000000000000000133,2026-01-08 20:43:47,Demo tweet 1000000000000000133 about #DataScience (sentiment -0.888),48,98,-0.888,Negative,#DataScience,75.56,Stable,Tokyo
+1000000000000000134,2026-01-08 20:58:47,Demo tweet 1000000000000000134 about #DataScience (sentiment 0.084),31,75,0.084,Neutral,#DataScience,76.72,Stable,Paris
+1000000000000000135,2026-01-08 21:12:47,Demo tweet 1000000000000000135 about #Python (sentiment 0.055),152,69,0.055,Neutral,#Python,156.35,Exploding,London
+1000000000000000136,2026-01-08 21:50:47,Demo tweet 1000000000000000136 about #Python (sentiment -0.613),142,44,-0.613,Negative,#Python,111.81,Stable,None
+1000000000000000137,2026-01-08 21:31:47,Demo tweet 1000000000000000137 about #Python (sentiment -0.09),136,52,-0.09,Neutral,#Python,128.9,Stable,San Francisco
+1000000000000000138,2026-01-08 22:06:47,Demo tweet 1000000000000000138 about #Python (sentiment 0.03),24,57,0.03,Neutral,#Python,57.6,Stable,New York
+1000000000000000139,2026-01-08 21:32:47,Demo tweet 1000000000000000139 about #Python (sentiment 0.867),35,35,0.867,Positive,#Python,75.01,Stable,Tokyo
+1000000000000000140,2026-01-08 21:18:47,Demo tweet 1000000000000000140 about #AI (sentiment 0.998),130,54,0.998,Positive,#AI,158.74,Exploding,Tokyo
+1000000000000000141,2026-01-08 21:32:47,Demo tweet 1000000000000000141 about #AI (sentiment 0.678),106,98,0.678,Positive,#AI,163.14,Exploding,Berlin
+1000000000000000142,2026-01-08 21:33:47,Demo tweet 1000000000000000142 about #AI (sentiment 0.853),117,71,0.853,Positive,#AI,157.19,Exploding,San Francisco
+1000000000000000143,2026-01-08 21:36:47,Demo tweet 1000000000000000143 about #AI (sentiment 0.605),110,6,0.605,Positive,#AI,99.35,Stable,New York
+1000000000000000144,2026-01-08 22:00:47,Demo tweet 1000000000000000144 about #AI (sentiment 0.532),26,23,0.532,Positive,#AI,50.26,Stable,Berlin
+1000000000000000145,2026-01-08 21:18:47,Demo tweet 1000000000000000145 about #DataScience (sentiment -0.264),178,58,-0.264,Negative,#DataScience,157.28,Exploding,Tokyo
+1000000000000000146,2026-01-08 21:19:47,Demo tweet 1000000000000000146 about #DataScience (sentiment 0.947),96,88,0.947,Positive,#DataScience,157.21,Exploding,Tokyo
+1000000000000000147,2026-01-08 21:25:47,Demo tweet 1000000000000000147 about #DataScience (sentiment 0.913),77,42,0.913,Positive,#DataScience,110.69,Stable,San Francisco
+1000000000000000148,2026-01-08 21:37:47,Demo tweet 1000000000000000148 about #DataScience (sentiment 0.585),13,60,0.585,Positive,#DataScience,68.65,Stable,Tokyo
+1000000000000000149,2026-01-08 21:44:47,Demo tweet 1000000000000000149 about #DataScience (sentiment 0.158),193,74,0.158,Positive,#DataScience,191.64,Exploding,Paris
+1000000000000000150,2026-01-08 22:44:47,Demo tweet 1000000000000000150 about #Python (sentiment -0.217),78,74,-0.217,Negative,#Python,99.89,Stable,New York
+1000000000000000151,2026-01-08 22:39:47,Demo tweet 1000000000000000151 about #Python (sentiment 0.312),41,99,0.312,Positive,#Python,107.36,Stable,London
+1000000000000000152,2026-01-08 22:30:47,Demo tweet 1000000000000000152 about #Python (sentiment 0.425),146,36,0.425,Positive,#Python,140.15,Stable,New York
+1000000000000000153,2026-01-08 22:26:47,Demo tweet 1000000000000000153 about #Python (sentiment -0.769),53,31,-0.769,Negative,#Python,35.73,Stable,None
+1000000000000000154,2026-01-08 22:13:47,Demo tweet 1000000000000000154 about #Python (sentiment -0.153),166,86,-0.153,Negative,#Python,171.81,Exploding,Berlin
+1000000000000000155,2026-01-08 22:37:47,Demo tweet 1000000000000000155 about #AI (sentiment 0.446),102,54,0.446,Positive,#AI,122.58,Stable,None
+1000000000000000156,2026-01-08 23:09:47,Demo tweet 1000000000000000156 about #AI (sentiment 0.079),152,76,0.079,Neutral,#AI,161.97,Exploding,London
+1000000000000000157,2026-01-08 22:19:47,Demo tweet 1000000000000000157 about #AI (sentiment -0.834),24,46,-0.834,Negative,#AI,23.98,Stable,London
+1000000000000000158,2026-01-08 23:10:47,Demo tweet 1000000000000000158 about #AI (sentiment 0.735),40,46,0.735,Positive,#AI,82.25,Stable,London
+1000000000000000159,2026-01-08 22:29:47,Demo tweet 1000000000000000159 about #AI (sentiment 0.916),197,5,0.916,Positive,#AI,168.88,Exploding,Paris
+1000000000000000160,2026-01-08 22:53:47,Demo tweet 1000000000000000160 about #DataScience (sentiment -0.767),94,31,-0.767,Negative,#DataScience,64.49,Stable,London
+1000000000000000161,2026-01-08 22:30:47,Demo tweet 1000000000000000161 about #DataScience (sentiment 0.599),176,38,0.599,Positive,#DataScience,167.77,Exploding,Berlin
+1000000000000000162,2026-01-08 22:37:47,Demo tweet 1000000000000000162 about #DataScience (sentiment 0.723),149,93,0.723,Positive,#DataScience,191.09,Exploding,None
+1000000000000000163,2026-01-08 22:45:47,Demo tweet 1000000000000000163 about #DataScience (sentiment -0.558),161,52,-0.558,Negative,#DataScience,132.36,Stable,None
+1000000000000000164,2026-01-08 23:09:47,Demo tweet 1000000000000000164 about #DataScience (sentiment 0.891),25,100,0.891,Positive,#DataScience,114.23,Stable,Paris
+1000000000000000165,2026-01-08 23:45:47,Demo tweet 1000000000000000165 about #Python (sentiment -0.007),26,88,-0.007,Neutral,#Python,79.59,Stable,Paris
+1000000000000000166,2026-01-09 00:10:47,Demo tweet 1000000000000000166 about #Python (sentiment 0.01),39,42,0.01,Neutral,#Python,57.0,Stable,New York
+1000000000000000167,2026-01-08 23:42:47,Demo tweet 1000000000000000167 about #Python (sentiment -0.483),129,88,-0.483,Negative,#Python,137.41,Stable,Berlin
+1000000000000000168,2026-01-08 23:41:47,Demo tweet 1000000000000000168 about #Python (sentiment -0.902),12,44,-0.902,Negative,#Python,12.14,Stable,None
+1000000000000000169,2026-01-08 23:35:47,Demo tweet 1000000000000000169 about #Python (sentiment 0.119),166,42,0.119,Positive,#Python,149.17,Stable,London
+1000000000000000170,2026-01-08 23:39:47,Demo tweet 1000000000000000170 about #AI (sentiment 0.326),169,53,0.326,Positive,#AI,165.18,Exploding,Tokyo
+1000000000000000171,2026-01-09 00:00:47,Demo tweet 1000000000000000171 about #AI (sentiment -0.492),43,19,-0.492,Negative,#AI,28.64,Stable,None
+1000000000000000172,2026-01-08 23:20:47,Demo tweet 1000000000000000172 about #AI (sentiment 0.239),177,18,0.239,Positive,#AI,143.67,Stable,None
+1000000000000000173,2026-01-08 23:30:47,Demo tweet 1000000000000000173 about #AI (sentiment -0.318),23,69,-0.318,Negative,#AI,54.86,Stable,Paris
+1000000000000000174,2026-01-08 23:42:47,Demo tweet 1000000000000000174 about #AI (sentiment -0.183),112,50,-0.183,Negative,#AI,107.91,Stable,London
+1000000000000000175,2026-01-08 23:58:47,Demo tweet 1000000000000000175 about #DataScience (sentiment 0.928),55,92,0.928,Positive,#DataScience,130.74,Stable,Berlin
+1000000000000000176,2026-01-08 23:54:47,Demo tweet 1000000000000000176 about #DataScience (sentiment 0.002),91,58,0.002,Neutral,#DataScience,104.36,Stable,Tokyo
+1000000000000000177,2026-01-09 00:08:47,Demo tweet 1000000000000000177 about #DataScience (sentiment 0.359),116,13,0.359,Positive,#DataScience,101.07,Stable,New York
+1000000000000000178,2026-01-08 23:14:47,Demo tweet 1000000000000000178 about #DataScience (sentiment -0.25),114,80,-0.25,Negative,#DataScience,128.3,Stable,Tokyo
+1000000000000000179,2026-01-08 23:30:47,Demo tweet 1000000000000000179 about #DataScience (sentiment 0.422),119,33,0.422,Positive,#DataScience,119.06,Stable,Berlin
+1000000000000000180,2026-01-09 00:37:47,Demo tweet 1000000000000000180 about #Python (sentiment -0.065),327,243,-0.065,Neutral,#Python,397.05,Exploding,Paris
+1000000000000000181,2026-01-09 00:35:47,Demo tweet 1000000000000000181 about #Python (sentiment 0.18),332,350,0.18,Positive,#Python,482.8,Emerging,San Francisco
+1000000000000000182,2026-01-09 00:19:47,Demo tweet 1000000000000000182 about #Python (sentiment -0.562),719,343,-0.562,Negative,#Python,726.54,Emerging,San Francisco
+1000000000000000183,2026-01-09 00:14:47,Demo tweet 1000000000000000183 about #Python (sentiment 0.578),742,374,0.578,Positive,#Python,798.54,Emerging,New York
+1000000000000000184,2026-01-09 00:17:47,Demo tweet 1000000000000000184 about #Python (sentiment -0.765),386,385,-0.765,Negative,#Python,516.75,Emerging,New York
+1000000000000000185,2026-01-09 01:05:47,Demo tweet 1000000000000000185 about #AI (sentiment 0.693),128,58,0.693,Positive,#AI,150.99,Exploding,Tokyo
+1000000000000000186,2026-01-09 00:17:47,Demo tweet 1000000000000000186 about #AI (sentiment 0.471),121,62,0.471,Positive,#AI,142.23,Stable,Paris
+1000000000000000187,2026-01-09 00:30:47,Demo tweet 1000000000000000187 about #AI (sentiment -0.042),195,42,-0.042,Neutral,#AI,164.64,Exploding,London
+1000000000000000188,2026-01-09 01:02:47,Demo tweet 1000000000000000188 about #AI (sentiment -0.003),198,92,-0.003,Neutral,#AI,202.91,Exploding,Berlin
+1000000000000000189,2026-01-09 00:43:47,Demo tweet 1000000000000000189 about #AI (sentiment 0.783),13,91,0.783,Positive,#AI,96.29,Stable,Paris
+1000000000000000190,2026-01-09 00:25:47,Demo tweet 1000000000000000190 about #DataScience (sentiment -0.748),56,89,-0.748,Negative,#DataScience,79.06,Stable,London
+1000000000000000191,2026-01-09 01:05:47,Demo tweet 1000000000000000191 about #DataScience (sentiment -0.536),158,95,-0.536,Negative,#DataScience,161.02,Exploding,San Francisco
+1000000000000000192,2026-01-09 00:29:47,Demo tweet 1000000000000000192 about #DataScience (sentiment 0.952),71,22,0.952,Positive,#DataScience,93.66,Stable,Paris
+1000000000000000193,2026-01-09 00:47:47,Demo tweet 1000000000000000193 about #DataScience (sentiment 0.81),70,50,0.81,Positive,#DataScience,108.3,Stable,Berlin
+1000000000000000194,2026-01-09 00:17:47,Demo tweet 1000000000000000194 about #DataScience (sentiment 0.175),200,16,0.175,Positive,#DataScience,156.45,Exploding,New York
+1000000000000000195,2026-01-09 02:06:47,Demo tweet 1000000000000000195 about #Python (sentiment -0.091),30,63,-0.091,Neutral,#Python,62.37,Stable,Paris
+1000000000000000196,2026-01-09 01:47:47,Demo tweet 1000000000000000196 about #Python (sentiment -0.96),132,64,-0.96,Negative,#Python,108.4,Stable,New York
+1000000000000000197,2026-01-09 01:13:47,Demo tweet 1000000000000000197 about #Python (sentiment 0.203),98,95,0.203,Positive,#Python,141.19,Stable,Tokyo
+1000000000000000198,2026-01-09 01:17:47,Demo tweet 1000000000000000198 about #Python (sentiment -0.056),101,55,-0.056,Neutral,#Python,107.52,Stable,Tokyo
+1000000000000000199,2026-01-09 02:07:47,Demo tweet 1000000000000000199 about #Python (sentiment 0.085),164,23,0.085,Neutral,#Python,133.45,Stable,Paris
+1000000000000000200,2026-01-09 01:28:47,Demo tweet 1000000000000000200 about #AI (sentiment 0.202),140,69,0.202,Positive,#AI,152.36,Exploding,New York
+1000000000000000201,2026-01-09 01:48:47,Demo tweet 1000000000000000201 about #AI (sentiment 0.006),99,42,0.006,Neutral,#AI,98.88,Stable,Paris
+1000000000000000202,2026-01-09 01:26:47,Demo tweet 1000000000000000202 about #AI (sentiment 0.031),155,61,0.031,Neutral,#AI,152.13,Exploding,New York
+1000000000000000203,2026-01-09 01:19:47,Demo tweet 1000000000000000203 about #AI (sentiment 0.988),45,93,0.988,Positive,#AI,126.24,Stable,Tokyo
+1000000000000000204,2026-01-09 02:10:47,Demo tweet 1000000000000000204 about #AI (sentiment 0.965),35,73,0.965,Positive,#AI,104.55,Stable,London
+1000000000000000205,2026-01-09 01:56:47,Demo tweet 1000000000000000205 about #DataScience (sentiment -0.389),102,29,-0.389,Negative,#DataScience,80.03,Stable,San Francisco
+1000000000000000206,2026-01-09 01:39:47,Demo tweet 1000000000000000206 about #DataScience (sentiment 0.869),199,96,0.869,Positive,#DataScience,232.57,Exploding,Paris
+1000000000000000207,2026-01-09 01:30:47,Demo tweet 1000000000000000207 about #DataScience (sentiment 0.216),56,49,0.216,Positive,#DataScience,79.98,Stable,San Francisco
+1000000000000000208,2026-01-09 01:59:47,Demo tweet 1000000000000000208 about #DataScience (sentiment 0.693),177,34,0.693,Positive,#DataScience,168.49,Exploding,None
+1000000000000000209,2026-01-09 01:22:47,Demo tweet 1000000000000000209 about #DataScience (sentiment -0.087),97,7,-0.087,Neutral,#DataScience,70.19,Stable,New York
+1000000000000000210,2026-01-09 02:15:47,Demo tweet 1000000000000000210 about #Python (sentiment -0.978),114,56,-0.978,Negative,#Python,89.66,Stable,Paris
+1000000000000000211,2026-01-09 02:47:47,Demo tweet 1000000000000000211 about #Python (sentiment -0.074),95,48,-0.074,Neutral,#Python,97.88,Stable,New York
+1000000000000000212,2026-01-09 02:49:47,Demo tweet 1000000000000000212 about #Python (sentiment 0.86),190,82,0.86,Positive,#Python,216.2,Exploding,Paris
+1000000000000000213,2026-01-09 02:40:47,Demo tweet 1000000000000000213 about #Python (sentiment 0.588),129,85,0.588,Positive,#Python,167.44,Exploding,San Francisco
+1000000000000000214,2026-01-09 03:00:47,Demo tweet 1000000000000000214 about #Python (sentiment -0.091),141,39,-0.091,Neutral,#Python,123.27,Stable,Paris
+1000000000000000215,2026-01-09 02:12:47,Demo tweet 1000000000000000215 about #AI (sentiment 0.257),136,99,0.257,Positive,#AI,172.21,Exploding,New York
+1000000000000000216,2026-01-09 03:03:47,Demo tweet 1000000000000000216 about #AI (sentiment 0.615),121,16,0.615,Positive,#AI,114.35,Stable,Paris
+1000000000000000217,2026-01-09 03:03:47,Demo tweet 1000000000000000217 about #AI (sentiment 0.645),89,18,0.645,Positive,#AI,94.25,Stable,London
+1000000000000000218,2026-01-09 02:57:47,Demo tweet 1000000000000000218 about #AI (sentiment 0.368),117,38,0.368,Positive,#AI,119.54,Stable,London
+1000000000000000219,2026-01-09 02:57:47,Demo tweet 1000000000000000219 about #AI (sentiment 0.5),35,41,0.5,Positive,#AI,68.2,Stable,Berlin
+1000000000000000220,2026-01-09 03:09:47,Demo tweet 1000000000000000220 about #DataScience (sentiment 0.436),156,14,0.436,Positive,#DataScience,132.08,Stable,New York
+1000000000000000221,2026-01-09 02:49:47,Demo tweet 1000000000000000221 about #DataScience (sentiment 0.044),158,55,0.044,Neutral,#DataScience,150.42,Exploding,San Francisco
+1000000000000000222,2026-01-09 02:40:47,Demo tweet 1000000000000000222 about #DataScience (sentiment 0.319),152,97,0.319,Positive,#DataScience,183.87,Exploding,London
+1000000000000000223,2026-01-09 02:26:47,Demo tweet 1000000000000000223 about #DataScience (sentiment -0.124),49,56,-0.124,Negative,#DataScience,69.78,Stable,Paris
+1000000000000000224,2026-01-09 02:30:47,Demo tweet 1000000000000000224 about #DataScience (sentiment -0.671),17,74,-0.671,Negative,#DataScience,43.57,Stable,Paris
+1000000000000000225,2026-01-09 03:41:47,Demo tweet 1000000000000000225 about #Python (sentiment 0.267),190,23,0.267,Positive,#Python,157.11,Exploding,Paris
+1000000000000000226,2026-01-09 04:10:47,Demo tweet 1000000000000000226 about #Python (sentiment 0.474),88,28,0.474,Positive,#Python,95.42,Stable,Berlin
+1000000000000000227,2026-01-09 03:36:47,Demo tweet 1000000000000000227 about #Python (sentiment 0.978),75,52,0.978,Positive,#Python,118.24,Stable,New York
+1000000000000000228,2026-01-09 03:56:47,Demo tweet 1000000000000000228 about #Python (sentiment 0.923),185,96,0.923,Positive,#Python,224.39,Exploding,None
+1000000000000000229,2026-01-09 04:05:47,Demo tweet 1000000000000000229 about #Python (sentiment 0.066),90,11,0.066,Neutral,#Python,72.68,Stable,Berlin
+1000000000000000230,2026-01-09 03:28:47,Demo tweet 1000000000000000230 about #AI (sentiment -0.148),199,23,-0.148,Negative,#AI,150.96,Exploding,San Francisco
+1000000000000000231,2026-01-09 03:50:47,Demo tweet 1000000000000000231 about #AI (sentiment 0.941),64,61,0.941,Positive,#AI,115.73,Stable,Tokyo
+1000000000000000232,2026-01-09 03:53:47,Demo tweet 1000000000000000232 about #AI (sentiment 0.351),184,51,0.351,Positive,#AI,175.03,Exploding,None
+1000000000000000233,2026-01-09 03:51:47,Demo tweet 1000000000000000233 about #AI (sentiment -0.837),155,16,-0.837,Negative,#AI,94.59,Stable,Tokyo
+1000000000000000234,2026-01-09 03:39:47,Demo tweet 1000000000000000234 about #AI (sentiment 0.37),188,20,0.37,Positive,#AI,156.7,Exploding,None
+1000000000000000235,2026-01-09 03:56:47,Demo tweet 1000000000000000235 about #DataScience (sentiment 0.873),47,26,0.873,Positive,#DataScience,77.29,Stable,San Francisco
+1000000000000000236,2026-01-09 03:27:47,Demo tweet 1000000000000000236 about #DataScience (sentiment 0.754),151,66,0.754,Positive,#DataScience,174.52,Exploding,Berlin
+1000000000000000237,2026-01-09 03:21:47,Demo tweet 1000000000000000237 about #DataScience (sentiment 0.855),39,62,0.855,Positive,#DataScience,96.35,Stable,San Francisco
+1000000000000000238,2026-01-09 03:17:47,Demo tweet 1000000000000000238 about #DataScience (sentiment -0.382),132,12,-0.382,Negative,#DataScience,89.34,Stable,Tokyo
+1000000000000000239,2026-01-09 03:49:47,Demo tweet 1000000000000000239 about #DataScience (sentiment -0.011),161,90,-0.011,Neutral,#DataScience,175.37,Exploding,None
+1000000000000000240,2026-01-09 04:11:47,Demo tweet 1000000000000000240 about #Python (sentiment 0.26),179,68,0.26,Positive,#Python,180.7,Exploding,London
+1000000000000000241,2026-01-09 04:38:47,Demo tweet 1000000000000000241 about #Python (sentiment -0.004),165,48,-0.004,Neutral,#Python,148.98,Stable,None
+1000000000000000242,2026-01-09 04:25:47,Demo tweet 1000000000000000242 about #Python (sentiment 0.416),188,67,0.416,Positive,#Python,190.98,Exploding,London
+1000000000000000243,2026-01-09 04:59:47,Demo tweet 1000000000000000243 about #Python (sentiment -0.345),75,85,-0.345,Negative,#Python,101.65,Stable,None
+1000000000000000244,2026-01-09 04:46:47,Demo tweet 1000000000000000244 about #Python (sentiment -0.062),119,97,-0.062,Neutral,#Python,149.34,Stable,None
+1000000000000000245,2026-01-09 04:48:47,Demo tweet 1000000000000000245 about #AI (sentiment 0.35),41,97,0.35,Positive,#AI,107.1,Stable,None
+1000000000000000246,2026-01-09 04:25:47,Demo tweet 1000000000000000246 about #AI (sentiment 0.929),46,24,0.929,Positive,#AI,76.87,Stable,London
+1000000000000000247,2026-01-09 05:07:47,Demo tweet 1000000000000000247 about #AI (sentiment -0.744),164,84,-0.744,Negative,#AI,151.28,Exploding,Paris
+1000000000000000248,2026-01-09 04:32:47,Demo tweet 1000000000000000248 about #AI (sentiment 0.073),165,77,0.073,Neutral,#AI,171.59,Exploding,Paris
+1000000000000000249,2026-01-09 04:14:47,Demo tweet 1000000000000000249 about #AI (sentiment -0.188),157,67,-0.188,Negative,#AI,151.16,Exploding,San Francisco
+1000000000000000250,2026-01-09 04:44:47,Demo tweet 1000000000000000250 about #DataScience (sentiment -0.614),87,91,-0.614,Negative,#DataScience,106.18,Stable,Paris
+1000000000000000251,2026-01-09 04:28:47,Demo tweet 1000000000000000251 about #DataScience (sentiment 0.817),160,21,0.817,Positive,#DataScience,151.21,Exploding,Paris
+1000000000000000252,2026-01-09 04:25:47,Demo tweet 1000000000000000252 about #DataScience (sentiment 0.514),163,40,0.514,Positive,#DataScience,157.52,Exploding,Paris
+1000000000000000253,2026-01-09 04:13:47,Demo tweet 1000000000000000253 about #DataScience (sentiment -0.314),167,64,-0.314,Negative,#DataScience,152.28,Exploding,San Francisco
+1000000000000000254,2026-01-09 04:43:47,Demo tweet 1000000000000000254 about #DataScience (sentiment 0.615),81,33,0.615,Positive,#DataScience,98.25,Stable,London
+1000000000000000255,2026-01-09 06:00:47,Demo tweet 1000000000000000255 about #Python (sentiment -0.565),196,60,-0.565,Negative,#Python,162.25,Exploding,None
+1000000000000000256,2026-01-09 05:40:47,Demo tweet 1000000000000000256 about #Python (sentiment -0.872),37,16,-0.872,Negative,#Python,10.94,Stable,Tokyo
+1000000000000000257,2026-01-09 05:20:47,Demo tweet 1000000000000000257 about #Python (sentiment 0.257),76,77,0.257,Positive,#Python,114.81,Stable,None
+1000000000000000258,2026-01-09 05:35:47,Demo tweet 1000000000000000258 about #Python (sentiment -0.981),80,34,-0.981,Negative,#Python,50.37,Stable,None
+1000000000000000259,2026-01-09 05:21:47,Demo tweet 1000000000000000259 about #Python (sentiment 0.044),178,97,0.044,Neutral,#Python,193.82,Exploding,None
+1000000000000000260,2026-01-09 05:53:47,Demo tweet 1000000000000000260 about #AI (sentiment 0.992),28,98,0.992,Positive,#AI,117.96,Stable,London
+1000000000000000261,2026-01-09 05:31:47,Demo tweet 1000000000000000261 about #AI (sentiment 0.958),85,50,0.958,Positive,#AI,123.24,Stable,Tokyo
+1000000000000000262,2026-01-09 05:33:47,Demo tweet 1000000000000000262 about #AI (sentiment -0.414),131,51,-0.414,Negative,#AI,114.98,Stable,London
+1000000000000000263,2026-01-09 05:14:47,Demo tweet 1000000000000000263 about #AI (sentiment 0.058),95,44,0.058,Neutral,#AI,99.04,Stable,San Francisco
+1000000000000000264,2026-01-09 05:13:47,Demo tweet 1000000000000000264 about #AI (sentiment 0.008),137,72,0.008,Neutral,#AI,146.54,Stable,None
+1000000000000000265,2026-01-09 05:19:47,Demo tweet 1000000000000000265 about #DataScience (sentiment 0.694),132,86,0.694,Positive,#DataScience,173.42,Exploding,None
+1000000000000000266,2026-01-09 06:01:47,Demo tweet 1000000000000000266 about #DataScience (sentiment -0.077),155,48,-0.077,Neutral,#DataScience,139.79,Stable,New York
+1000000000000000267,2026-01-09 06:06:47,Demo tweet 1000000000000000267 about #DataScience (sentiment -0.567),181,25,-0.567,Negative,#DataScience,127.19,Stable,San Francisco
+1000000000000000268,2026-01-09 05:24:47,Demo tweet 1000000000000000268 about #DataScience (sentiment -0.164),154,31,-0.164,Negative,#DataScience,124.58,Stable,New York
+1000000000000000269,2026-01-09 05:51:47,Demo tweet 1000000000000000269 about #DataScience (sentiment -0.88),74,96,-0.88,Negative,#DataScience,92.6,Stable,New York
+1000000000000000270,2026-01-09 06:16:47,Demo tweet 1000000000000000270 about #Python (sentiment -0.045),713,268,-0.045,Neutral,#Python,685.35,Emerging,Berlin
+1000000000000000271,2026-01-09 06:16:47,Demo tweet 1000000000000000271 about #Python (sentiment 0.003),577,130,0.003,Neutral,#Python,494.99,Emerging,London
+1000000000000000272,2026-01-09 06:58:47,Demo tweet 1000000000000000272 about #Python (sentiment 0.754),753,383,0.754,Positive,#Python,817.82,Emerging,New York
+1000000000000000273,2026-01-09 07:04:47,Demo tweet 1000000000000000273 about #Python (sentiment 0.354),651,194,0.354,Positive,#Python,602.12,Emerging,San Francisco
+1000000000000000274,2026-01-09 06:35:47,Demo tweet 1000000000000000274 about #Python (sentiment -0.702),380,242,-0.702,Negative,#Python,414.34,Emerging,San Francisco
+1000000000000000275,2026-01-09 06:13:47,Demo tweet 1000000000000000275 about #AI (sentiment -0.198),111,12,-0.198,Negative,#AI,80.16,Stable,Tokyo
+1000000000000000276,2026-01-09 06:30:47,Demo tweet 1000000000000000276 about #AI (sentiment -0.636),80,66,-0.636,Negative,#AI,83.12,Stable,Tokyo
+1000000000000000277,2026-01-09 06:12:47,Demo tweet 1000000000000000277 about #AI (sentiment 0.762),192,10,0.762,Positive,#AI,164.26,Exploding,Berlin
+1000000000000000278,2026-01-09 06:33:47,Demo tweet 1000000000000000278 about #AI (sentiment -0.071),75,76,-0.071,Neutral,#AI,103.57,Stable,None
+1000000000000000279,2026-01-09 06:29:47,Demo tweet 1000000000000000279 about #AI (sentiment 0.458),137,55,0.458,Positive,#AI,148.14,Stable,Paris
+1000000000000000280,2026-01-09 06:14:47,Demo tweet 1000000000000000280 about #DataScience (sentiment 0.741),74,78,0.741,Positive,#DataScience,128.63,Stable,Tokyo
+1000000000000000281,2026-01-09 06:46:47,Demo tweet 1000000000000000281 about #DataScience (sentiment 0.263),145,50,0.263,Positive,#DataScience,144.39,Stable,Berlin
+1000000000000000282,2026-01-09 06:20:47,Demo tweet 1000000000000000282 about #DataScience (sentiment -0.954),171,47,-0.954,Negative,#DataScience,123.98,Stable,London
+1000000000000000283,2026-01-09 07:05:47,Demo tweet 1000000000000000283 about #DataScience (sentiment -0.029),142,19,-0.029,Neutral,#DataScience,111.83,Stable,Berlin
+1000000000000000284,2026-01-09 06:58:47,Demo tweet 1000000000000000284 about #DataScience (sentiment -0.332),146,83,-0.332,Negative,#DataScience,150.34,Exploding,Tokyo
+1000000000000000285,2026-01-09 07:56:47,Demo tweet 1000000000000000285 about #Python (sentiment -0.035),61,80,-0.035,Neutral,#Python,97.65,Stable,Berlin
+1000000000000000286,2026-01-09 07:48:47,Demo tweet 1000000000000000286 about #Python (sentiment 0.602),98,23,0.602,Positive,#Python,102.76,Stable,None
+1000000000000000287,2026-01-09 07:33:47,Demo tweet 1000000000000000287 about #Python (sentiment -0.563),113,44,-0.563,Negative,#Python,93.01,Stable,San Francisco
+1000000000000000288,2026-01-09 07:56:47,Demo tweet 1000000000000000288 about #Python (sentiment -0.251),21,22,-0.251,Negative,#Python,22.57,Stable,Tokyo
+1000000000000000289,2026-01-09 07:40:47,Demo tweet 1000000000000000289 about #Python (sentiment 0.971),87,90,0.971,Positive,#Python,153.03,Exploding,Berlin
+1000000000000000290,2026-01-09 07:18:47,Demo tweet 1000000000000000290 about #AI (sentiment 0.029),97,6,0.029,Neutral,#AI,72.97,Stable,Berlin
+1000000000000000291,2026-01-09 07:38:47,Demo tweet 1000000000000000291 about #AI (sentiment -0.951),23,9,-0.951,Negative,#AI,-6.13,Stable,New York
+1000000000000000292,2026-01-09 07:52:47,Demo tweet 1000000000000000292 about #AI (sentiment -0.436),39,84,-0.436,Negative,#AI,73.02,Stable,San Francisco
+1000000000000000293,2026-01-09 07:29:47,Demo tweet 1000000000000000293 about #AI (sentiment 0.448),17,78,0.448,Positive,#AI,79.94,Stable,Tokyo
+1000000000000000294,2026-01-09 07:34:47,Demo tweet 1000000000000000294 about #AI (sentiment 0.365),182,89,0.365,Positive,#AI,200.65,Exploding,San Francisco
+1000000000000000295,2026-01-09 07:26:47,Demo tweet 1000000000000000295 about #DataScience (sentiment 0.508),13,6,0.508,Positive,#DataScience,28.54,Stable,New York
+1000000000000000296,2026-01-09 07:56:47,Demo tweet 1000000000000000296 about #DataScience (sentiment 0.621),66,31,0.621,Positive,#DataScience,86.53,Stable,San Francisco
+1000000000000000297,2026-01-09 07:17:47,Demo tweet 1000000000000000297 about #DataScience (sentiment -0.003),190,52,-0.003,Neutral,#DataScience,169.31,Exploding,Paris
+1000000000000000298,2026-01-09 08:02:47,Demo tweet 1000000000000000298 about #DataScience (sentiment -0.003),105,72,-0.003,Neutral,#DataScience,123.81,Stable,San Francisco
+1000000000000000299,2026-01-09 07:42:47,Demo tweet 1000000000000000299 about #DataScience (sentiment 0.95),75,37,0.95,Positive,#DataScience,106.9,Stable,Berlin
+1000000000000000300,2026-01-09 08:30:47,Demo tweet 1000000000000000300 about #Python (sentiment -0.736),154,94,-0.736,Negative,#Python,151.52,Exploding,Tokyo
+1000000000000000301,2026-01-09 09:08:47,Demo tweet 1000000000000000301 about #Python (sentiment 0.208),187,39,0.208,Positive,#Python,164.44,Exploding,London
+1000000000000000302,2026-01-09 08:27:47,Demo tweet 1000000000000000302 about #Python (sentiment 0.061),77,94,0.061,Neutral,#Python,121.53,Stable,San Francisco
+1000000000000000303,2026-01-09 08:53:47,Demo tweet 1000000000000000303 about #Python (sentiment 0.77),190,63,0.77,Positive,#Python,200.2,Exploding,San Francisco
+1000000000000000304,2026-01-09 08:37:47,Demo tweet 1000000000000000304 about #Python (sentiment 0.132),122,39,0.132,Positive,#Python,116.66,Stable,Berlin
+1000000000000000305,2026-01-09 08:37:47,Demo tweet 1000000000000000305 about #AI (sentiment 0.507),194,27,0.507,Positive,#AI,169.91,Exploding,Tokyo
+1000000000000000306,2026-01-09 09:05:47,Demo tweet 1000000000000000306 about #AI (sentiment -0.69),73,21,-0.69,Negative,#AI,45.1,Stable,San Francisco
+1000000000000000307,2026-01-09 08:40:47,Demo tweet 1000000000000000307 about #AI (sentiment -0.572),70,90,-0.572,Negative,#AI,94.84,Stable,San Francisco
+1000000000000000308,2026-01-09 08:37:47,Demo tweet 1000000000000000308 about #AI (sentiment 0.37),197,19,0.37,Positive,#AI,162.3,Exploding,Berlin
+1000000000000000309,2026-01-09 09:00:47,Demo tweet 1000000000000000309 about #AI (sentiment 0.03),161,94,0.03,Neutral,#AI,179.4,Exploding,Paris
+1000000000000000310,2026-01-09 09:05:47,Demo tweet 1000000000000000310 about #DataScience (sentiment 0.23),196,8,0.23,Positive,#DataScience,149.7,Stable,Berlin
+1000000000000000311,2026-01-09 08:57:47,Demo tweet 1000000000000000311 about #DataScience (sentiment 0.704),86,77,0.704,Positive,#DataScience,135.22,Stable,Tokyo
+1000000000000000312,2026-01-09 08:55:47,Demo tweet 1000000000000000312 about #DataScience (sentiment -0.053),38,83,-0.053,Neutral,#DataScience,83.11,Stable,Paris
+1000000000000000313,2026-01-09 08:24:47,Demo tweet 1000000000000000313 about #DataScience (sentiment -0.268),66,14,-0.268,Negative,#DataScience,47.96,Stable,None
+1000000000000000314,2026-01-09 08:26:47,Demo tweet 1000000000000000314 about #DataScience (sentiment 0.807),197,95,0.807,Positive,#DataScience,228.61,Exploding,None
+1000000000000000315,2026-01-09 09:57:47,Demo tweet 1000000000000000315 about #Python (sentiment -0.362),25,72,-0.362,Negative,#Python,57.04,Stable,Tokyo
+1000000000000000316,2026-01-09 09:24:47,Demo tweet 1000000000000000316 about #Python (sentiment -0.472),148,38,-0.472,Negative,#Python,116.04,Stable,London
+1000000000000000317,2026-01-09 09:39:47,Demo tweet 1000000000000000317 about #Python (sentiment 0.857),130,81,0.857,Positive,#Python,173.41,Exploding,None
+1000000000000000318,2026-01-09 09:41:47,Demo tweet 1000000000000000318 about #Python (sentiment 0.084),84,96,0.084,Neutral,#Python,128.52,Stable,Tokyo
+1000000000000000319,2026-01-09 10:04:47,Demo tweet 1000000000000000319 about #Python (sentiment -0.004),152,35,-0.004,Neutral,#Python,130.78,Stable,New York
+1000000000000000320,2026-01-09 09:26:47,Demo tweet 1000000000000000320 about #AI (sentiment 0.053),197,12,0.053,Neutral,#AI,147.89,Stable,Tokyo
+1000000000000000321,2026-01-09 09:39:47,Demo tweet 1000000000000000321 about #AI (sentiment 0.556),165,95,0.556,Positive,#AI,198.68,Exploding,None
+1000000000000000322,2026-01-09 09:46:47,Demo tweet 1000000000000000322 about #AI (sentiment -0.354),174,25,-0.354,Negative,#AI,128.68,Stable,Berlin
+1000000000000000323,2026-01-09 09:55:47,Demo tweet 1000000000000000323 about #AI (sentiment -0.91),134,10,-0.91,Negative,#AI,73.5,Stable,New York
+1000000000000000324,2026-01-09 09:45:47,Demo tweet 1000000000000000324 about #AI (sentiment 0.856),38,35,0.856,Positive,#AI,76.78,Stable,None
+1000000000000000325,2026-01-09 09:22:47,Demo tweet 1000000000000000325 about #DataScience (sentiment 0.607),61,57,0.607,Positive,#DataScience,100.81,Stable,San Francisco
+1000000000000000326,2026-01-09 09:32:47,Demo tweet 1000000000000000326 about #DataScience (sentiment 0.044),61,16,0.044,Neutral,#DataScience,55.22,Stable,San Francisco
+1000000000000000327,2026-01-09 09:14:47,Demo tweet 1000000000000000327 about #DataScience (sentiment -0.125),133,37,-0.125,Negative,#DataScience,115.25,Stable,Berlin
+1000000000000000328,2026-01-09 09:39:47,Demo tweet 1000000000000000328 about #DataScience (sentiment 0.221),141,48,0.221,Positive,#DataScience,138.93,Stable,Paris
+1000000000000000329,2026-01-09 09:32:47,Demo tweet 1000000000000000329 about #DataScience (sentiment -0.025),199,17,-0.025,Neutral,#DataScience,150.45,Exploding,New York
+1000000000000000330,2026-01-09 11:05:47,Demo tweet 1000000000000000330 about #Python (sentiment 0.899),95,9,0.899,Positive,#Python,99.77,Stable,New York
+1000000000000000331,2026-01-09 10:29:47,Demo tweet 1000000000000000331 about #Python (sentiment -0.045),102,61,-0.045,Neutral,#Python,112.75,Stable,None
+1000000000000000332,2026-01-09 10:27:47,Demo tweet 1000000000000000332 about #Python (sentiment 0.561),35,20,0.561,Positive,#Python,55.33,Stable,Tokyo
+1000000000000000333,2026-01-09 10:53:47,Demo tweet 1000000000000000333 about #Python (sentiment -0.692),96,20,-0.692,Negative,#Python,60.44,Stable,London
+1000000000000000334,2026-01-09 10:49:47,Demo tweet 1000000000000000334 about #Python (sentiment 0.869),98,72,0.869,Positive,#Python,145.07,Stable,San Francisco
+1000000000000000335,2026-01-09 10:35:47,Demo tweet 1000000000000000335 about #AI (sentiment 0.707),154,22,0.707,Positive,#AI,144.41,Stable,San Francisco
+1000000000000000336,2026-01-09 10:31:47,Demo tweet 1000000000000000336 about #AI (sentiment 0.399),53,34,0.399,Positive,#AI,72.87,Stable,Tokyo
+1000000000000000337,2026-01-09 10:58:47,Demo tweet 1000000000000000337 about #AI (sentiment 0.807),131,5,0.807,Positive,#AI,119.41,Stable,London
+1000000000000000338,2026-01-09 10:23:47,Demo tweet 1000000000000000338 about #AI (sentiment 0.046),87,16,0.046,Neutral,#AI,73.48,Stable,None
+1000000000000000339,2026-01-09 10:50:47,Demo tweet 1000000000000000339 about #AI (sentiment 0.768),92,52,0.768,Positive,#AI,123.84,Stable,Berlin
+1000000000000000340,2026-01-09 11:03:47,Demo tweet 1000000000000000340 about #DataScience (sentiment 0.07),48,23,0.07,Neutral,#DataScience,51.8,Stable,London
+1000000000000000341,2026-01-09 10:39:47,Demo tweet 1000000000000000341 about #DataScience (sentiment 0.78),29,81,0.78,Positive,#DataScience,100.4,Stable,New York
+1000000000000000342,2026-01-09 10:13:47,Demo tweet 1000000000000000342 about #DataScience (sentiment -0.057),57,17,-0.057,Neutral,#DataScience,50.09,Stable,Berlin
+1000000000000000343,2026-01-09 10:31:47,Demo tweet 1000000000000000343 about #DataScience (sentiment 0.498),194,43,0.498,Positive,#DataScience,180.84,Exploding,London
+1000000000000000344,2026-01-09 11:09:47,Demo tweet 1000000000000000344 about #DataScience (sentiment 0.927),120,5,0.927,Positive,#DataScience,115.31,Stable,Berlin
+1000000000000000345,2026-01-09 11:26:47,Demo tweet 1000000000000000345 about #Python (sentiment -0.085),72,14,-0.085,Neutral,#Python,57.65,Stable,None
+1000000000000000346,2026-01-09 11:26:47,Demo tweet 1000000000000000346 about #Python (sentiment 0.087),40,29,0.087,Neutral,#Python,50.91,Stable,London
+1000000000000000347,2026-01-09 11:27:47,Demo tweet 1000000000000000347 about #Python (sentiment 0.822),47,99,0.822,Positive,#Python,126.86,Stable,Tokyo
+1000000000000000348,2026-01-09 11:53:47,Demo tweet 1000000000000000348 about #Python (sentiment 0.955),84,64,0.955,Positive,#Python,132.25,Stable,Berlin
+1000000000000000349,2026-01-09 11:59:47,Demo tweet 1000000000000000349 about #Python (sentiment 0.079),190,15,0.079,Neutral,#Python,145.87,Stable,Paris
+1000000000000000350,2026-01-09 12:06:47,Demo tweet 1000000000000000350 about #AI (sentiment -0.933),73,17,-0.933,Negative,#AI,35.01,Stable,New York
+1000000000000000351,2026-01-09 11:46:47,Demo tweet 1000000000000000351 about #AI (sentiment 0.931),132,84,0.931,Positive,#AI,179.13,Exploding,London
+1000000000000000352,2026-01-09 11:32:47,Demo tweet 1000000000000000352 about #AI (sentiment 0.408),132,56,0.408,Positive,#AI,143.84,Stable,Berlin
+1000000000000000353,2026-01-09 11:59:47,Demo tweet 1000000000000000353 about #AI (sentiment 0.562),69,65,0.562,Positive,#AI,110.66,Stable,Tokyo
+1000000000000000354,2026-01-09 11:31:47,Demo tweet 1000000000000000354 about #AI (sentiment -0.002),118,38,-0.002,Neutral,#AI,109.14,Stable,Paris
+1000000000000000355,2026-01-09 11:37:47,Demo tweet 1000000000000000355 about #DataScience (sentiment -0.783),165,9,-0.783,Negative,#DataScience,98.31,Stable,New York
+1000000000000000356,2026-01-09 12:04:47,Demo tweet 1000000000000000356 about #DataScience (sentiment 0.57),131,75,0.57,Positive,#DataScience,161.3,Exploding,New York
+1000000000000000357,2026-01-09 11:39:47,Demo tweet 1000000000000000357 about #DataScience (sentiment 0.792),90,19,0.792,Positive,#DataScience,100.06,Stable,Tokyo
+1000000000000000358,2026-01-09 12:00:47,Demo tweet 1000000000000000358 about #DataScience (sentiment 0.616),150,40,0.616,Positive,#DataScience,151.48,Exploding,New York
+1000000000000000359,2026-01-09 11:42:47,Demo tweet 1000000000000000359 about #DataScience (sentiment -0.898),14,85,-0.898,Negative,#DataScience,42.36,Stable,Berlin
