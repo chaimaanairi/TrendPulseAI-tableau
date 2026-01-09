@@ -1337,8 +1337,8 @@
         <devicelayout auto-generated='true' name='Phone'>
           <size maxheight='1800' minheight='1800' sizing-mode='vscroll' />
           <zones>
-            <zone h='100000' id='62' type-v2='layout-basic' w='100000' x='0' y='0'>
-              <zone h='98000' id='61' param='vert' type-v2='layout-flow' w='98666' x='667' y='1000'>
+            <zone h='100000' id='64' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98000' id='63' param='vert' type-v2='layout-flow' w='98666' x='667' y='1000'>
                 <zone forceUpdate='true' h='8375' id='37' type-v2='text' w='98666' x='667' y='1000'>
                   <formatted-text>
                     <run bold='true' fontalignment='1' fontcolor='#000000' fontsize='18'>TrendPredict — Real-Time Social Media Trend &amp; Prediction Dashboard</run>
@@ -1718,7 +1718,7 @@
           <strip size='2147483647'>
             <card type='rows' />
           </strip>
-          <strip size='29'>
+          <strip size='28'>
             <card type='title' />
           </strip>
         </edge>

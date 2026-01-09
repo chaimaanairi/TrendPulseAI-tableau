@@ -2,9 +2,10 @@
 TrendPredict – Twitter/X Feature Engineering
 Author: Chaimaa Nairi
 Description:
-Processes raw Twitter/X data (CSV) and performs feature engineering for Tableau dashboards.
-Calculates sentiment categories, momentum scores, engagement metrics, and spike detection.
-Generates an enhanced CSV ready for visualization and analytics, clean for Tableau.
+Processes raw Twitter/X data (CSV) and prepares it for Tableau dashboards.
+The CSV contains base metrics like likes, retweets, sentiment, and hashtag.
+All advanced feature engineering (Momentum Score, Momentum Status, Engagement, Spike Detection) is implemented
+directly in Tableau via calculated fields. This script ensures clean, structured CSV ready for Tableau visualization.
 """
 
 import pandas as pd
