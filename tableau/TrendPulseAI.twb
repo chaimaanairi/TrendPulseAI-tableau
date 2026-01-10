@@ -2445,8 +2445,8 @@
         <devicelayout auto-generated='true' name='Phone'>
           <size maxheight='2500' minheight='2500' sizing-mode='vscroll' />
           <zones>
-            <zone h='100000' id='105' type-v2='layout-basic' w='100000' x='0' y='0'>
-              <zone h='98000' id='104' param='vert' type-v2='layout-flow' w='98666' x='667' y='1000'>
+            <zone h='100000' id='107' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98000' id='106' param='vert' type-v2='layout-flow' w='98666' x='667' y='1000'>
                 <zone forceUpdate='true' h='8403' id='37' type-v2='text' w='98666' x='667' y='1000'>
                   <formatted-text>
                     <run bold='true' fontalignment='1' fontcolor='#1f2328' fontsize='18'>TrendPulse AI – Real-Time Social Media Trend Intelligence</run>
