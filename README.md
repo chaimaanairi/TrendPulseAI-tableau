@@ -18,7 +18,6 @@ Key capabilities:
 - `scripts/`: Python scripts for data processing and analysis
 - `tableau/`: Tableau workbook for visualization
 - `requirements.txt`: Python dependencies
-- `README.md`: Project documentation
 - `.env`: Environment variables (not included for security)
 - `.gitignore`: Git ignore file
 
