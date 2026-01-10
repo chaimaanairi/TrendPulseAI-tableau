@@ -2,23 +2,23 @@
 
 AI-powered Tableau dashboard for tracking sentiment, momentum, and actionable insights from trending topics on Twitter/X.
 
-**TrendPulse AI** transforms Twitter/X trends into actionable, explainable insights by combining NLP, predictive analytics, and AI-driven recommendations. Designed for marketers, analysts, and decision-makers, it answers:
+TrendPulse AI transforms Twitter/X trends into actionable, explainable insights by combining NLP, predictive analytics, and AI-driven recommendations. Designed for marketers, analysts, and decision-makers, it answers:
 
 - **What’s trending?**  
-- **Why?**  
+- **Why is it trending?**  
 - **What should I do next?**  
 
-All in near real-time.
+All in near real-time, enabling businesses to act before trends peak.
 
 ## Key Capabilities
 
 - **Dual Sentiment Analysis**: Uses TextBlob and VADER for nuanced sentiment scoring and cross-validation.
 - **Trend Momentum Scoring**: Custom algorithm combining engagement (likes + retweets) and sentiment weighting to classify trends: **Stable**, **Emerging**, **Exploding**.
-- **Trending Topics Analysis (Explainability Layer)**: Uses TF-IDF to surface top keywords, explaining why trends emerge.
-- **AI-Powered Recommendations**: Converts analytics into actionable decisions:  
+- **Trending Topics Analysis (Explainability Layer)**: TF-IDF extracts top keywords, showing why trends emerge.
+- **AI-Powered Recommendations**: Converts sentiment, momentum, and trend history into predictive business actions:  
   🔥 Launch campaign now | 🚀 Monitor trend closely | ⚠️ Investigate reputation risk | ⏳ No action needed
-- **Simulated Near-Real-Time Streaming**: Micro-batch updates for fresh insights without heavy streaming infrastructure.
-- **Hyper API (Optional)**: Enables external systems to query trends, momentum, sentiment, and AI recommendations.
+- **Simulated Near-Real-Time Streaming**: Processes hundreds of tweets per minute across 50+ hashtags/hour for live insights without heavy streaming infrastructure.
+- **Hyper API (Optional)**: Exposes trends, sentiment, momentum, and AI recommendations to external dashboards or apps for integration and extensibility.
 
 ## Project Structure
 - `data/`: Raw and processed data files
@@ -60,6 +60,7 @@ uvicorn hyper_api:app --reload
 ## Tableau Dashboard Overview
 
 Open `tableau/TrendPulse.twbx` in Tableau Cloud to explore interactive, storytelling dashboards with deep insights.
+
 **Note:** Every visualization includes rich **hover tooltips** that provide deeper context.
 
 ### Hover Tooltips Include:
@@ -119,6 +120,19 @@ Open `tableau/TrendPulse.twbx` in Tableau Cloud to explore interactive, storytel
   - AI Recommendations & Actionable Insights  
   - Regional Trends on the Map  
 
-**Impact:**  
-Provides a holistic view of trending hashtags, sentiment, momentum, and AI-driven recommendations, enabling marketers to make informed decisions in near real-time.
+## Business Impact
 
+TrendPulse AI provides marketers and decision-makers with a holistic view of social trends, sentiment, momentum, and AI recommendations.  
+Benefits include:
+
+- Act before trends peak  
+- Prioritize campaigns and maximize engagement  
+- Identify emerging risks  
+- Improve ROI through data-driven decisions  
+
+## Future Work
+
+- Fully live streaming from Twitter/X for continuous updates  
+- Expansion to Instagram, TikTok, and Reddit for cross-platform insights  
+- Advanced AI layer: predictive virality scoring, trend confidence metrics, and regional personalization  
+- Integration with CRM/marketing platforms for automated decision execution
