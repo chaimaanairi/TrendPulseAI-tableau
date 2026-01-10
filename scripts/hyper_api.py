@@ -17,7 +17,7 @@ import pandas as pd
 # -------------------------
 # Initialize API
 # -------------------------
-app = FastAPI(title="TrendPredict Hyper API")
+app = FastAPI(title="TrendPulseAI Hyper API")
 
 # -------------------------
 # Load CSV data
