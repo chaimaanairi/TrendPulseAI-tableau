@@ -2345,7 +2345,7 @@
                   <format attr='margin' value='4' />
                 </zone-style>
               </zone>
-              <zone h='7000' id='33' mode='checkdropdown' name='TextBlob Sentiment ' param='[federated.1iuomfg0kie8b61f29e0418iawgy].[none:hashtag:nk]' type-v2='filter' values='database' w='24333' x='75000' y='58000'>
+              <zone h='7625' id='33' mode='checkdropdown' name='TextBlob Sentiment ' param='[federated.1iuomfg0kie8b61f29e0418iawgy].[none:hashtag:nk]' type-v2='filter' values='database' w='24333' x='75000' y='58000'>
                 <zone-style>
                   <format attr='border-color' value='#000000' />
                   <format attr='border-style' value='none' />
@@ -2353,7 +2353,7 @@
                   <format attr='margin' value='4' />
                 </zone-style>
               </zone>
-              <zone fixed-size='63' h='8875' id='36' is-fixed='true' name='TextBlob Sentiment ' param='[federated.1iuomfg0kie8b61f29e0418iawgy].[none:created_at:qk]' type-v2='filter' values='database' w='24333' x='75000' y='65000'>
+              <zone fixed-size='63' h='8875' id='36' is-fixed='true' name='TextBlob Sentiment ' param='[federated.1iuomfg0kie8b61f29e0418iawgy].[none:created_at:qk]' type-v2='filter' values='database' w='24333' x='75000' y='65625'>
                 <zone-style>
                   <format attr='border-color' value='#000000' />
                   <format attr='border-style' value='none' />
@@ -2361,7 +2361,7 @@
                   <format attr='margin' value='4' />
                 </zone-style>
               </zone>
-              <zone h='7000' id='48' mode='checkdropdown' name='TextBlob Sentiment ' param='[federated.1iuomfg0kie8b61f29e0418iawgy].[user_location (group)]' type-v2='filter' values='database' w='24333' x='75000' y='73875'>
+              <zone h='7625' id='48' mode='checkdropdown' name='TextBlob Sentiment ' param='[federated.1iuomfg0kie8b61f29e0418iawgy].[user_location (group)]' type-v2='filter' values='database' w='24333' x='75000' y='74500'>
                 <zone-style>
                   <format attr='border-color' value='#000000' />
                   <format attr='border-style' value='none' />
@@ -2369,7 +2369,7 @@
                   <format attr='margin' value='4' />
                 </zone-style>
               </zone>
-              <zone h='9062' id='72' name='VADER Sentiment ' pane-specification-id='2' param='[federated.1vjerzj1x4uahq14arjva1dditx1].[none:sentiment_vader_category:nk]' type-v2='color' w='24333' x='75000' y='80875'>
+              <zone h='8437' id='72' name='VADER Sentiment ' pane-specification-id='2' param='[federated.1vjerzj1x4uahq14arjva1dditx1].[none:sentiment_vader_category:nk]' type-v2='color' w='24333' x='75000' y='82125'>
                 <zone-style>
                   <format attr='border-color' value='#000000' />
                   <format attr='border-style' value='none' />
@@ -2377,7 +2377,7 @@
                   <format attr='margin' value='4' />
                 </zone-style>
               </zone>
-              <zone h='9063' id='87' name='AI Recommendations' pane-specification-id='0' param='[federated.0ms08d80r56u9x1h432lt0tzwr9k].[none:ai_recommendation:nk]' type-v2='color' w='24333' x='75000' y='89937'>
+              <zone h='8438' id='87' name='AI Recommendations' pane-specification-id='0' param='[federated.0ms08d80r56u9x1h432lt0tzwr9k].[none:ai_recommendation:nk]' type-v2='color' w='24333' x='75000' y='90562'>
                 <zone-style>
                   <format attr='border-color' value='#000000' />
                   <format attr='border-style' value='none' />
@@ -2445,8 +2445,8 @@
         <devicelayout auto-generated='true' name='Phone'>
           <size maxheight='2500' minheight='2500' sizing-mode='vscroll' />
           <zones>
-            <zone h='100000' id='103' type-v2='layout-basic' w='100000' x='0' y='0'>
-              <zone h='98000' id='102' param='vert' type-v2='layout-flow' w='98666' x='667' y='1000'>
+            <zone h='100000' id='105' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98000' id='104' param='vert' type-v2='layout-flow' w='98666' x='667' y='1000'>
                 <zone forceUpdate='true' h='8403' id='37' type-v2='text' w='98666' x='667' y='1000'>
                   <formatted-text>
                     <run bold='true' fontalignment='1' fontcolor='#1f2328' fontsize='18'>TrendPulse AI – Real-Time Social Media Trend Intelligence</run>
@@ -2480,7 +2480,7 @@
                     <format attr='padding' value='0' />
                   </zone-style>
                 </zone>
-                <zone h='9063' id='87' name='AI Recommendations' pane-specification-id='0' param='[federated.0ms08d80r56u9x1h432lt0tzwr9k].[none:ai_recommendation:nk]' type-v2='color' w='24333' x='75000' y='89937'>
+                <zone h='8438' id='87' name='AI Recommendations' pane-specification-id='0' param='[federated.0ms08d80r56u9x1h432lt0tzwr9k].[none:ai_recommendation:nk]' type-v2='color' w='24333' x='75000' y='90562'>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
                     <format attr='border-style' value='none' />
@@ -2525,7 +2525,7 @@
                     <format attr='padding' value='0' />
                   </zone-style>
                 </zone>
-                <zone h='7000' id='33' mode='checkdropdown' name='TextBlob Sentiment ' param='[federated.1iuomfg0kie8b61f29e0418iawgy].[none:hashtag:nk]' type-v2='filter' values='database' w='24333' x='75000' y='58000'>
+                <zone h='7625' id='33' mode='checkdropdown' name='TextBlob Sentiment ' param='[federated.1iuomfg0kie8b61f29e0418iawgy].[none:hashtag:nk]' type-v2='filter' values='database' w='24333' x='75000' y='58000'>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
                     <format attr='border-style' value='none' />
@@ -2534,7 +2534,7 @@
                     <format attr='padding' value='0' />
                   </zone-style>
                 </zone>
-                <zone fixed-size='63' h='8875' id='36' name='TextBlob Sentiment ' param='[federated.1iuomfg0kie8b61f29e0418iawgy].[none:created_at:qk]' type-v2='filter' values='database' w='24333' x='75000' y='65000'>
+                <zone fixed-size='63' h='8875' id='36' name='TextBlob Sentiment ' param='[federated.1iuomfg0kie8b61f29e0418iawgy].[none:created_at:qk]' type-v2='filter' values='database' w='24333' x='75000' y='65625'>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
                     <format attr='border-style' value='none' />
@@ -2543,7 +2543,7 @@
                     <format attr='padding' value='0' />
                   </zone-style>
                 </zone>
-                <zone h='7000' id='48' mode='checkdropdown' name='TextBlob Sentiment ' param='[federated.1iuomfg0kie8b61f29e0418iawgy].[user_location (group)]' type-v2='filter' values='database' w='24333' x='75000' y='73875'>
+                <zone h='7625' id='48' mode='checkdropdown' name='TextBlob Sentiment ' param='[federated.1iuomfg0kie8b61f29e0418iawgy].[user_location (group)]' type-v2='filter' values='database' w='24333' x='75000' y='74500'>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
                     <format attr='border-style' value='none' />
@@ -2570,7 +2570,7 @@
                     <format attr='padding' value='0' />
                   </zone-style>
                 </zone>
-                <zone h='9062' id='72' name='VADER Sentiment ' pane-specification-id='2' param='[federated.1vjerzj1x4uahq14arjva1dditx1].[none:sentiment_vader_category:nk]' type-v2='color' w='24333' x='75000' y='80875'>
+                <zone h='8437' id='72' name='VADER Sentiment ' pane-specification-id='2' param='[federated.1vjerzj1x4uahq14arjva1dditx1].[none:sentiment_vader_category:nk]' type-v2='color' w='24333' x='75000' y='82125'>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
                     <format attr='border-style' value='none' />
@@ -2638,8 +2638,8 @@
       <simple-id uuid='{F685298F-5F0D-4000-AA79-465FBE5D61D3}' />
     </dashboard>
   </dashboards>
-  <windows source-height='114'>
-    <window class='dashboard' name='Dashboard (Storytelling Layout)'>
+  <windows saved-dpi-scale-factor='1.25' source-height='114'>
+    <window class='dashboard' maximized='true' name='Dashboard (Storytelling Layout)'>
       <viewpoints>
         <viewpoint name='AI Recommendations'>
           <highlight>
@@ -2687,25 +2687,25 @@
     <window class='worksheet' name='KPI - Trend Momentum'>
       <cards>
         <edge name='left'>
-          <strip size='200'>
+          <strip size='160'>
             <card type='pages' />
             <card type='filters' />
             <card type='marks' />
           </strip>
         </edge>
         <edge name='top'>
-          <strip size='38'>
+          <strip size='30'>
             <card type='columns' />
           </strip>
-          <strip size='38'>
+          <strip size='30'>
             <card type='rows' />
           </strip>
-          <strip size='38'>
+          <strip size='30'>
             <card type='title' />
           </strip>
         </edge>
         <edge name='right'>
-          <strip size='200'>
+          <strip size='160'>
             <card pane-specification-id='0' param='[federated.1iuomfg0kie8b61f29e0418iawgy].[usr:Calculation_0383754995195915:nk]&#10;[federated.1vjerzj1x4uahq14arjva1dditx1].[usr:Calculation_0383755616288786:nk]' type='color' />
           </strip>
         </edge>
@@ -2723,25 +2723,25 @@
     <window class='worksheet' name='TextBlob Sentiment '>
       <cards>
         <edge name='left'>
-          <strip size='200'>
+          <strip size='160'>
             <card type='pages' />
             <card type='filters' />
             <card type='marks' />
           </strip>
         </edge>
         <edge name='top'>
-          <strip size='38'>
+          <strip size='30'>
             <card type='columns' />
           </strip>
-          <strip size='38'>
+          <strip size='30'>
             <card type='rows' />
           </strip>
-          <strip size='35'>
+          <strip size='28'>
             <card type='title' />
           </strip>
         </edge>
         <edge name='right'>
-          <strip size='255'>
+          <strip size='204'>
             <card param='[federated.1iuomfg0kie8b61f29e0418iawgy].[user_location (group)]' type='filter' />
             <card param='[federated.1iuomfg0kie8b61f29e0418iawgy].[none:user_location:nk]' type='filter' />
             <card param='[federated.1iuomfg0kie8b61f29e0418iawgy].[none:created_at:qk]' show-domain='false' show-null-ctrls='false' type='filter' />
@@ -2766,25 +2766,25 @@
     <window class='worksheet' name='VADER Sentiment '>
       <cards>
         <edge name='left'>
-          <strip size='200'>
+          <strip size='160'>
             <card type='pages' />
             <card type='filters' />
             <card type='marks' />
           </strip>
         </edge>
         <edge name='top'>
-          <strip size='38'>
+          <strip size='30'>
             <card type='columns' />
           </strip>
-          <strip size='38'>
+          <strip size='30'>
             <card type='rows' />
           </strip>
-          <strip size='38'>
+          <strip size='30'>
             <card type='title' />
           </strip>
         </edge>
         <edge name='right'>
-          <strip size='200'>
+          <strip size='160'>
             <card pane-specification-id='2' param='[federated.1vjerzj1x4uahq14arjva1dditx1].[none:sentiment_vader_category:nk]' type='color' />
           </strip>
         </edge>
@@ -2802,20 +2802,20 @@
     <window class='worksheet' name='Trending Topics Behind the Trend'>
       <cards>
         <edge name='left'>
-          <strip size='200'>
+          <strip size='160'>
             <card type='pages' />
             <card type='filters' />
             <card type='marks' />
           </strip>
         </edge>
         <edge name='top'>
-          <strip size='38'>
+          <strip size='30'>
             <card type='columns' />
           </strip>
-          <strip size='38'>
+          <strip size='30'>
             <card type='rows' />
           </strip>
-          <strip size='38'>
+          <strip size='30'>
             <card type='title' />
           </strip>
         </edge>
@@ -2833,25 +2833,25 @@
     <window class='worksheet' name='AI Recommendations'>
       <cards>
         <edge name='left'>
-          <strip size='200'>
+          <strip size='160'>
             <card type='pages' />
             <card type='filters' />
             <card type='marks' />
           </strip>
         </edge>
         <edge name='top'>
-          <strip size='38'>
+          <strip size='30'>
             <card type='columns' />
           </strip>
-          <strip size='38'>
+          <strip size='30'>
             <card type='rows' />
           </strip>
-          <strip size='38'>
+          <strip size='30'>
             <card type='title' />
           </strip>
         </edge>
         <edge name='right'>
-          <strip size='200'>
+          <strip size='160'>
             <card pane-specification-id='0' param='[federated.0ms08d80r56u9x1h432lt0tzwr9k].[none:ai_recommendation:nk]' type='color' />
           </strip>
         </edge>
@@ -2868,25 +2868,25 @@
     <window class='worksheet' name='Engagement Over Time'>
       <cards>
         <edge name='left'>
-          <strip size='175'>
+          <strip size='140'>
             <card type='pages' />
             <card type='filters' />
             <card type='marks' />
           </strip>
         </edge>
         <edge name='top'>
-          <strip size='38'>
+          <strip size='30'>
             <card type='columns' />
           </strip>
-          <strip size='38'>
+          <strip size='30'>
             <card type='rows' />
           </strip>
-          <strip size='30'>
+          <strip size='24'>
             <card type='title' />
           </strip>
         </edge>
         <edge name='right'>
-          <strip size='125'>
+          <strip size='100'>
             <card pane-specification-id='0' param='[federated.1iuomfg0kie8b61f29e0418iawgy].[sum:retweets:qk]' type='color' />
           </strip>
         </edge>
@@ -2902,6 +2902,41 @@
       <simple-id uuid='{FF86FFDD-F238-4296-A9BD-77A5E51ADD37}' />
     </window>
     <window class='worksheet' name='Top Tweets by Engagement'>
+      <cards>
+        <edge name='left'>
+          <strip size='102'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='19'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='102'>
+            <card pane-specification-id='0' param='[federated.1iuomfg0kie8b61f29e0418iawgy].[sum:retweets:qk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.1iuomfg0kie8b61f29e0418iawgy].[none:text:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{451C70E5-4678-4F39-98ED-E0873D2A37F6}' />
+    </window>
+    <window class='worksheet' name='Trend Forecast'>
       <cards>
         <edge name='left'>
           <strip size='128'>
@@ -2923,41 +2958,6 @@
         </edge>
         <edge name='right'>
           <strip size='128'>
-            <card pane-specification-id='0' param='[federated.1iuomfg0kie8b61f29e0418iawgy].[sum:retweets:qk]' type='color' />
-          </strip>
-        </edge>
-      </cards>
-      <viewpoint>
-        <highlight>
-          <color-one-way>
-            <field>[federated.1iuomfg0kie8b61f29e0418iawgy].[none:text:nk]</field>
-          </color-one-way>
-        </highlight>
-      </viewpoint>
-      <simple-id uuid='{451C70E5-4678-4F39-98ED-E0873D2A37F6}' />
-    </window>
-    <window class='worksheet' name='Trend Forecast'>
-      <cards>
-        <edge name='left'>
-          <strip size='160'>
-            <card type='pages' />
-            <card type='filters' />
-            <card type='marks' />
-          </strip>
-        </edge>
-        <edge name='top'>
-          <strip size='2147483647'>
-            <card type='columns' />
-          </strip>
-          <strip size='2147483647'>
-            <card type='rows' />
-          </strip>
-          <strip size='30'>
-            <card type='title' />
-          </strip>
-        </edge>
-        <edge name='right'>
-          <strip size='160'>
             <card param='[federated.1iuomfg0kie8b61f29e0418iawgy].[none:Forecast Indicator:nk]' type='highlighter' />
             <card pane-specification-id='0' param='[federated.1iuomfg0kie8b61f29e0418iawgy].[fVal:sum:likes:qk]' type='color' />
           </strip>
@@ -2978,7 +2978,7 @@
     <window class='worksheet' name='Actionable Insights'>
       <cards>
         <edge name='left'>
-          <strip size='160'>
+          <strip size='128'>
             <card type='pages' />
             <card type='filters' />
             <card type='marks' />
@@ -2991,12 +2991,12 @@
           <strip size='2147483647'>
             <card type='rows' />
           </strip>
-          <strip size='31'>
+          <strip size='24'>
             <card type='title' />
           </strip>
         </edge>
         <edge name='right'>
-          <strip size='160'>
+          <strip size='128'>
             <card pane-specification-id='1' param='[federated.1iuomfg0kie8b61f29e0418iawgy].[none:momentum_status:nk]' type='color' />
             <card pane-specification-id='1' param='[federated.06p8yha0objo1k1bbps4c0efqkr9].[sum:engagement:qk]' type='size' />
           </strip>
@@ -3016,10 +3016,10 @@
       </viewpoint>
       <simple-id uuid='{92A27113-7D51-4D11-8EB3-927D76CA7F00}' />
     </window>
-    <window class='worksheet' maximized='true' name='map visualization'>
+    <window class='worksheet' name='map visualization'>
       <cards>
         <edge name='left'>
-          <strip size='160'>
+          <strip size='128'>
             <card type='pages' />
             <card type='filters' />
             <card type='marks' />
@@ -3032,12 +3032,12 @@
           <strip size='2147483647'>
             <card type='rows' />
           </strip>
-          <strip size='30'>
+          <strip size='24'>
             <card type='title' />
           </strip>
         </edge>
         <edge name='right'>
-          <strip size='160'>
+          <strip size='128'>
             <card pane-specification-id='0' param='[federated.1iuomfg0kie8b61f29e0418iawgy].[none:sentiment_category:nk]' type='color' />
           </strip>
         </edge>
