@@ -2,7 +2,7 @@
 
 AI-powered Tableau dashboard for tracking sentiment, momentum, and actionable insights from trending topics on Twitter/X.
 
-TrendPulse AI transforms Twitter/X trends into actionable, explainable insights by combining NLP, predictive analytics, and AI-driven recommendations. Designed for marketers, analysts, and decision-makers, it answers:
+**TrendPulse AI** transforms Twitter/X trends into actionable, explainable insights by combining NLP, predictive analytics, and AI-driven recommendations. Designed for marketers, analysts, and decision-makers, it answers:
 
 - **What’s trending?**  
 - **Why is it trending?**  
