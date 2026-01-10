@@ -1,17 +1,17 @@
-# TrendPredict – Twitter/X Trend Prediction & AI Recommendations
+# TrendPulse AI – Real-Time Social Media Trend Intelligence
 
-**TrendPredict** collects, processes, and visualizes Twitter/X trends in **near-real-time**.  
-It combines **feature engineering, NLP, topic modeling, and AI-powered recommendations** to provide actionable insights for decision-makers.  
+**AI-powered Tableau dashboard for tracking sentiment, momentum, and actionable insights from trending topics on Twitter/X**
 
-Key capabilities:
+**TrendPulse AI** transforms Twitter/X trends into actionable insights by combining **NLP, predictive analytics, and AI-driven recommendations**. It’s designed to help businesses, marketers, and analysts understand **what’s trending, why, and what actions to take** — all in near real-time. 
 
-- **Sentiment Analysis**: TextBlob + VADER comparison for richer insights  
-- **Trend Momentum**: Calculates momentum score and status for hashtags  
-- **Topic Modeling**: Extracts top discussion keywords using TF-IDF  
-- **AI Recommendations**: Suggests next actions based on momentum and sentiment  
-- **Simulated Streaming**: Micro-batch updates to simulate near-real-time data  
-- **Optional API**: Hyper API to query trends externally  
+**Key Capabilities:**
 
+- **Dual Sentiment Analysis:** Uses **TextBlob** and **VADER** to assess sentiment and validate results for higher analytical confidence.
+- **Trend Momentum Scoring:** Custom scoring algorithm combines engagement (likes + retweets) and sentiment weighting to classify trends: **Stable, Emerging, Exploding.**  
+- **Trending Topics Analysis (Explainability Layer):** Extracts top discussion keywords per hashtag using **TF-IDF** to explain *why trends are emerging*.
+- **AI-Powered Recommendations:** Converts analytics into actionable decisions: **Launch campaign now**, **Monitor trend closely**, **Investigate reputation risk**, **No action needed**.
+- **Simulated Near-Real-Time Streaming:** Micro-batch updates to reflect fresh data without heavy streaming infrastructure.
+- **Hyper API:** Exposes trend metrics and AI recommendations for integration into dashboards or apps.
 
 ## Project Structure
 - `data/`: Raw and processed data files
@@ -34,7 +34,7 @@ pip install -r requirements.txt
 ```bash
 export BEARER_TOKEN="YOUR_TWITTER_API_BEARER_TOKEN"
 ```
-3. **Run scripts in order**:
+3. **Run Data Pipeline**:
 ```bash
 python scripts/fetch_twitter_data.py
 python scripts/json_to_csv.py
@@ -45,30 +45,40 @@ python scripts/ai_recommendations.py
 python scripts/micro_batch_streaming.py
 
 ```
-4. **Start Hyper API**:
+4. **Start Hyper API (Optional)**:
 ```bash
 uvicorn hyper_api:app --reload
 ```
 
 ## Tableau Dashboard Overview
-Open `tableau/TrendPredict.twbx` in Tableau to visualize the processed data.
+Open `tableau/TrendPulse.twbx` in Tableau to visualize the processed data.
 
+**Note:** Every visualization includes rich **hover tooltips** that provide deeper context without cluttering the dashboard.
+On hover, users can view:
+- Exact sentiment scores (TextBlob & VADER)
+- Engagement metrics (likes, retweets, momentum)
+- Top keywords driving each trend
+- AI-generated recommendations
+- Timestamp and hashtag context
+
+### Tableau Sheets Description
 **KPI - Trend Momentum**
 - Shows overall momentum scores and statuses per hashtag  
 - Displays **average VADER sentiment**  
 - Highlights **AI recommendations count**  
+- Hover reveals **sentiment breakdown and engagement metrics**
 
 **TextBlob Sentiment Sheet**
 - Line/bar charts showing sentiment over time using **TextBlob**  
 - Color-coded for **Positive / Neutral / Negative** sentiment  
+- Hover displays **exact sentiment score and tweet volume**
 
 **VADER Sentiment Sheet**
 - Line/bar charts showing sentiment over time using **VADER**  
 - Color-coded for **Positive / Neutral / Negative** sentiment  
-- Comparison with TextBlob using **dual-axis charts**  
 
 **Trending Topics Behind the Trend**
-- Bar chart / table showing **top 3 keywords per hashtag** via **TF-IDF**  
+- Table showing **top 3 keywords per hashtag** via **TF-IDF**  
 - Explains **why trends are emerging**  
 
 **AI Recommendations**
@@ -81,7 +91,6 @@ Open `tableau/TrendPredict.twbx` in Tableau to visualize the processed data.
 
 **Engagement Over Time**
 - Line chart tracking **engagement (likes + retweets) per hashtag**  
-- Helps judges see **trend spikes**  
 
 **Top Tweets by Engagement**
 - Table showing **tweets with highest engagement metrics**  
