@@ -12,7 +12,7 @@ Key capabilities:
 - **Simulated Streaming**: Micro-batch updates to simulate near-real-time data  
 - **Optional API**: Hyper API to query trends externally  
 
----
+
 ## Project Structure
 - `data/`: Raw and processed data files
 - `scripts/`: Python scripts for data processing and analysis
@@ -21,7 +21,7 @@ Key capabilities:
 - `README.md`: Project documentation
 - `.env`: Environment variables (not included for security)
 - `.gitignore`: Git ignore file
----
+
 
 ## Installation & Setup
 
