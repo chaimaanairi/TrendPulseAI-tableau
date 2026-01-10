@@ -110,13 +110,4 @@ Open `tableau/TrendPredict.twbx` in Tableau to visualize the processed data.
 This dashboard provides a **holistic view of trending hashtags**, combining sentiment analysis, momentum tracking, AI insights, and regional patterns to guide marketing or strategic decisions.
 
 
-## Outcome
 
-**TrendPredict** allows judges and stakeholders to:
-
-- Quickly assess **trending topics and sentiment**
-- Compare **NLP models side-by-side** (TextBlob vs VADER)
-- Understand **why trends are happening** via topic keywords
-- See **AI-powered recommendations** for next actions
-- Explore **regional trends** via map visualization
-- Follow **near-real-time updates** using micro-batch streaming
