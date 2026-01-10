@@ -24,6 +24,7 @@ All in near real-time, enabling businesses to act before trends peak.
 - `data/`: Raw and processed data files
 - `scripts/`: Python scripts for data ingestion, analysis, NLP, and AI recommendations
 - `tableau/`: Tableau workbook for visualization
+- `media/`: Screenshots and a video showcasing dashboards and project demos
 - `requirements.txt`: Python dependencies
 - `.env`: Environment variables (not included for security)
 - `.gitignore`: Files to ignore in Git
