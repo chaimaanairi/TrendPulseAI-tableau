@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='utf-8' ?>
 
 <!-- build 20253.25.1210.1815                               -->
-<workbook original-version='18.1' source-build='2025.3.1 (20253.25.1210.1815)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+<workbook original-version='18.1' source-build='2025.3.1 (20253.25.1210.1815)' source-platform='win' version='18.1' xml:base='https://dub01.online.tableau.com' xmlns:user='http://www.tableausoftware.com/xml/user'>
   <document-format-change-manifest>
     <AccessibleZoneTabOrder />
     <AnimationOnByDefault />
@@ -16,6 +16,7 @@
     <WindowsPersistSimpleIdentifiers />
     <ZoneBackgroundTransparency />
   </document-format-change-manifest>
+  <repository-location id='TrendPulseAI' path='/t/nairichaimaa-e1e71ff8bc/workbooks' revision='1.0' site='nairichaimaa-e1e71ff8bc' />
   <preferences>
     <preference name='ui.encoding.shelf.height' value='24' />
     <preference name='ui.shelf.height' value='26' />
@@ -25,7 +26,7 @@
       <connection class='federated'>
         <named-connections>
           <named-connection caption='twitter_trends_topics' name='textscan.159c40o0bg324q0zzihhc012ox6f'>
-            <connection class='textscan' directory='C:/Users/Hp/PycharmProjects/trendpredict-tableau/data' filename='twitter_trends_topics.csv' password='' server='' />
+            <connection class='textscan' directory='C:/Users/Hp/PycharmProjects/trendpredict-tableau/data' filename='twitter_trends_topics.csv' password='' server='' workgroup-auth-mode='as-is' />
           </named-connection>
         </named-connections>
         <relation connection='textscan.159c40o0bg324q0zzihhc012ox6f' name='twitter_trends_topics.csv' table='[twitter_trends_topics#csv]' type='table'>
@@ -275,7 +276,7 @@
       <connection class='federated'>
         <named-connections>
           <named-connection caption='twitter_trends_ai' name='textscan.047fn4o1wjqeif126v0ri08mgbre'>
-            <connection class='textscan' directory='C:/Users/Hp/PycharmProjects/trendpredict-tableau/data' filename='twitter_trends_ai.csv' password='' server='' />
+            <connection class='textscan' directory='C:/Users/Hp/PycharmProjects/trendpredict-tableau/data' filename='twitter_trends_ai.csv' password='' server='' workgroup-auth-mode='as-is' />
           </named-connection>
         </named-connections>
         <relation connection='textscan.047fn4o1wjqeif126v0ri08mgbre' name='twitter_trends_ai.csv' table='[twitter_trends_ai#csv]' type='table'>
@@ -581,7 +582,7 @@
       <connection class='federated'>
         <named-connections>
           <named-connection caption='twitter_trends_vader' name='textscan.0bg55780vcyxw40zzzp7d02zsb2k'>
-            <connection class='textscan' directory='C:/Users/Hp/PycharmProjects/trendpredict-tableau/data' filename='twitter_trends_vader.csv' password='' server='' />
+            <connection class='textscan' directory='C:/Users/Hp/PycharmProjects/trendpredict-tableau/data' filename='twitter_trends_vader.csv' password='' server='' workgroup-auth-mode='as-is' />
           </named-connection>
         </named-connections>
         <relation connection='textscan.0bg55780vcyxw40zzzp7d02zsb2k' name='twitter_trends_vader.csv' table='[twitter_trends_vader#csv]' type='table'>
@@ -886,7 +887,7 @@
       <connection class='federated'>
         <named-connections>
           <named-connection caption='twitter_trends' name='textscan.0o0vwc30irrsd71g3lxku0ajd6do'>
-            <connection class='textscan' directory='C:/Users/Hp/PycharmProjects/trendpredict-tableau/data' filename='twitter_trends.csv' password='' server='' />
+            <connection class='textscan' directory='C:/Users/Hp/PycharmProjects/trendpredict-tableau/data' filename='twitter_trends.csv' password='' server='' workgroup-auth-mode='as-is' />
           </named-connection>
         </named-connections>
         <relation connection='textscan.0o0vwc30irrsd71g3lxku0ajd6do' name='twitter_trends.csv' table='[twitter_trends#csv]' type='table'>
@@ -1179,7 +1180,7 @@
       <connection class='federated'>
         <named-connections>
           <named-connection caption='twitter_trends_fe' name='textscan.0tmn85k1c32bb7184twqd07vqgfa'>
-            <connection class='textscan' directory='C:/Users/Hp/PycharmProjects/trendpredict-tableau/data' filename='twitter_trends_fe.csv' password='' server='' />
+            <connection class='textscan' directory='C:/Users/Hp/PycharmProjects/trendpredict-tableau/data' filename='twitter_trends_fe.csv' password='' server='' workgroup-auth-mode='as-is' />
           </named-connection>
         </named-connections>
         <relation connection='textscan.0tmn85k1c32bb7184twqd07vqgfa' name='twitter_trends_fe.csv' table='[twitter_trends_fe#csv]' type='table'>
@@ -1550,7 +1551,7 @@
         <groupfilter function='level-members' level='[none:user_location:nk]' user:ui-enumeration='all' user:ui-marker='enumerate' />
       </filter>
       <filter class='categorical' column='[federated.1iuomfg0kie8b61f29e0418iawgy].[user_location (group)]'>
-        <groupfilter function='level-members' level='[user_location (group)]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+        <groupfilter function='empty-level' member='[user_location (group)]' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
       </filter>
     </shared-view>
   </shared-views>
@@ -2537,9 +2538,9 @@
         <devicelayout auto-generated='true' name='Phone'>
           <size maxheight='2500' minheight='2500' sizing-mode='vscroll' />
           <zones>
-            <zone h='100000' id='109' type-v2='layout-basic' w='100000' x='0' y='0'>
-              <zone h='98000' id='108' param='vert' type-v2='layout-flow' w='98666' x='667' y='1000'>
-                <zone forceUpdate='true' h='8403' id='37' type-v2='text' w='98666' x='667' y='1000'>
+            <zone h='100000' id='114' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98000' id='113' param='vert' type-v2='layout-flow' w='98666' x='667' y='1000'>
+                <zone forceUpdate='true' h='8402' id='37' type-v2='text' w='98666' x='667' y='1000'>
                   <formatted-text>
                     <run bold='true' fontalignment='1' fontcolor='#1f2328' fontsize='18'>TrendPulse AI – Real-Time Social Media Trend Intelligence</run>
                   </formatted-text>
@@ -2551,7 +2552,7 @@
                     <format attr='padding' value='0' />
                   </zone-style>
                 </zone>
-                <zone forceUpdate='true' h='9097' id='38' type-v2='text' w='60166' x='667' y='9403'>
+                <zone forceUpdate='true' h='9097' id='38' type-v2='text' w='60166' x='667' y='9402'>
                   <formatted-text>
                     <run bold='true' fontcolor='#000000' fontsize='11'>AI-driven Tableau dashboard delivering real-time sentiment analysis, trend momentum, and actionable insights from Twitter/X hashtags.</run>
                   </formatted-text>
@@ -2563,7 +2564,7 @@
                     <format attr='padding' value='0' />
                   </zone-style>
                 </zone>
-                <zone fixed-size='207' h='26847' id='86' is-fixed='true' name='AI Recommendations' w='38500' x='60833' y='9403'>
+                <zone fixed-size='207' h='26847' id='86' is-fixed='true' name='AI Recommendations' w='38500' x='60833' y='9402'>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
                     <format attr='border-style' value='none' />
@@ -2581,7 +2582,7 @@
                     <format attr='padding' value='0' />
                   </zone-style>
                 </zone>
-                <zone fixed-size='134' h='17750' id='26' is-fixed='true' name='KPI - Trend Momentum' w='27083' x='667' y='18500'>
+                <zone fixed-size='134' h='17750' id='26' is-fixed='true' name='KPI - Trend Momentum' w='27083' x='667' y='18499'>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
                     <format attr='border-style' value='none' />
@@ -2590,7 +2591,7 @@
                     <format attr='padding' value='0' />
                   </zone-style>
                 </zone>
-                <zone h='6375' id='27' name='KPI - Trend Momentum' pane-specification-id='0' param='[federated.1iuomfg0kie8b61f29e0418iawgy].[usr:Calculation_0383754995195915:nk]&#10;[federated.1vjerzj1x4uahq14arjva1dditx1].[usr:Calculation_0383755616288786:nk]' type-v2='color' w='24333' x='75000' y='36250'>
+                <zone h='6375' id='27' name='KPI - Trend Momentum' pane-specification-id='0' param='[federated.1iuomfg0kie8b61f29e0418iawgy].[usr:Calculation_0383754995195915:nk]&#10;[federated.1vjerzj1x4uahq14arjva1dditx1].[usr:Calculation_0383755616288786:nk]' type-v2='color' w='24333' x='75000' y='36249'>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
                     <format attr='border-style' value='none' />
@@ -2599,7 +2600,7 @@
                     <format attr='padding' value='0' />
                   </zone-style>
                 </zone>
-                <zone fixed-size='134' h='17750' id='75' is-fixed='true' name='Trending Topics Behind the Trend' w='33083' x='27750' y='18500'>
+                <zone fixed-size='134' h='17750' id='75' is-fixed='true' name='Trending Topics Behind the Trend' w='33083' x='27750' y='18499'>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
                     <format attr='border-style' value='none' />
@@ -2608,7 +2609,7 @@
                     <format attr='padding' value='0' />
                   </zone-style>
                 </zone>
-                <zone fixed-size='50' h='7250' id='11' mode='checkdropdown' name='TextBlob Sentiment ' param='[federated.1iuomfg0kie8b61f29e0418iawgy].[none:Calculation_0383754889863169:nk]' type-v2='filter' values='database' w='24333' x='75000' y='50750'>
+                <zone fixed-size='50' h='7250' id='11' mode='checkdropdown' name='TextBlob Sentiment ' param='[federated.1iuomfg0kie8b61f29e0418iawgy].[none:Calculation_0383754889863169:nk]' type-v2='filter' values='database' w='24333' x='75000' y='50749'>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
                     <format attr='border-style' value='none' />
@@ -2617,7 +2618,7 @@
                     <format attr='padding' value='0' />
                   </zone-style>
                 </zone>
-                <zone h='7625' id='33' mode='checkdropdown' name='TextBlob Sentiment ' param='[federated.1iuomfg0kie8b61f29e0418iawgy].[none:hashtag:nk]' type-v2='filter' values='database' w='24333' x='75000' y='58000'>
+                <zone h='7625' id='33' mode='checkdropdown' name='TextBlob Sentiment ' param='[federated.1iuomfg0kie8b61f29e0418iawgy].[none:hashtag:nk]' type-v2='filter' values='database' w='24333' x='75000' y='57999'>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
                     <format attr='border-style' value='none' />
@@ -2626,7 +2627,7 @@
                     <format attr='padding' value='0' />
                   </zone-style>
                 </zone>
-                <zone fixed-size='63' h='8875' id='36' name='TextBlob Sentiment ' param='[federated.1iuomfg0kie8b61f29e0418iawgy].[none:created_at:qk]' type-v2='filter' values='database' w='24333' x='75000' y='65625'>
+                <zone fixed-size='63' h='8875' id='36' name='TextBlob Sentiment ' param='[federated.1iuomfg0kie8b61f29e0418iawgy].[none:created_at:qk]' type-v2='filter' values='database' w='24333' x='75000' y='65624'>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
                     <format attr='border-style' value='none' />
@@ -2635,7 +2636,7 @@
                     <format attr='padding' value='0' />
                   </zone-style>
                 </zone>
-                <zone h='7625' id='48' mode='checkdropdown' name='TextBlob Sentiment ' param='[federated.1iuomfg0kie8b61f29e0418iawgy].[user_location (group)]' type-v2='filter' values='database' w='24333' x='75000' y='74500'>
+                <zone h='7625' id='48' mode='checkdropdown' name='TextBlob Sentiment ' param='[federated.1iuomfg0kie8b61f29e0418iawgy].[user_location (group)]' type-v2='filter' values='database' w='24333' x='75000' y='74499'>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
                     <format attr='border-style' value='none' />
@@ -2644,7 +2645,7 @@
                     <format attr='padding' value='0' />
                   </zone-style>
                 </zone>
-                <zone fixed-size='253' h='32669' id='3' is-fixed='true' name='TextBlob Sentiment ' w='18750' x='667' y='36250'>
+                <zone fixed-size='253' h='32669' id='3' is-fixed='true' name='TextBlob Sentiment ' w='18750' x='667' y='36249'>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
                     <format attr='border-style' value='none' />
@@ -2653,7 +2654,7 @@
                     <format attr='padding' value='0' />
                   </zone-style>
                 </zone>
-                <zone fixed-size='253' h='32669' id='71' is-fixed='true' name='VADER Sentiment ' w='21382' x='19417' y='36250'>
+                <zone fixed-size='253' h='32669' id='71' is-fixed='true' name='VADER Sentiment ' w='21382' x='19417' y='36249'>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
                     <format attr='border-style' value='none' />
@@ -2662,7 +2663,7 @@
                     <format attr='padding' value='0' />
                   </zone-style>
                 </zone>
-                <zone h='8437' id='72' name='VADER Sentiment ' pane-specification-id='2' param='[federated.1vjerzj1x4uahq14arjva1dditx1].[none:sentiment_vader_category:nk]' type-v2='color' w='24333' x='75000' y='82125'>
+                <zone h='8438' id='72' name='VADER Sentiment ' pane-specification-id='2' param='[federated.1vjerzj1x4uahq14arjva1dditx1].[none:sentiment_vader_category:nk]' type-v2='color' w='24333' x='75000' y='82124'>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
                     <format attr='border-style' value='none' />
@@ -2671,7 +2672,7 @@
                     <format attr='padding' value='0' />
                   </zone-style>
                 </zone>
-                <zone fixed-size='253' h='32669' id='5' is-fixed='true' name='Engagement Over Time' w='34201' x='40799' y='36250'>
+                <zone fixed-size='253' h='32669' id='5' is-fixed='true' name='Engagement Over Time' w='34201' x='40799' y='36249'>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
                     <format attr='border-style' value='none' />
@@ -2680,7 +2681,7 @@
                     <format attr='padding' value='0' />
                   </zone-style>
                 </zone>
-                <zone fixed-size='25' h='4125' id='9' name='Engagement Over Time' pane-specification-id='0' param='[federated.1iuomfg0kie8b61f29e0418iawgy].[sum:retweets:qk]' type-v2='color' w='24333' x='75000' y='42625'>
+                <zone fixed-size='25' h='4125' id='9' name='Engagement Over Time' pane-specification-id='0' param='[federated.1iuomfg0kie8b61f29e0418iawgy].[sum:retweets:qk]' type-v2='color' w='24333' x='75000' y='42624'>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
                     <format attr='border-style' value='none' />
@@ -2689,7 +2690,7 @@
                     <format attr='padding' value='0' />
                   </zone-style>
                 </zone>
-                <zone fixed-size='233' h='30081' id='10' is-fixed='true' name='Top Tweets by Engagement' w='37161' x='667' y='68919'>
+                <zone fixed-size='233' h='30082' id='10' is-fixed='true' name='Top Tweets by Engagement' w='37161' x='667' y='68918'>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
                     <format attr='border-style' value='none' />
@@ -2698,7 +2699,7 @@
                     <format attr='padding' value='0' />
                   </zone-style>
                 </zone>
-                <zone fixed-size='233' h='30081' id='13' is-fixed='true' name='Trend Forecast' w='37172' x='37828' y='68919'>
+                <zone fixed-size='233' h='30082' id='13' is-fixed='true' name='Trend Forecast' w='37172' x='37828' y='68918'>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
                     <format attr='border-style' value='none' />
@@ -2707,7 +2708,7 @@
                     <format attr='padding' value='0' />
                   </zone-style>
                 </zone>
-                <zone fixed-size='24' h='4000' id='14' name='Trend Forecast' pane-specification-id='0' param='[federated.1iuomfg0kie8b61f29e0418iawgy].[fVal:sum:likes:qk]' type-v2='color' w='24333' x='75000' y='46750'>
+                <zone fixed-size='24' h='4000' id='14' name='Trend Forecast' pane-specification-id='0' param='[federated.1iuomfg0kie8b61f29e0418iawgy].[fVal:sum:likes:qk]' type-v2='color' w='24333' x='75000' y='46749'>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
                     <format attr='border-style' value='none' />
@@ -2750,7 +2751,7 @@
           <zoom type='entire-view' />
         </viewpoint>
       </viewpoints>
-      <active id='-1' />
+      <active id='48' />
       <simple-id uuid='{F103C2CE-20EB-4964-BFE2-4045DC8A4F99}' />
     </window>
     <window class='worksheet' name='KPI - Trend Momentum'>
