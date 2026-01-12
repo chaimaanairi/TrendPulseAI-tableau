@@ -140,4 +140,4 @@ Benefits include:
 
 ## TrendPulse AI Demo Video
 Watch the demo video showcasing TrendPulse AI's capabilities:  
-[![TrendPulse AI Demo](media/demo_thumbnail.png)](https://youtu.be/swWgHbiTmjA?si=uJjEZlZMvz0DQA2d)
+[TrendPulse AI Demo](https://youtu.be/swWgHbiTmjA?si=uJjEZlZMvz0DQA2d)
