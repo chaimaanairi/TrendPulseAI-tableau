@@ -137,3 +137,7 @@ Benefits include:
 - Expansion to Instagram, TikTok, and Reddit for cross-platform insights  
 - Advanced AI layer: predictive virality scoring, trend confidence metrics, and regional personalization  
 - Integration with CRM/marketing platforms for automated decision execution
+
+## TrendPulse AI Demo Video
+Watch the demo video showcasing TrendPulse AI's capabilities:  
+[![TrendPulse AI Demo](media/demo_thumbnail.png)](https://youtu.be/swWgHbiTmjA?si=uJjEZlZMvz0DQA2d)
